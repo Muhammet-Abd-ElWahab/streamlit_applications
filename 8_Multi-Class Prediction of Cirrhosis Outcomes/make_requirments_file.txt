@@ -1,0 +1,5 @@
+>= Run this commands
+
+1. pip install pipreqs
+
+2. pipreqs /fullpath or pipreqs .

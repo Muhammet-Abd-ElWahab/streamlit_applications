@@ -1,0 +1,31 @@
+ID,Name,Age,Department,Salary,City,Join_Date,Status
+1,John Doe,28,Sales,50000,New York,2020-01-15,Active
+2,Jane Smith,34,Marketing,65000,Los Angeles,2019-03-22,Active
+3,Bob Johnson,45,IT,75000,Chicago,2018-07-10,Active
+4,Alice Williams,29,Sales,52000,New York,2021-02-01,Active
+5,Charlie Brown,38,IT,80000,Chicago,2017-11-30,Active
+6,Diana Prince,31,Marketing,68000,Los Angeles,2020-05-18,Active
+7,John Doe,28,Sales,50000,New York,2020-01-15,Active
+8,Eve Davis,42,HR,60000,Boston,2016-09-12,Active
+9,Frank Miller,36,IT,,Chicago,2019-08-25,Active
+10,Grace Lee,27,Marketing,55000,Los Angeles,2021-06-03,Active
+11,Henry Wilson,33,Sales,58000,,2020-10-20,Active
+12,Ivy Chen,29,IT,72000,Seattle,2019-12-05,Active
+13,Jane Smith,34,Marketing,65000,Los Angeles,2019-03-22,Active
+14,Jack Taylor,41,HR,62000,Boston,2018-04-17,Inactive
+15,Karen White,30,Sales,,New York,2021-01-08,Active
+16,Leo Martinez,37,IT,78000,Chicago,2017-06-22,Active
+17,Mary Anderson,26,Marketing,54000,Los Angeles,2022-02-14,Active
+18,Nathan Scott,44,Sales,70000,New York,2016-12-01,Active
+19,Olivia Moore,32,HR,61000,Boston,2019-07-30,Active
+20,Paul Harris,39,IT,82000,,2018-03-15,Active
+21,Quinn Taylor,28,Marketing,,Los Angeles,2021-09-20,Active
+22,Rachel Green,35,Sales,67000,New York,2019-11-11,Active
+23,Steve Rogers,40,IT,85000,Chicago,2017-08-08,Active
+24,Tina Fey,31,HR,59000,Boston,2020-04-25,Active
+25,Uma Thurman,36,Marketing,66000,Los Angeles,2019-05-30,Active
+26,Victor Stone,29,Sales,53000,New York,2021-07-12,Active
+27,Wendy Adams,43,IT,79000,Chicago,2016-10-18,Inactive
+28,Xavier Knight,34,HR,63000,Boston,2019-02-28,Active
+29,Yara Shahidi,27,Marketing,56000,,2022-01-05,Active
+30,Zoe Saldana,38,Sales,69000,New York,2018-09-19,Active
