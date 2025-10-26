@@ -1,0 +1,1501 @@
+PatientID,Visit,VisitNumber,VisitDate,Age,Gender,SmokingStatus,PackYears,CancerStage,TreatmentGroup,ECOGStatus,TumorSize,LungFunction,QualityOfLife,AdverseEvents,PainScore,Biomarker,Response,TumorSizePercentChange
+P001,Baseline,0,2023-12-30,69,Female,Current Smoker,13.4,Stage I,Treatment,1,25.0,64.7,66.1,1,2.4,81.7,Not Applicable,0.0
+P001,Visit 1 (Week 4),1,2024-01-28,69,Female,Current Smoker,13.4,Stage I,Treatment,1,11.3,71.5,64.1,0,2.2,76.0,Responder,-54.8
+P001,Visit 2 (Week 8),2,2024-02-23,69,Female,Current Smoker,13.4,Stage I,Treatment,1,8.3,70.4,77.1,1,1.0,76.4,Responder,-66.8
+P002,Baseline,0,2024-01-03,63,Male,Never Smoker,0.0,Stage II,Treatment,1,44.6,75.7,61.3,0,3.6,81.6,Not Applicable,0.0
+P002,Visit 1 (Week 4),1,2024-01-30,63,Male,Never Smoker,0.0,Stage II,Treatment,1,18.6,78.1,64.6,1,5.9,76.8,Responder,-58.3
+P002,Visit 2 (Week 8),2,2024-02-29,63,Male,Never Smoker,0.0,Stage II,Treatment,1,21.1,84.6,67.5,2,3.3,75.7,Responder,-52.7
+P003,Baseline,0,2024-01-03,71,Male,Current Smoker,0.0,Stage II,Treatment,3,29.2,50.4,48.5,0,4.6,62.4,Not Applicable,0.0
+P003,Visit 1 (Week 4),1,2024-01-30,71,Male,Current Smoker,0.0,Stage II,Treatment,3,26.9,52.5,56.1,1,3.8,54.9,Non-Responder,-7.9
+P003,Visit 2 (Week 8),2,2024-02-25,71,Male,Current Smoker,0.0,Stage II,Treatment,3,21.3,49.0,52.2,4,5.2,53.5,Non-Responder,-27.1
+P004,Baseline,0,2024-01-03,80,Female,Never Smoker,0.0,Stage IV,Placebo,2,43.0,61.2,45.8,0,6.4,78.0,Not Applicable,0.0
+P004,Visit 1 (Week 4),1,2024-01-26,80,Female,Never Smoker,0.0,Stage IV,Placebo,2,57.5,56.8,46.6,0,8.8,71.1,Non-Responder,33.7
+P004,Visit 2 (Week 8),2,2024-02-24,80,Female,Never Smoker,0.0,Stage IV,Placebo,2,57.9,64.5,48.1,0,7.4,61.4,Non-Responder,34.7
+P005,Baseline,0,2024-01-04,62,Female,Former Smoker,28.9,Stage III,Treatment,0,53.4,64.4,66.4,1,7.4,90.4,Not Applicable,0.0
+P005,Visit 1 (Week 4),1,2024-01-27,62,Female,Former Smoker,28.9,Stage III,Treatment,0,27.3,67.9,68.7,1,6.4,80.9,Responder,-48.9
+P005,Visit 2 (Week 8),2,2024-02-25,62,Female,Former Smoker,28.9,Stage III,Treatment,0,28.0,70.3,65.7,2,4.4,75.7,Responder,-47.6
+P006,Baseline,0,2024-01-01,62,Male,Current Smoker,67.4,Stage II,Treatment,1,50.2,55.8,60.3,0,3.4,76.5,Not Applicable,0.0
+P006,Visit 1 (Week 4),1,2024-01-31,62,Male,Current Smoker,67.4,Stage II,Treatment,1,19.4,58.7,54.9,1,4.5,74.4,Responder,-61.4
+P006,Visit 2 (Week 8),2,2024-02-27,62,Male,Current Smoker,67.4,Stage II,Treatment,1,14.1,63.6,56.7,0,4.2,64.2,Responder,-71.9
+P007,Baseline,0,2024-01-02,80,Male,Former Smoker,24.9,Stage IV,Treatment,1,78.7,55.9,49.0,4,9.8,78.0,Not Applicable,0.0
+P007,Visit 1 (Week 4),1,2024-01-26,80,Male,Former Smoker,24.9,Stage IV,Treatment,1,81.9,59.9,44.7,0,6.5,78.3,Non-Responder,4.1
+P007,Visit 2 (Week 8),2,2024-02-23,80,Male,Former Smoker,24.9,Stage IV,Treatment,1,50.3,58.9,67.6,1,5.2,75.9,Responder,-36.1
+P008,Baseline,0,2023-12-29,72,Male,Current Smoker,42.6,Stage I,Treatment,1,7.8,62.5,71.2,0,3.1,78.4,Not Applicable,0.0
+P008,Visit 1 (Week 4),1,2024-01-29,72,Male,Current Smoker,42.6,Stage I,Treatment,1,14.5,66.8,69.2,0,4.9,72.9,Non-Responder,85.9
+P008,Visit 2 (Week 8),2,2024-02-29,72,Male,Current Smoker,42.6,Stage I,Treatment,1,13.5,68.7,71.2,3,1.0,73.4,Non-Responder,73.1
+P009,Baseline,0,2023-12-31,60,Male,Current Smoker,31.2,Stage II,Placebo,0,14.8,69.6,61.7,0,4.4,95.9,Not Applicable,0.0
+P009,Visit 1 (Week 4),1,2024-01-28,60,Male,Current Smoker,31.2,Stage II,Placebo,0,40.2,62.5,56.1,0,3.2,91.4,Non-Responder,171.6
+P009,Visit 2 (Week 8),2,2024-02-26,60,Male,Current Smoker,31.2,Stage II,Placebo,0,39.5,65.3,71.7,0,4.6,86.8,Non-Responder,166.9
+P010,Baseline,0,2023-12-31,70,Male,Former Smoker,24.0,Stage I,Placebo,2,16.4,69.8,56.2,0,2.2,69.6,Not Applicable,0.0
+P010,Visit 1 (Week 4),1,2024-01-30,70,Male,Former Smoker,24.0,Stage I,Placebo,2,16.4,71.9,68.3,0,1.1,59.9,Non-Responder,0.0
+P010,Visit 2 (Week 8),2,2024-02-23,70,Male,Former Smoker,24.0,Stage I,Placebo,2,20.3,68.8,57.6,0,1.9,60.9,Non-Responder,23.8
+P011,Baseline,0,2024-01-01,60,Male,Never Smoker,0.0,Stage III,Treatment,1,40.1,63.8,51.6,0,3.9,76.5,Not Applicable,0.0
+P011,Visit 1 (Week 4),1,2024-01-29,60,Male,Never Smoker,0.0,Stage III,Treatment,1,19.2,70.1,52.1,2,5.8,75.7,Responder,-52.1
+P011,Visit 2 (Week 8),2,2024-02-28,60,Male,Never Smoker,0.0,Stage III,Treatment,1,30.3,73.3,63.8,0,4.6,69.7,Non-Responder,-24.4
+P012,Baseline,0,2024-01-02,60,Male,Former Smoker,34.2,Stage IV,Treatment,2,93.3,53.5,47.8,0,8.2,69.5,Not Applicable,0.0
+P012,Visit 1 (Week 4),1,2024-01-28,60,Male,Former Smoker,34.2,Stage IV,Treatment,2,30.1,56.7,45.0,0,7.3,68.0,Responder,-67.7
+P012,Visit 2 (Week 8),2,2024-02-27,60,Male,Former Smoker,34.2,Stage IV,Treatment,2,34.2,59.2,56.1,3,9.0,57.4,Responder,-63.3
+P013,Baseline,0,2024-01-03,67,Male,Current Smoker,25.6,Stage II,Placebo,2,41.5,53.2,56.2,0,4.1,67.6,Not Applicable,0.0
+P013,Visit 1 (Week 4),1,2024-01-27,67,Male,Current Smoker,25.6,Stage II,Placebo,2,38.3,55.6,56.8,0,4.4,56.8,Non-Responder,-7.7
+P013,Visit 2 (Week 8),2,2024-02-26,67,Male,Current Smoker,25.6,Stage II,Placebo,2,27.5,53.3,60.6,0,3.4,56.8,Responder,-33.7
+P014,Baseline,0,2024-01-04,45,Female,Current Smoker,34.0,Stage IV,Placebo,2,61.8,41.1,44.8,0,7.0,65.3,Not Applicable,0.0
+P014,Visit 1 (Week 4),1,2024-01-30,45,Female,Current Smoker,34.0,Stage IV,Placebo,2,67.7,41.1,42.2,0,8.0,72.2,Non-Responder,9.5
+P014,Visit 2 (Week 8),2,2024-02-25,45,Female,Current Smoker,34.0,Stage IV,Placebo,2,94.6,47.5,37.8,0,9.3,75.4,Non-Responder,53.1
+P015,Baseline,0,2024-01-01,47,Male,Current Smoker,34.8,Stage II,Placebo,1,19.1,59.7,53.8,0,3.4,86.0,Not Applicable,0.0
+P015,Visit 1 (Week 4),1,2024-01-28,47,Male,Current Smoker,34.8,Stage II,Placebo,1,22.5,59.6,63.4,0,4.6,75.9,Non-Responder,17.8
+P015,Visit 2 (Week 8),2,2024-02-25,47,Male,Current Smoker,34.8,Stage II,Placebo,1,37.4,63.5,67.0,1,2.5,81.1,Non-Responder,95.8
+P016,Baseline,0,2024-01-02,59,Male,Former Smoker,18.3,Stage IV,Placebo,1,42.8,54.2,47.6,0,8.1,90.1,Not Applicable,0.0
+P016,Visit 1 (Week 4),1,2024-01-27,59,Male,Former Smoker,18.3,Stage IV,Placebo,1,60.1,61.0,56.1,1,9.0,89.5,Non-Responder,40.4
+P016,Visit 2 (Week 8),2,2024-02-29,59,Male,Former Smoker,18.3,Stage IV,Placebo,1,65.8,56.7,54.1,0,7.4,80.9,Non-Responder,53.7
+P017,Baseline,0,2023-12-31,54,Male,Current Smoker,44.9,Stage III,Treatment,0,37.0,59.5,59.1,0,6.5,96.9,Not Applicable,0.0
+P017,Visit 1 (Week 4),1,2024-01-31,54,Male,Current Smoker,44.9,Stage III,Treatment,0,21.2,58.6,62.8,0,6.0,87.4,Responder,-42.7
+P017,Visit 2 (Week 8),2,2024-02-28,54,Male,Current Smoker,44.9,Stage III,Treatment,0,30.9,61.9,68.4,3,5.7,78.7,Non-Responder,-16.5
+P018,Baseline,0,2023-12-31,68,Female,Former Smoker,23.3,Stage IV,Treatment,1,53.1,58.1,51.6,0,8.0,86.0,Not Applicable,0.0
+P018,Visit 1 (Week 4),1,2024-01-30,68,Female,Former Smoker,23.3,Stage IV,Treatment,1,58.9,59.3,53.5,0,7.9,72.8,Non-Responder,10.9
+P018,Visit 2 (Week 8),2,2024-02-29,68,Female,Former Smoker,23.3,Stage IV,Treatment,1,45.0,62.8,59.0,3,7.0,67.6,Non-Responder,-15.3
+P019,Baseline,0,2023-12-29,55,Male,Current Smoker,18.7,Stage I,Placebo,0,10.6,73.0,66.4,0,3.4,82.8,Not Applicable,0.0
+P019,Visit 1 (Week 4),1,2024-01-30,55,Male,Current Smoker,18.7,Stage I,Placebo,0,8.1,69.8,57.6,1,2.7,96.2,Non-Responder,-23.6
+P019,Visit 2 (Week 8),2,2024-02-29,55,Male,Current Smoker,18.7,Stage I,Placebo,0,14.9,64.5,76.1,0,2.6,92.4,Non-Responder,40.6
+P020,Baseline,0,2023-12-30,50,Male,Never Smoker,0.0,Stage IV,Placebo,1,66.9,67.3,45.0,0,7.9,84.3,Not Applicable,0.0
+P020,Visit 1 (Week 4),1,2024-01-26,50,Male,Never Smoker,0.0,Stage IV,Placebo,1,56.8,68.8,50.0,2,9.4,75.9,Non-Responder,-15.1
+P020,Visit 2 (Week 8),2,2024-02-27,50,Male,Never Smoker,0.0,Stage IV,Placebo,1,58.9,67.0,52.5,0,6.7,76.9,Non-Responder,-12.0
+P021,Baseline,0,2024-01-01,79,Female,Current Smoker,38.0,Stage III,Placebo,0,43.5,56.9,54.1,0,6.1,85.5,Not Applicable,0.0
+P021,Visit 1 (Week 4),1,2024-01-26,79,Female,Current Smoker,38.0,Stage III,Placebo,0,40.7,59.5,61.4,1,8.0,85.3,Non-Responder,-6.4
+P021,Visit 2 (Week 8),2,2024-02-23,79,Female,Current Smoker,38.0,Stage III,Placebo,0,48.5,59.7,58.7,0,6.0,88.0,Non-Responder,11.5
+P022,Baseline,0,2023-12-29,62,Female,Former Smoker,16.0,Stage II,Placebo,0,32.9,70.7,76.7,0,5.9,86.1,Not Applicable,0.0
+P022,Visit 1 (Week 4),1,2024-01-29,62,Female,Former Smoker,16.0,Stage II,Placebo,0,42.1,69.2,72.0,0,4.8,86.1,Non-Responder,28.0
+P022,Visit 2 (Week 8),2,2024-02-25,62,Female,Former Smoker,16.0,Stage II,Placebo,0,43.9,70.7,74.0,0,4.0,90.7,Non-Responder,33.4
+P023,Baseline,0,2024-01-03,65,Female,Current Smoker,30.4,Stage IV,Treatment,0,37.4,54.0,60.4,0,8.0,90.9,Not Applicable,0.0
+P023,Visit 1 (Week 4),1,2024-01-26,65,Female,Current Smoker,30.4,Stage IV,Treatment,0,66.5,57.0,56.3,0,8.8,84.8,Non-Responder,77.8
+P023,Visit 2 (Week 8),2,2024-02-23,65,Female,Current Smoker,30.4,Stage IV,Treatment,0,39.9,60.3,65.8,0,6.6,90.9,Non-Responder,6.7
+P024,Baseline,0,2024-01-02,50,Male,Former Smoker,24.9,Stage II,Treatment,0,28.3,73.3,66.9,0,4.3,87.2,Not Applicable,0.0
+P024,Visit 1 (Week 4),1,2024-01-26,50,Male,Former Smoker,24.9,Stage II,Treatment,0,40.7,72.6,70.6,0,4.6,85.4,Non-Responder,43.8
+P024,Visit 2 (Week 8),2,2024-02-24,50,Male,Former Smoker,24.9,Stage II,Treatment,0,30.8,73.3,77.5,0,4.3,78.0,Non-Responder,8.8
+P025,Baseline,0,2024-01-02,59,Male,Current Smoker,46.3,Stage IV,Treatment,2,40.0,40.3,50.1,0,10.7,72.3,Not Applicable,0.0
+P025,Visit 1 (Week 4),1,2024-01-28,59,Male,Current Smoker,46.3,Stage IV,Treatment,2,51.7,53.1,45.8,0,5.9,68.8,Non-Responder,29.3
+P025,Visit 2 (Week 8),2,2024-02-27,59,Male,Current Smoker,46.3,Stage IV,Treatment,2,49.7,51.3,49.2,0,7.8,53.2,Non-Responder,24.3
+P026,Baseline,0,2024-01-03,66,Female,Current Smoker,37.1,Stage I,Placebo,2,22.9,53.8,61.8,0,3.3,79.6,Not Applicable,0.0
+P026,Visit 1 (Week 4),1,2024-01-30,66,Female,Current Smoker,37.1,Stage I,Placebo,2,13.5,60.7,65.3,0,2.2,69.1,Responder,-41.0
+P026,Visit 2 (Week 8),2,2024-02-27,66,Female,Current Smoker,37.1,Stage I,Placebo,2,11.3,58.8,69.3,0,3.0,69.6,Responder,-50.7
+P027,Baseline,0,2024-01-04,53,Female,Never Smoker,0.0,Stage III,Treatment,1,39.5,68.8,59.5,1,6.8,78.6,Not Applicable,0.0
+P027,Visit 1 (Week 4),1,2024-01-30,53,Female,Never Smoker,0.0,Stage III,Treatment,1,46.1,67.9,61.7,0,5.5,84.6,Non-Responder,16.7
+P027,Visit 2 (Week 8),2,2024-02-29,53,Female,Never Smoker,0.0,Stage III,Treatment,1,26.1,79.3,65.9,0,6.4,74.1,Responder,-33.9
+P028,Baseline,0,2024-01-01,68,Male,Current Smoker,29.6,Stage III,Treatment,0,55.0,58.8,56.2,0,6.7,84.1,Not Applicable,0.0
+P028,Visit 1 (Week 4),1,2024-01-26,68,Male,Current Smoker,29.6,Stage III,Treatment,0,55.5,58.3,61.4,2,4.3,81.9,Non-Responder,0.9
+P028,Visit 2 (Week 8),2,2024-02-25,68,Male,Current Smoker,29.6,Stage III,Treatment,0,33.1,65.5,66.5,0,7.2,81.1,Responder,-39.8
+P029,Baseline,0,2023-12-29,58,Male,Current Smoker,42.3,Stage I,Treatment,0,14.6,65.7,67.4,1,4.2,91.5,Not Applicable,0.0
+P029,Visit 1 (Week 4),1,2024-01-31,58,Male,Current Smoker,42.3,Stage I,Treatment,0,24.7,71.0,68.5,0,1.1,87.5,Non-Responder,69.2
+P029,Visit 2 (Week 8),2,2024-02-28,58,Male,Current Smoker,42.3,Stage I,Treatment,0,13.3,76.3,79.0,0,3.0,74.1,Non-Responder,-8.9
+P030,Baseline,0,2024-01-04,62,Male,Never Smoker,0.0,Stage II,Placebo,0,26.5,79.3,66.6,1,4.1,90.1,Not Applicable,0.0
+P030,Visit 1 (Week 4),1,2024-01-30,62,Male,Never Smoker,0.0,Stage II,Placebo,0,41.5,79.6,55.8,0,4.0,96.7,Non-Responder,56.6
+P030,Visit 2 (Week 8),2,2024-02-24,62,Male,Never Smoker,0.0,Stage II,Placebo,0,32.2,88.2,64.2,0,4.9,81.5,Non-Responder,21.5
+P031,Baseline,0,2023-12-30,58,Female,Former Smoker,38.9,Stage I,Placebo,0,31.2,79.9,70.6,0,0.8,93.4,Not Applicable,0.0
+P031,Visit 1 (Week 4),1,2024-01-26,58,Female,Former Smoker,38.9,Stage I,Placebo,0,20.0,75.8,70.1,0,3.6,99.3,Responder,-35.9
+P031,Visit 2 (Week 8),2,2024-02-24,58,Female,Former Smoker,38.9,Stage I,Placebo,0,12.4,78.5,72.2,0,0.1,92.9,Responder,-60.3
+P032,Baseline,0,2024-01-04,83,Male,Current Smoker,38.4,Stage II,Placebo,2,31.2,58.2,56.1,0,5.8,78.2,Not Applicable,0.0
+P032,Visit 1 (Week 4),1,2024-02-01,83,Male,Current Smoker,38.4,Stage II,Placebo,2,21.0,58.9,66.9,1,4.5,68.3,Responder,-32.7
+P032,Visit 2 (Week 8),2,2024-02-29,83,Male,Current Smoker,38.4,Stage II,Placebo,2,37.9,52.0,49.8,0,2.7,66.1,Non-Responder,21.5
+P033,Baseline,0,2024-01-02,64,Male,Never Smoker,0.0,Stage II,Placebo,0,28.2,79.0,71.3,0,5.1,82.4,Not Applicable,0.0
+P033,Visit 1 (Week 4),1,2024-01-29,64,Male,Never Smoker,0.0,Stage II,Placebo,0,21.0,77.2,59.8,2,2.6,97.7,Non-Responder,-25.5
+P033,Visit 2 (Week 8),2,2024-02-28,64,Male,Never Smoker,0.0,Stage II,Placebo,0,20.3,80.2,73.8,0,6.1,90.7,Non-Responder,-28.0
+P034,Baseline,0,2024-01-04,54,Male,Former Smoker,25.1,Stage III,Placebo,1,59.1,56.1,54.6,0,4.3,78.8,Not Applicable,0.0
+P034,Visit 1 (Week 4),1,2024-01-27,54,Male,Former Smoker,25.1,Stage III,Placebo,1,24.0,63.5,53.7,0,6.6,76.9,Responder,-59.4
+P034,Visit 2 (Week 8),2,2024-02-25,54,Male,Former Smoker,25.1,Stage III,Placebo,1,46.4,66.1,45.8,0,8.3,82.1,Non-Responder,-21.5
+P035,Baseline,0,2024-01-03,73,Male,Former Smoker,11.9,Stage II,Placebo,0,35.0,75.5,62.9,2,3.6,93.6,Not Applicable,0.0
+P035,Visit 1 (Week 4),1,2024-01-27,73,Male,Former Smoker,11.9,Stage II,Placebo,0,20.7,76.6,68.4,2,4.1,89.4,Responder,-40.9
+P035,Visit 2 (Week 8),2,2024-02-29,73,Male,Former Smoker,11.9,Stage II,Placebo,0,35.5,74.9,70.0,2,4.4,94.2,Non-Responder,1.4
+P036,Baseline,0,2024-01-03,52,Male,Current Smoker,14.0,Stage II,Placebo,0,21.1,65.3,62.6,1,5.0,86.0,Not Applicable,0.0
+P036,Visit 1 (Week 4),1,2024-01-26,52,Male,Current Smoker,14.0,Stage II,Placebo,0,30.4,71.4,59.7,0,3.8,92.3,Non-Responder,44.1
+P036,Visit 2 (Week 8),2,2024-02-24,52,Male,Current Smoker,14.0,Stage II,Placebo,0,32.1,66.1,66.9,1,3.3,82.2,Non-Responder,52.1
+P037,Baseline,0,2023-12-31,67,Male,Never Smoker,0.0,Stage III,Treatment,1,42.5,72.0,56.6,1,6.8,85.3,Not Applicable,0.0
+P037,Visit 1 (Week 4),1,2024-02-01,67,Male,Never Smoker,0.0,Stage III,Treatment,1,41.3,74.9,56.3,1,6.5,72.6,Non-Responder,-2.8
+P037,Visit 2 (Week 8),2,2024-02-26,67,Male,Never Smoker,0.0,Stage III,Treatment,1,36.7,72.5,60.7,1,6.9,69.2,Non-Responder,-13.6
+P038,Baseline,0,2024-01-03,45,Female,Current Smoker,25.4,Stage I,Placebo,1,19.8,64.9,67.4,1,2.3,77.1,Not Applicable,0.0
+P038,Visit 1 (Week 4),1,2024-01-27,45,Female,Current Smoker,25.4,Stage I,Placebo,1,10.4,70.3,66.6,0,3.9,78.4,Responder,-47.5
+P038,Visit 2 (Week 8),2,2024-02-25,45,Female,Current Smoker,25.4,Stage I,Placebo,1,11.0,66.2,70.4,0,2.4,79.1,Responder,-44.4
+P039,Baseline,0,2024-01-03,51,Male,Current Smoker,20.9,Stage IV,Placebo,0,45.0,52.3,55.8,0,8.0,95.3,Not Applicable,0.0
+P039,Visit 1 (Week 4),1,2024-01-26,51,Male,Current Smoker,20.9,Stage IV,Placebo,0,49.8,56.0,59.3,0,6.8,94.0,Non-Responder,10.7
+P039,Visit 2 (Week 8),2,2024-02-25,51,Male,Current Smoker,20.9,Stage IV,Placebo,0,60.2,56.9,49.4,0,7.6,89.0,Non-Responder,33.8
+P040,Baseline,0,2023-12-31,66,Male,Current Smoker,27.2,Stage IV,Treatment,0,53.2,55.6,50.1,3,9.2,98.9,Not Applicable,0.0
+P040,Visit 1 (Week 4),1,2024-01-29,66,Male,Current Smoker,27.2,Stage IV,Treatment,0,33.8,57.7,55.6,0,9.0,85.9,Responder,-36.5
+P040,Visit 2 (Week 8),2,2024-02-29,66,Male,Current Smoker,27.2,Stage IV,Treatment,0,31.3,59.2,59.6,0,7.6,90.1,Responder,-41.2
+P041,Baseline,0,2023-12-29,72,Male,Current Smoker,30.8,Stage III,Treatment,1,44.6,52.8,54.5,1,8.1,80.2,Not Applicable,0.0
+P041,Visit 1 (Week 4),1,2024-01-31,72,Male,Current Smoker,30.8,Stage III,Treatment,1,35.1,65.4,66.0,1,5.6,76.3,Non-Responder,-21.3
+P041,Visit 2 (Week 8),2,2024-02-24,72,Male,Current Smoker,30.8,Stage III,Treatment,1,36.8,57.2,64.6,0,5.7,68.8,Non-Responder,-17.5
+P042,Baseline,0,2023-12-31,66,Male,Never Smoker,0.0,Stage III,Treatment,0,26.6,77.5,55.2,2,8.1,84.1,Not Applicable,0.0
+P042,Visit 1 (Week 4),1,2024-01-26,66,Male,Never Smoker,0.0,Stage III,Treatment,0,36.7,74.7,57.4,0,6.8,87.0,Non-Responder,38.0
+P042,Visit 2 (Week 8),2,2024-02-27,66,Male,Never Smoker,0.0,Stage III,Treatment,0,36.1,78.4,63.7,1,4.1,80.6,Non-Responder,35.7
+P043,Baseline,0,2023-12-30,63,Male,Current Smoker,37.9,Stage IV,Treatment,0,98.2,57.2,55.6,1,7.0,86.1,Not Applicable,0.0
+P043,Visit 1 (Week 4),1,2024-01-29,63,Male,Current Smoker,37.9,Stage IV,Treatment,0,45.4,56.7,54.8,1,8.4,80.1,Responder,-53.8
+P043,Visit 2 (Week 8),2,2024-02-29,63,Male,Current Smoker,37.9,Stage IV,Treatment,0,43.5,56.3,60.6,0,5.6,72.8,Responder,-55.7
+P044,Baseline,0,2024-01-02,61,Male,Never Smoker,0.0,Stage I,Treatment,3,19.8,66.1,45.9,0,1.7,59.4,Not Applicable,0.0
+P044,Visit 1 (Week 4),1,2024-01-26,61,Male,Never Smoker,0.0,Stage I,Treatment,3,3.8,72.4,54.0,2,0.1,44.7,Responder,-80.8
+P044,Visit 2 (Week 8),2,2024-02-23,61,Male,Never Smoker,0.0,Stage I,Treatment,3,14.6,74.8,56.3,1,1.3,45.5,Non-Responder,-26.3
+P045,Baseline,0,2024-01-02,50,Male,Never Smoker,0.0,Stage I,Treatment,1,19.2,80.7,62.1,0,1.1,80.6,Not Applicable,0.0
+P045,Visit 1 (Week 4),1,2024-01-28,50,Male,Never Smoker,0.0,Stage I,Treatment,1,10.5,82.6,69.8,1,1.6,67.8,Responder,-45.3
+P045,Visit 2 (Week 8),2,2024-02-28,50,Male,Never Smoker,0.0,Stage I,Treatment,1,12.2,84.3,79.8,0,2.2,81.5,Responder,-36.5
+P046,Baseline,0,2024-01-01,57,Male,Former Smoker,24.3,Stage II,Placebo,1,38.3,65.3,62.4,0,6.9,80.6,Not Applicable,0.0
+P046,Visit 1 (Week 4),1,2024-01-26,57,Male,Former Smoker,24.3,Stage II,Placebo,1,36.4,69.8,53.9,0,4.9,71.2,Non-Responder,-5.0
+P046,Visit 2 (Week 8),2,2024-02-24,57,Male,Former Smoker,24.3,Stage II,Placebo,1,31.4,70.4,58.7,2,4.8,85.0,Non-Responder,-18.0
+P047,Baseline,0,2023-12-30,60,Male,Former Smoker,29.9,Stage III,Placebo,1,49.7,56.9,55.8,0,6.7,85.2,Not Applicable,0.0
+P047,Visit 1 (Week 4),1,2024-01-30,60,Male,Former Smoker,29.9,Stage III,Placebo,1,57.9,59.2,52.8,0,7.1,61.5,Non-Responder,16.5
+P047,Visit 2 (Week 8),2,2024-02-29,60,Male,Former Smoker,29.9,Stage III,Placebo,1,51.3,68.6,60.2,0,7.9,79.6,Non-Responder,3.2
+P048,Baseline,0,2024-01-01,75,Female,Current Smoker,31.0,Stage I,Placebo,1,8.9,64.8,70.1,0,2.2,78.1,Not Applicable,0.0
+P048,Visit 1 (Week 4),1,2024-01-30,75,Female,Current Smoker,31.0,Stage I,Placebo,1,17.5,68.8,68.2,0,2.9,81.6,Non-Responder,96.6
+P048,Visit 2 (Week 8),2,2024-02-27,75,Female,Current Smoker,31.0,Stage I,Placebo,1,6.1,70.2,67.6,0,2.7,81.2,Responder,-31.5
+P049,Baseline,0,2024-01-02,68,Male,Current Smoker,0.4,Stage III,Placebo,1,31.5,56.2,43.9,0,4.9,80.7,Not Applicable,0.0
+P049,Visit 1 (Week 4),1,2024-01-29,68,Male,Current Smoker,0.4,Stage III,Placebo,1,42.5,50.7,48.8,0,7.6,79.7,Non-Responder,34.9
+P049,Visit 2 (Week 8),2,2024-02-25,68,Male,Current Smoker,0.4,Stage III,Placebo,1,47.5,52.4,62.9,1,7.4,88.0,Non-Responder,50.8
+P050,Baseline,0,2024-01-01,47,Female,Former Smoker,15.6,Stage IV,Placebo,1,27.0,54.0,46.7,1,8.5,73.2,Not Applicable,0.0
+P050,Visit 1 (Week 4),1,2024-01-30,47,Female,Former Smoker,15.6,Stage IV,Placebo,1,78.4,60.0,54.8,0,9.1,84.6,Non-Responder,190.4
+P050,Visit 2 (Week 8),2,2024-02-24,47,Female,Former Smoker,15.6,Stage IV,Placebo,1,91.8,58.2,56.7,0,8.4,87.0,Non-Responder,240.0
+P051,Baseline,0,2023-12-30,68,Male,Former Smoker,23.6,Stage IV,Treatment,2,58.0,54.8,43.1,0,7.0,73.7,Not Applicable,0.0
+P051,Visit 1 (Week 4),1,2024-01-29,68,Male,Former Smoker,23.6,Stage IV,Treatment,2,69.4,57.6,40.7,1,6.6,61.3,Non-Responder,19.7
+P051,Visit 2 (Week 8),2,2024-02-24,68,Male,Former Smoker,23.6,Stage IV,Treatment,2,34.5,57.5,47.6,2,7.9,61.1,Responder,-40.5
+P052,Baseline,0,2023-12-29,61,Female,Current Smoker,11.9,Stage III,Treatment,0,45.7,57.3,63.6,0,7.3,96.3,Not Applicable,0.0
+P052,Visit 1 (Week 4),1,2024-01-29,61,Female,Current Smoker,11.9,Stage III,Treatment,0,35.8,63.7,56.8,1,4.6,84.9,Non-Responder,-21.7
+P052,Visit 2 (Week 8),2,2024-02-24,61,Female,Current Smoker,11.9,Stage III,Treatment,0,24.3,64.4,67.7,1,5.5,78.8,Responder,-46.8
+P053,Baseline,0,2023-12-31,58,Female,Former Smoker,31.0,Stage I,Treatment,1,8.8,75.1,63.0,1,3.2,79.5,Not Applicable,0.0
+P053,Visit 1 (Week 4),1,2024-01-26,58,Female,Former Smoker,31.0,Stage I,Treatment,1,17.1,77.2,73.4,2,0.7,72.2,Non-Responder,94.3
+P053,Visit 2 (Week 8),2,2024-02-26,58,Female,Former Smoker,31.0,Stage I,Treatment,1,9.4,74.6,71.5,0,2.0,70.3,Non-Responder,6.8
+P054,Baseline,0,2023-12-29,71,Male,Former Smoker,40.3,Stage IV,Placebo,1,70.2,57.0,55.4,0,8.8,75.1,Not Applicable,0.0
+P054,Visit 1 (Week 4),1,2024-01-27,71,Male,Former Smoker,40.3,Stage IV,Placebo,1,75.0,56.7,51.5,0,9.4,80.5,Non-Responder,6.8
+P054,Visit 2 (Week 8),2,2024-02-25,71,Male,Former Smoker,40.3,Stage IV,Placebo,1,64.2,59.1,58.8,0,9.1,90.7,Non-Responder,-8.5
+P055,Baseline,0,2023-12-30,75,Male,Former Smoker,37.2,Stage III,Treatment,2,45.7,58.6,59.2,1,5.1,71.5,Not Applicable,0.0
+P055,Visit 1 (Week 4),1,2024-01-27,75,Male,Former Smoker,37.2,Stage III,Treatment,2,34.1,60.0,48.6,0,5.5,65.5,Non-Responder,-25.4
+P055,Visit 2 (Week 8),2,2024-02-28,75,Male,Former Smoker,37.2,Stage III,Treatment,2,30.5,58.3,62.2,0,5.3,53.2,Responder,-33.3
+P056,Baseline,0,2023-12-29,74,Male,Current Smoker,26.8,Stage I,Treatment,1,19.8,66.6,77.0,2,3.6,80.1,Not Applicable,0.0
+P056,Visit 1 (Week 4),1,2024-01-27,74,Male,Current Smoker,26.8,Stage I,Treatment,1,12.3,70.3,75.1,0,2.0,72.7,Responder,-37.9
+P056,Visit 2 (Week 8),2,2024-02-29,74,Male,Current Smoker,26.8,Stage I,Treatment,1,11.2,65.3,68.3,0,2.6,79.5,Responder,-43.4
+P057,Baseline,0,2024-01-01,56,Male,Current Smoker,52.4,Stage I,Placebo,1,16.5,63.0,63.7,2,3.5,75.1,Not Applicable,0.0
+P057,Visit 1 (Week 4),1,2024-02-01,56,Male,Current Smoker,52.4,Stage I,Placebo,1,13.9,67.1,68.8,1,3.3,80.2,Non-Responder,-15.8
+P057,Visit 2 (Week 8),2,2024-02-24,56,Male,Current Smoker,52.4,Stage I,Placebo,1,9.5,68.6,68.5,0,2.8,71.5,Responder,-42.4
+P058,Baseline,0,2024-01-01,61,Female,Former Smoker,26.5,Stage IV,Treatment,0,78.4,57.4,58.4,0,8.7,81.3,Not Applicable,0.0
+P058,Visit 1 (Week 4),1,2024-01-28,61,Female,Former Smoker,26.5,Stage IV,Treatment,0,28.3,64.3,55.9,0,6.3,83.7,Responder,-63.9
+P058,Visit 2 (Week 8),2,2024-02-26,61,Female,Former Smoker,26.5,Stage IV,Treatment,0,59.0,68.1,65.1,3,7.0,78.2,Non-Responder,-24.7
+P059,Baseline,0,2023-12-29,68,Female,Never Smoker,0.0,Stage III,Placebo,1,35.5,68.9,48.5,0,5.7,80.5,Not Applicable,0.0
+P059,Visit 1 (Week 4),1,2024-02-01,68,Female,Never Smoker,0.0,Stage III,Placebo,1,37.3,68.7,59.6,0,5.1,77.5,Non-Responder,5.1
+P059,Visit 2 (Week 8),2,2024-02-24,68,Female,Never Smoker,0.0,Stage III,Placebo,1,59.0,68.4,54.3,0,6.7,75.1,Non-Responder,66.2
+P060,Baseline,0,2024-01-02,74,Female,Current Smoker,24.9,Stage IV,Placebo,0,78.7,54.7,63.2,0,8.1,81.3,Not Applicable,0.0
+P060,Visit 1 (Week 4),1,2024-01-29,74,Female,Current Smoker,24.9,Stage IV,Placebo,0,62.6,53.3,53.4,1,7.7,91.6,Non-Responder,-20.5
+P060,Visit 2 (Week 8),2,2024-02-28,74,Female,Current Smoker,24.9,Stage IV,Placebo,0,40.2,56.7,56.1,0,7.3,94.0,Responder,-48.9
+P061,Baseline,0,2024-01-02,60,Male,Current Smoker,20.8,Stage IV,Treatment,1,83.5,48.9,47.5,2,4.7,83.1,Not Applicable,0.0
+P061,Visit 1 (Week 4),1,2024-01-29,60,Male,Current Smoker,20.8,Stage IV,Treatment,1,24.8,54.5,52.0,0,8.2,75.5,Responder,-70.3
+P061,Visit 2 (Week 8),2,2024-02-23,60,Male,Current Smoker,20.8,Stage IV,Treatment,1,48.3,55.2,45.7,0,6.9,71.0,Responder,-42.2
+P062,Baseline,0,2024-01-02,63,Female,Former Smoker,22.0,Stage III,Placebo,0,54.9,71.3,55.0,0,7.1,91.5,Not Applicable,0.0
+P062,Visit 1 (Week 4),1,2024-01-31,63,Female,Former Smoker,22.0,Stage III,Placebo,0,41.6,67.0,67.4,0,6.1,87.1,Non-Responder,-24.2
+P062,Visit 2 (Week 8),2,2024-02-25,63,Female,Former Smoker,22.0,Stage III,Placebo,0,34.0,66.1,67.2,0,6.3,87.4,Responder,-38.1
+P063,Baseline,0,2024-01-04,53,Female,Current Smoker,24.2,Stage III,Placebo,1,13.3,56.2,53.7,1,6.7,85.4,Not Applicable,0.0
+P063,Visit 1 (Week 4),1,2024-02-01,53,Female,Current Smoker,24.2,Stage III,Placebo,1,45.9,61.1,55.5,0,5.8,88.2,Non-Responder,245.1
+P063,Visit 2 (Week 8),2,2024-02-29,53,Female,Current Smoker,24.2,Stage III,Placebo,1,31.0,50.4,65.3,0,5.9,84.6,Non-Responder,133.1
+P064,Baseline,0,2024-01-04,53,Male,Former Smoker,26.7,Stage II,Treatment,0,34.2,71.4,64.5,0,5.0,98.1,Not Applicable,0.0
+P064,Visit 1 (Week 4),1,2024-01-27,53,Male,Former Smoker,26.7,Stage II,Treatment,0,26.2,74.1,75.0,1,4.0,81.2,Non-Responder,-23.4
+P064,Visit 2 (Week 8),2,2024-02-27,53,Male,Former Smoker,26.7,Stage II,Treatment,0,21.2,77.9,80.1,0,2.7,75.2,Responder,-38.0
+P065,Baseline,0,2024-01-01,73,Male,Former Smoker,26.6,Stage II,Treatment,1,29.7,69.5,57.2,1,2.7,75.4,Not Applicable,0.0
+P065,Visit 1 (Week 4),1,2024-01-27,73,Male,Former Smoker,26.6,Stage II,Treatment,1,20.0,68.7,60.0,0,3.8,76.8,Responder,-32.7
+P065,Visit 2 (Week 8),2,2024-02-25,73,Male,Former Smoker,26.6,Stage II,Treatment,1,23.8,61.9,62.3,0,4.2,74.9,Non-Responder,-19.9
+P066,Baseline,0,2023-12-30,78,Female,Current Smoker,30.0,Stage II,Placebo,2,22.3,55.2,49.4,0,3.4,76.3,Not Applicable,0.0
+P066,Visit 1 (Week 4),1,2024-01-29,78,Female,Current Smoker,30.0,Stage II,Placebo,2,28.6,56.9,53.4,0,4.5,69.9,Non-Responder,28.3
+P066,Visit 2 (Week 8),2,2024-02-23,78,Female,Current Smoker,30.0,Stage II,Placebo,2,34.3,61.1,71.6,0,2.0,63.3,Non-Responder,53.8
+P067,Baseline,0,2024-01-04,64,Male,Former Smoker,29.4,Stage III,Placebo,0,61.0,65.7,53.9,0,4.4,90.5,Not Applicable,0.0
+P067,Visit 1 (Week 4),1,2024-01-28,64,Male,Former Smoker,29.4,Stage III,Placebo,0,67.9,67.8,62.8,0,5.8,94.5,Non-Responder,11.3
+P067,Visit 2 (Week 8),2,2024-02-28,64,Male,Former Smoker,29.4,Stage III,Placebo,0,41.6,70.6,51.8,0,6.2,93.1,Responder,-31.8
+P068,Baseline,0,2023-12-31,75,Female,Current Smoker,47.9,Stage III,Placebo,1,30.4,56.8,58.8,0,5.9,87.5,Not Applicable,0.0
+P068,Visit 1 (Week 4),1,2024-01-28,75,Female,Current Smoker,47.9,Stage III,Placebo,1,53.6,55.6,55.8,0,7.3,89.3,Non-Responder,76.3
+P068,Visit 2 (Week 8),2,2024-02-25,75,Female,Current Smoker,47.9,Stage III,Placebo,1,57.5,54.2,50.4,0,8.0,80.2,Non-Responder,89.1
+P069,Baseline,0,2023-12-31,68,Male,Former Smoker,34.5,Stage IV,Treatment,1,61.6,49.7,53.4,1,7.4,89.2,Not Applicable,0.0
+P069,Visit 1 (Week 4),1,2024-01-31,68,Male,Former Smoker,34.5,Stage IV,Treatment,1,50.1,60.2,59.7,2,8.6,78.4,Non-Responder,-18.7
+P069,Visit 2 (Week 8),2,2024-02-24,68,Male,Former Smoker,34.5,Stage IV,Treatment,1,41.0,58.0,62.4,1,6.4,74.5,Responder,-33.4
+P070,Baseline,0,2023-12-31,58,Female,Former Smoker,10.2,Stage II,Placebo,0,27.6,73.0,68.2,0,3.7,91.9,Not Applicable,0.0
+P070,Visit 1 (Week 4),1,2024-01-26,58,Female,Former Smoker,10.2,Stage II,Placebo,0,23.9,73.6,71.9,0,2.9,90.5,Non-Responder,-13.4
+P070,Visit 2 (Week 8),2,2024-02-27,58,Female,Former Smoker,10.2,Stage II,Placebo,0,47.3,71.7,67.8,1,5.5,84.6,Non-Responder,71.4
+P071,Baseline,0,2023-12-29,68,Male,Current Smoker,0.0,Stage III,Placebo,2,48.1,44.0,46.6,0,4.7,78.4,Not Applicable,0.0
+P071,Visit 1 (Week 4),1,2024-01-27,68,Male,Current Smoker,0.0,Stage III,Placebo,2,54.6,53.5,50.4,0,7.2,64.4,Non-Responder,13.5
+P071,Visit 2 (Week 8),2,2024-02-23,68,Male,Current Smoker,0.0,Stage III,Placebo,2,43.8,55.8,49.0,0,7.2,65.2,Non-Responder,-8.9
+P072,Baseline,0,2023-12-30,80,Male,Former Smoker,34.3,Stage III,Treatment,0,49.6,68.5,64.2,2,4.4,83.8,Not Applicable,0.0
+P072,Visit 1 (Week 4),1,2024-01-27,80,Male,Former Smoker,34.3,Stage III,Treatment,0,51.4,69.9,67.7,1,5.1,88.6,Non-Responder,3.6
+P072,Visit 2 (Week 8),2,2024-02-25,80,Male,Former Smoker,34.3,Stage III,Treatment,0,24.0,69.4,73.9,0,4.1,84.6,Responder,-51.6
+P073,Baseline,0,2023-12-30,64,Male,Current Smoker,9.5,Stage III,Treatment,1,38.2,55.5,63.7,0,6.6,82.7,Not Applicable,0.0
+P073,Visit 1 (Week 4),1,2024-01-31,64,Male,Current Smoker,9.5,Stage III,Treatment,1,38.9,59.2,60.1,2,5.8,75.9,Non-Responder,1.8
+P073,Visit 2 (Week 8),2,2024-02-23,64,Male,Current Smoker,9.5,Stage III,Treatment,1,30.0,57.9,63.1,2,4.2,68.1,Non-Responder,-21.5
+P074,Baseline,0,2024-01-03,80,Female,Former Smoker,22.8,Stage III,Placebo,1,42.9,65.0,55.4,1,7.3,74.1,Not Applicable,0.0
+P074,Visit 1 (Week 4),1,2024-01-30,80,Female,Former Smoker,22.8,Stage III,Placebo,1,63.8,64.3,60.5,0,6.9,80.5,Non-Responder,48.7
+P074,Visit 2 (Week 8),2,2024-02-27,80,Female,Former Smoker,22.8,Stage III,Placebo,1,36.4,67.6,53.9,2,5.3,80.2,Non-Responder,-15.2
+P075,Baseline,0,2024-01-01,40,Female,Former Smoker,13.3,Stage II,Treatment,1,35.2,67.5,58.6,1,3.0,78.3,Not Applicable,0.0
+P075,Visit 1 (Week 4),1,2024-02-01,40,Female,Former Smoker,13.3,Stage II,Treatment,1,18.2,67.6,63.7,1,4.3,73.9,Responder,-48.3
+P075,Visit 2 (Week 8),2,2024-02-23,40,Female,Former Smoker,13.3,Stage II,Treatment,1,20.4,71.9,68.2,0,3.8,62.1,Responder,-42.0
+P076,Baseline,0,2023-12-29,73,Male,Never Smoker,0.0,Stage III,Treatment,1,45.1,70.5,51.3,0,6.0,91.7,Not Applicable,0.0
+P076,Visit 1 (Week 4),1,2024-01-28,73,Male,Never Smoker,0.0,Stage III,Treatment,1,38.2,72.7,57.1,0,5.8,73.5,Non-Responder,-15.3
+P076,Visit 2 (Week 8),2,2024-02-25,73,Male,Never Smoker,0.0,Stage III,Treatment,1,49.3,73.6,65.9,0,3.9,61.6,Non-Responder,9.3
+P077,Baseline,0,2024-01-04,65,Male,Current Smoker,3.0,Stage I,Placebo,0,6.6,75.9,67.3,0,2.2,87.7,Not Applicable,0.0
+P077,Visit 1 (Week 4),1,2024-01-29,65,Male,Current Smoker,3.0,Stage I,Placebo,0,14.6,66.8,68.3,1,4.8,85.6,Non-Responder,121.2
+P077,Visit 2 (Week 8),2,2024-02-29,65,Male,Current Smoker,3.0,Stage I,Placebo,0,14.1,72.3,69.4,0,3.2,89.9,Non-Responder,113.6
+P078,Baseline,0,2023-12-30,62,Female,Former Smoker,30.4,Stage II,Placebo,0,22.3,72.6,59.7,0,5.6,81.9,Not Applicable,0.0
+P078,Visit 1 (Week 4),1,2024-01-31,62,Female,Former Smoker,30.4,Stage II,Placebo,0,24.2,71.7,65.7,0,4.2,82.0,Non-Responder,8.5
+P078,Visit 2 (Week 8),2,2024-02-29,62,Female,Former Smoker,30.4,Stage II,Placebo,0,34.5,72.7,71.5,0,3.8,87.7,Non-Responder,54.7
+P079,Baseline,0,2024-01-04,65,Male,Current Smoker,41.4,Stage II,Treatment,2,37.9,57.9,63.0,2,2.0,66.0,Not Applicable,0.0
+P079,Visit 1 (Week 4),1,2024-01-31,65,Male,Current Smoker,41.4,Stage II,Treatment,2,20.9,58.5,60.0,0,5.5,62.6,Responder,-44.9
+P079,Visit 2 (Week 8),2,2024-02-23,65,Male,Current Smoker,41.4,Stage II,Treatment,2,33.5,62.3,59.0,1,4.2,55.1,Non-Responder,-11.6
+P080,Baseline,0,2024-01-02,45,Female,Former Smoker,19.2,Stage III,Placebo,1,54.0,58.9,58.5,0,7.3,87.2,Not Applicable,0.0
+P080,Visit 1 (Week 4),1,2024-01-29,45,Female,Former Smoker,19.2,Stage III,Placebo,1,39.1,58.4,61.5,0,4.6,76.8,Non-Responder,-27.6
+P080,Visit 2 (Week 8),2,2024-02-26,45,Female,Former Smoker,19.2,Stage III,Placebo,1,36.4,62.0,54.5,1,8.2,78.1,Responder,-32.6
+P081,Baseline,0,2024-01-04,62,Male,Current Smoker,0.0,Stage IV,Treatment,2,39.5,46.0,46.4,2,7.7,70.7,Not Applicable,0.0
+P081,Visit 1 (Week 4),1,2024-01-26,62,Male,Current Smoker,0.0,Stage IV,Treatment,2,49.7,45.7,43.7,0,6.9,63.3,Non-Responder,25.8
+P081,Visit 2 (Week 8),2,2024-02-29,62,Male,Current Smoker,0.0,Stage IV,Treatment,2,42.6,44.7,57.0,1,8.7,66.4,Non-Responder,7.8
+P082,Baseline,0,2023-12-31,68,Male,Former Smoker,19.5,Stage III,Placebo,2,32.0,56.2,43.3,0,5.8,72.2,Not Applicable,0.0
+P082,Visit 1 (Week 4),1,2024-01-31,68,Male,Former Smoker,19.5,Stage III,Placebo,2,43.7,57.4,56.8,0,6.0,69.8,Non-Responder,36.6
+P082,Visit 2 (Week 8),2,2024-02-28,68,Male,Former Smoker,19.5,Stage III,Placebo,2,53.2,56.8,54.4,0,5.9,74.8,Non-Responder,66.3
+P083,Baseline,0,2023-12-30,79,Male,Current Smoker,35.9,Stage III,Placebo,2,48.0,48.2,56.2,0,5.6,70.0,Not Applicable,0.0
+P083,Visit 1 (Week 4),1,2024-01-29,79,Male,Current Smoker,35.9,Stage III,Placebo,2,23.9,48.9,47.8,0,8.3,60.5,Responder,-50.2
+P083,Visit 2 (Week 8),2,2024-02-25,79,Male,Current Smoker,35.9,Stage III,Placebo,2,42.8,49.3,53.0,0,4.8,72.4,Non-Responder,-10.8
+P084,Baseline,0,2023-12-31,59,Male,Current Smoker,7.8,Stage III,Placebo,1,39.9,58.2,54.5,1,6.9,75.9,Not Applicable,0.0
+P084,Visit 1 (Week 4),1,2024-01-31,59,Male,Current Smoker,7.8,Stage III,Placebo,1,34.9,49.5,57.6,0,4.5,82.0,Non-Responder,-12.5
+P084,Visit 2 (Week 8),2,2024-02-26,59,Male,Current Smoker,7.8,Stage III,Placebo,1,41.2,53.7,57.0,0,6.5,75.5,Non-Responder,3.3
+P085,Baseline,0,2023-12-30,56,Female,Current Smoker,32.8,Stage III,Placebo,1,43.4,51.3,62.1,0,5.9,83.0,Not Applicable,0.0
+P085,Visit 1 (Week 4),1,2024-01-30,56,Female,Current Smoker,32.8,Stage III,Placebo,1,48.6,59.1,54.4,0,6.2,77.8,Non-Responder,12.0
+P085,Visit 2 (Week 8),2,2024-02-23,56,Female,Current Smoker,32.8,Stage III,Placebo,1,48.2,51.0,58.2,0,5.7,79.1,Non-Responder,11.1
+P086,Baseline,0,2024-01-03,59,Male,Current Smoker,29.8,Stage I,Placebo,2,18.2,57.1,63.3,0,3.4,73.4,Not Applicable,0.0
+P086,Visit 1 (Week 4),1,2024-01-26,59,Male,Current Smoker,29.8,Stage I,Placebo,2,21.3,64.2,65.0,0,3.2,69.8,Non-Responder,17.0
+P086,Visit 2 (Week 8),2,2024-02-29,59,Male,Current Smoker,29.8,Stage I,Placebo,2,20.9,60.3,68.4,0,3.5,59.8,Non-Responder,14.8
+P087,Baseline,0,2024-01-01,74,Male,Current Smoker,38.7,Stage II,Placebo,1,12.7,56.3,60.0,0,4.7,89.4,Not Applicable,0.0
+P087,Visit 1 (Week 4),1,2024-02-01,74,Male,Current Smoker,38.7,Stage II,Placebo,1,40.0,62.8,67.5,2,4.4,85.4,Non-Responder,215.0
+P087,Visit 2 (Week 8),2,2024-02-28,74,Male,Current Smoker,38.7,Stage II,Placebo,1,33.4,63.2,58.2,0,2.9,83.7,Non-Responder,163.0
+P088,Baseline,0,2024-01-04,68,Female,Current Smoker,31.8,Stage II,Treatment,0,26.1,66.1,58.4,0,3.6,90.2,Not Applicable,0.0
+P088,Visit 1 (Week 4),1,2024-01-27,68,Female,Current Smoker,31.8,Stage II,Treatment,0,28.2,62.9,69.8,1,3.9,86.6,Non-Responder,8.0
+P088,Visit 2 (Week 8),2,2024-02-24,68,Female,Current Smoker,31.8,Stage II,Treatment,0,23.3,63.7,67.4,0,2.6,82.6,Non-Responder,-10.7
+P089,Baseline,0,2023-12-29,59,Male,Never Smoker,0.0,Stage II,Treatment,2,39.9,67.0,54.9,0,4.6,71.9,Not Applicable,0.0
+P089,Visit 1 (Week 4),1,2024-01-30,59,Male,Never Smoker,0.0,Stage II,Treatment,2,22.2,72.0,55.6,0,2.9,64.7,Responder,-44.4
+P089,Visit 2 (Week 8),2,2024-02-29,59,Male,Never Smoker,0.0,Stage II,Treatment,2,20.7,70.2,68.0,0,4.4,59.8,Responder,-48.1
+P090,Baseline,0,2024-01-03,70,Male,Never Smoker,0.0,Stage I,Treatment,2,18.4,72.5,58.0,2,4.0,78.7,Not Applicable,0.0
+P090,Visit 1 (Week 4),1,2024-01-26,70,Male,Never Smoker,0.0,Stage I,Treatment,2,17.7,76.9,63.5,0,2.4,75.3,Non-Responder,-3.8
+P090,Visit 2 (Week 8),2,2024-02-25,70,Male,Never Smoker,0.0,Stage I,Treatment,2,16.0,72.6,59.0,2,2.1,62.6,Non-Responder,-13.0
+P091,Baseline,0,2024-01-02,65,Female,Current Smoker,15.4,Stage I,Treatment,1,13.2,65.5,72.1,0,3.1,88.3,Not Applicable,0.0
+P091,Visit 1 (Week 4),1,2024-02-01,65,Female,Current Smoker,15.4,Stage I,Treatment,1,17.4,70.2,67.7,0,1.9,75.3,Non-Responder,31.8
+P091,Visit 2 (Week 8),2,2024-02-24,65,Female,Current Smoker,15.4,Stage I,Treatment,1,7.9,73.9,70.5,2,2.8,65.8,Responder,-40.2
+P092,Baseline,0,2024-01-04,74,Female,Current Smoker,47.9,Stage II,Placebo,0,39.2,64.7,62.7,0,5.5,100.0,Not Applicable,0.0
+P092,Visit 1 (Week 4),1,2024-01-29,74,Female,Current Smoker,47.9,Stage II,Placebo,0,19.2,67.6,57.5,0,6.2,85.2,Responder,-51.0
+P092,Visit 2 (Week 8),2,2024-02-29,74,Female,Current Smoker,47.9,Stage II,Placebo,0,26.9,74.9,75.7,0,4.6,82.5,Responder,-31.4
+P093,Baseline,0,2024-01-04,57,Male,Current Smoker,27.6,Stage IV,Treatment,1,44.2,52.5,49.0,4,9.2,89.0,Not Applicable,0.0
+P093,Visit 1 (Week 4),1,2024-01-30,57,Male,Current Smoker,27.6,Stage IV,Treatment,1,83.1,52.5,66.2,3,7.1,71.8,Non-Responder,88.0
+P093,Visit 2 (Week 8),2,2024-02-23,57,Male,Current Smoker,27.6,Stage IV,Treatment,1,65.9,56.2,55.7,2,7.9,71.8,Non-Responder,49.1
+P094,Baseline,0,2024-01-02,61,Female,Former Smoker,24.7,Stage II,Placebo,2,24.1,59.4,59.2,0,4.8,66.4,Not Applicable,0.0
+P094,Visit 1 (Week 4),1,2024-01-26,61,Female,Former Smoker,24.7,Stage II,Placebo,2,43.6,58.8,57.2,0,3.5,66.4,Non-Responder,80.9
+P094,Visit 2 (Week 8),2,2024-02-24,61,Female,Former Smoker,24.7,Stage II,Placebo,2,42.4,60.5,61.6,1,4.6,79.2,Non-Responder,75.9
+P095,Baseline,0,2023-12-30,61,Female,Never Smoker,0.0,Stage II,Treatment,3,29.8,63.3,55.0,0,2.0,59.6,Not Applicable,0.0
+P095,Visit 1 (Week 4),1,2024-02-01,61,Female,Never Smoker,0.0,Stage II,Treatment,3,30.5,66.1,47.8,0,5.6,53.8,Non-Responder,2.3
+P095,Visit 2 (Week 8),2,2024-02-28,61,Female,Never Smoker,0.0,Stage II,Treatment,3,35.5,69.5,58.6,1,2.7,61.7,Non-Responder,19.1
+P096,Baseline,0,2023-12-30,50,Male,Never Smoker,0.0,Stage I,Treatment,0,9.7,86.8,73.2,0,2.6,89.0,Not Applicable,0.0
+P096,Visit 1 (Week 4),1,2024-01-31,50,Male,Never Smoker,0.0,Stage I,Treatment,0,11.4,87.3,73.1,1,1.6,89.5,Non-Responder,17.5
+P096,Visit 2 (Week 8),2,2024-02-25,50,Male,Never Smoker,0.0,Stage I,Treatment,0,15.6,90.1,74.2,2,0.0,82.1,Non-Responder,60.8
+P097,Baseline,0,2024-01-01,67,Male,Current Smoker,16.0,Stage III,Treatment,0,45.4,62.1,58.8,2,7.6,97.3,Not Applicable,0.0
+P097,Visit 1 (Week 4),1,2024-01-26,67,Male,Current Smoker,16.0,Stage III,Treatment,0,36.4,62.1,68.4,0,7.0,82.7,Non-Responder,-19.8
+P097,Visit 2 (Week 8),2,2024-02-28,67,Male,Current Smoker,16.0,Stage III,Treatment,0,27.4,61.7,76.0,0,4.6,90.8,Responder,-39.6
+P098,Baseline,0,2024-01-02,67,Female,Former Smoker,20.6,Stage II,Treatment,2,24.2,62.1,56.4,0,3.3,73.8,Not Applicable,0.0
+P098,Visit 1 (Week 4),1,2024-01-26,67,Female,Former Smoker,20.6,Stage II,Treatment,2,30.4,56.0,59.5,1,4.0,66.7,Non-Responder,25.6
+P098,Visit 2 (Week 8),2,2024-02-24,67,Female,Former Smoker,20.6,Stage II,Treatment,2,28.7,70.8,54.0,2,2.2,60.1,Non-Responder,18.6
+P099,Baseline,0,2024-01-04,65,Female,Former Smoker,16.2,Stage II,Treatment,1,8.2,73.2,64.8,0,4.7,84.1,Not Applicable,0.0
+P099,Visit 1 (Week 4),1,2024-01-29,65,Female,Former Smoker,16.2,Stage II,Treatment,1,22.4,66.3,60.2,0,4.7,80.5,Non-Responder,173.2
+P099,Visit 2 (Week 8),2,2024-02-27,65,Female,Former Smoker,16.2,Stage II,Treatment,1,18.7,69.8,59.8,1,2.9,74.3,Non-Responder,128.0
+P100,Baseline,0,2024-01-03,62,Male,Former Smoker,23.3,Stage III,Placebo,1,46.1,60.3,55.3,0,7.0,78.0,Not Applicable,0.0
+P100,Visit 1 (Week 4),1,2024-01-27,62,Male,Former Smoker,23.3,Stage III,Placebo,1,29.8,63.3,60.8,0,5.9,84.9,Responder,-35.4
+P100,Visit 2 (Week 8),2,2024-02-29,62,Male,Former Smoker,23.3,Stage III,Placebo,1,54.4,65.5,52.0,0,6.8,79.9,Non-Responder,18.0
+P101,Baseline,0,2024-01-01,50,Female,Never Smoker,0.0,Stage I,Placebo,3,11.3,66.3,55.4,0,1.9,58.6,Not Applicable,0.0
+P101,Visit 1 (Week 4),1,2024-01-28,50,Female,Never Smoker,0.0,Stage I,Placebo,3,0.4,70.5,55.6,0,4.3,59.5,Responder,-96.5
+P101,Visit 2 (Week 8),2,2024-02-24,50,Female,Never Smoker,0.0,Stage I,Placebo,3,19.8,73.2,54.9,0,4.1,71.9,Non-Responder,75.2
+P102,Baseline,0,2024-01-02,60,Female,Former Smoker,42.1,Stage I,Treatment,0,17.0,72.1,61.7,1,4.4,89.9,Not Applicable,0.0
+P102,Visit 1 (Week 4),1,2024-01-29,60,Female,Former Smoker,42.1,Stage I,Treatment,0,9.1,74.7,63.2,1,2.4,77.4,Responder,-46.5
+P102,Visit 2 (Week 8),2,2024-02-26,60,Female,Former Smoker,42.1,Stage I,Treatment,0,12.8,79.2,72.3,0,2.1,72.2,Non-Responder,-24.7
+P103,Baseline,0,2024-01-03,61,Male,Former Smoker,11.3,Stage II,Placebo,1,20.8,67.1,65.4,0,4.7,79.0,Not Applicable,0.0
+P103,Visit 1 (Week 4),1,2024-01-28,61,Male,Former Smoker,11.3,Stage II,Placebo,1,29.8,62.1,65.6,0,5.2,88.4,Non-Responder,43.3
+P103,Visit 2 (Week 8),2,2024-02-26,61,Male,Former Smoker,11.3,Stage II,Placebo,1,33.6,68.1,61.3,0,3.6,86.3,Non-Responder,61.5
+P104,Baseline,0,2023-12-31,56,Male,Current Smoker,5.8,Stage I,Treatment,0,14.2,66.6,66.2,0,2.7,92.3,Not Applicable,0.0
+P104,Visit 1 (Week 4),1,2024-01-30,56,Male,Current Smoker,5.8,Stage I,Treatment,0,0.9,68.9,77.8,0,3.3,89.8,Responder,-93.7
+P104,Visit 2 (Week 8),2,2024-02-27,56,Male,Current Smoker,5.8,Stage I,Treatment,0,9.2,70.9,86.7,1,2.5,87.4,Responder,-35.2
+P105,Baseline,0,2023-12-31,63,Male,Former Smoker,39.7,Stage I,Treatment,1,14.9,67.5,61.6,0,4.3,81.0,Not Applicable,0.0
+P105,Visit 1 (Week 4),1,2024-01-30,63,Male,Former Smoker,39.7,Stage I,Treatment,1,16.1,70.3,66.5,0,3.5,83.1,Non-Responder,8.1
+P105,Visit 2 (Week 8),2,2024-02-25,63,Male,Former Smoker,39.7,Stage I,Treatment,1,9.8,74.4,75.9,0,2.9,60.1,Responder,-34.2
+P106,Baseline,0,2024-01-01,69,Female,Former Smoker,22.9,Stage II,Placebo,2,37.7,62.6,54.0,0,6.0,63.5,Not Applicable,0.0
+P106,Visit 1 (Week 4),1,2024-01-30,69,Female,Former Smoker,22.9,Stage II,Placebo,2,28.1,71.1,58.9,0,4.9,70.8,Non-Responder,-25.5
+P106,Visit 2 (Week 8),2,2024-02-27,69,Female,Former Smoker,22.9,Stage II,Placebo,2,49.3,61.6,51.3,0,5.3,62.9,Non-Responder,30.8
+P107,Baseline,0,2023-12-29,83,Male,Never Smoker,0.0,Stage IV,Treatment,1,62.8,66.9,48.4,1,7.7,82.6,Not Applicable,0.0
+P107,Visit 1 (Week 4),1,2024-01-27,83,Male,Never Smoker,0.0,Stage IV,Treatment,1,58.6,71.5,52.6,0,6.6,74.1,Non-Responder,-6.7
+P107,Visit 2 (Week 8),2,2024-02-27,83,Male,Never Smoker,0.0,Stage IV,Treatment,1,26.9,71.7,53.6,0,6.3,68.1,Responder,-57.2
+P108,Baseline,0,2023-12-31,66,Male,Never Smoker,0.0,Stage III,Treatment,3,24.1,58.9,48.1,0,5.7,66.1,Not Applicable,0.0
+P108,Visit 1 (Week 4),1,2024-01-29,66,Male,Never Smoker,0.0,Stage III,Treatment,3,41.5,67.4,61.3,0,5.1,52.4,Non-Responder,72.2
+P108,Visit 2 (Week 8),2,2024-02-26,66,Male,Never Smoker,0.0,Stage III,Treatment,3,40.5,65.4,48.6,0,5.6,54.2,Non-Responder,68.0
+P109,Baseline,0,2024-01-01,67,Female,Former Smoker,18.3,Stage III,Treatment,1,33.2,66.9,60.0,1,5.2,77.4,Not Applicable,0.0
+P109,Visit 1 (Week 4),1,2024-01-26,67,Female,Former Smoker,18.3,Stage III,Treatment,1,35.4,67.6,59.4,1,5.0,75.0,Non-Responder,6.6
+P109,Visit 2 (Week 8),2,2024-02-24,67,Female,Former Smoker,18.3,Stage III,Treatment,1,26.7,62.4,59.0,0,5.9,66.3,Non-Responder,-19.6
+P110,Baseline,0,2023-12-30,64,Female,Former Smoker,35.4,Stage II,Treatment,1,13.4,63.4,56.3,0,6.2,79.9,Not Applicable,0.0
+P110,Visit 1 (Week 4),1,2024-01-30,64,Female,Former Smoker,35.4,Stage II,Treatment,1,27.7,70.4,59.8,3,3.6,73.4,Non-Responder,106.7
+P110,Visit 2 (Week 8),2,2024-02-26,64,Female,Former Smoker,35.4,Stage II,Treatment,1,15.4,69.0,63.1,0,3.7,61.1,Non-Responder,14.9
+P111,Baseline,0,2024-01-02,45,Male,Current Smoker,20.9,Stage IV,Treatment,0,77.2,58.3,70.5,3,9.8,89.0,Not Applicable,0.0
+P111,Visit 1 (Week 4),1,2024-02-01,45,Male,Current Smoker,20.9,Stage IV,Treatment,0,48.7,58.6,55.7,1,9.0,73.7,Responder,-36.9
+P111,Visit 2 (Week 8),2,2024-02-25,45,Male,Current Smoker,20.9,Stage IV,Treatment,0,43.8,60.6,54.6,0,5.9,73.1,Responder,-43.3
+P112,Baseline,0,2024-01-02,64,Female,Former Smoker,43.3,Stage II,Treatment,1,36.4,65.0,63.3,1,4.7,69.7,Not Applicable,0.0
+P112,Visit 1 (Week 4),1,2024-01-26,64,Female,Former Smoker,43.3,Stage II,Treatment,1,20.6,68.9,60.3,1,5.0,70.9,Responder,-43.4
+P112,Visit 2 (Week 8),2,2024-02-29,64,Female,Former Smoker,43.3,Stage II,Treatment,1,26.7,74.3,75.1,1,4.6,83.3,Non-Responder,-26.6
+P113,Baseline,0,2023-12-29,65,Male,Current Smoker,40.2,Stage I,Treatment,1,16.4,64.9,60.1,2,1.8,81.7,Not Applicable,0.0
+P113,Visit 1 (Week 4),1,2024-01-29,65,Male,Current Smoker,40.2,Stage I,Treatment,1,6.9,64.3,71.8,1,1.8,72.8,Responder,-57.9
+P113,Visit 2 (Week 8),2,2024-02-26,65,Male,Current Smoker,40.2,Stage I,Treatment,1,5.9,68.5,62.9,0,3.0,64.3,Responder,-64.0
+P114,Baseline,0,2023-12-31,89,Female,Current Smoker,22.7,Stage III,Placebo,0,38.8,58.1,51.2,0,6.2,89.1,Not Applicable,0.0
+P114,Visit 1 (Week 4),1,2024-01-29,89,Female,Current Smoker,22.7,Stage III,Placebo,0,44.8,60.5,62.5,0,6.7,93.8,Non-Responder,15.5
+P114,Visit 2 (Week 8),2,2024-02-29,89,Female,Current Smoker,22.7,Stage III,Placebo,0,36.3,64.5,67.7,0,4.4,90.5,Non-Responder,-6.4
+P115,Baseline,0,2023-12-29,63,Male,Current Smoker,62.4,Stage I,Placebo,1,9.6,67.7,54.9,0,2.2,76.5,Not Applicable,0.0
+P115,Visit 1 (Week 4),1,2024-02-01,63,Male,Current Smoker,62.4,Stage I,Placebo,1,18.3,66.6,75.1,0,1.1,77.4,Non-Responder,90.6
+P115,Visit 2 (Week 8),2,2024-02-23,63,Male,Current Smoker,62.4,Stage I,Placebo,1,18.6,67.6,63.9,0,4.2,81.4,Non-Responder,93.8
+P116,Baseline,0,2024-01-03,68,Male,Never Smoker,0.0,Stage II,Treatment,1,21.0,75.8,64.9,1,3.8,76.7,Not Applicable,0.0
+P116,Visit 1 (Week 4),1,2024-02-01,68,Male,Never Smoker,0.0,Stage II,Treatment,1,19.2,84.1,62.0,0,5.7,68.6,Non-Responder,-8.6
+P116,Visit 2 (Week 8),2,2024-02-26,68,Male,Never Smoker,0.0,Stage II,Treatment,1,17.4,81.3,66.2,1,3.8,67.0,Non-Responder,-17.1
+P117,Baseline,0,2024-01-04,64,Female,Former Smoker,18.9,Stage III,Placebo,2,65.2,56.7,42.4,0,5.7,73.0,Not Applicable,0.0
+P117,Visit 1 (Week 4),1,2024-01-28,64,Female,Former Smoker,18.9,Stage III,Placebo,2,46.7,54.2,48.1,1,8.5,73.9,Non-Responder,-28.4
+P117,Visit 2 (Week 8),2,2024-02-26,64,Female,Former Smoker,18.9,Stage III,Placebo,2,61.1,53.0,54.2,0,6.9,64.7,Non-Responder,-6.3
+P118,Baseline,0,2023-12-31,53,Male,Never Smoker,0.0,Stage IV,Treatment,1,43.7,64.0,53.0,1,7.4,87.7,Not Applicable,0.0
+P118,Visit 1 (Week 4),1,2024-01-27,53,Male,Never Smoker,0.0,Stage IV,Treatment,1,51.5,64.7,47.7,2,7.4,77.7,Non-Responder,17.8
+P118,Visit 2 (Week 8),2,2024-02-28,53,Male,Never Smoker,0.0,Stage IV,Treatment,1,60.7,73.1,50.7,0,7.7,64.0,Non-Responder,38.9
+P119,Baseline,0,2023-12-30,76,Male,Former Smoker,32.4,Stage II,Treatment,2,23.6,58.8,48.4,0,2.8,64.6,Not Applicable,0.0
+P119,Visit 1 (Week 4),1,2024-01-28,76,Male,Former Smoker,32.4,Stage II,Treatment,2,25.2,60.2,57.0,0,6.3,62.8,Non-Responder,6.8
+P119,Visit 2 (Week 8),2,2024-02-25,76,Male,Former Smoker,32.4,Stage II,Treatment,2,28.4,63.9,75.4,0,5.3,67.4,Non-Responder,20.3
+P120,Baseline,0,2023-12-29,72,Female,Current Smoker,34.5,Stage III,Placebo,0,46.3,57.5,43.0,0,4.8,85.1,Not Applicable,0.0
+P120,Visit 1 (Week 4),1,2024-02-01,72,Female,Current Smoker,34.5,Stage III,Placebo,0,61.3,59.8,60.4,0,4.2,81.9,Non-Responder,32.4
+P120,Visit 2 (Week 8),2,2024-02-26,72,Female,Current Smoker,34.5,Stage III,Placebo,0,57.1,63.0,62.0,0,5.7,100.0,Non-Responder,23.3
+P121,Baseline,0,2024-01-04,72,Female,Never Smoker,0.0,Stage IV,Treatment,0,49.1,66.1,55.4,0,6.9,93.1,Not Applicable,0.0
+P121,Visit 1 (Week 4),1,2024-01-26,72,Female,Never Smoker,0.0,Stage IV,Treatment,0,67.4,72.2,62.9,0,6.4,96.9,Non-Responder,37.3
+P121,Visit 2 (Week 8),2,2024-02-28,72,Female,Never Smoker,0.0,Stage IV,Treatment,0,22.6,75.3,66.6,0,5.5,69.4,Responder,-54.0
+P122,Baseline,0,2024-01-03,55,Female,Former Smoker,38.0,Stage I,Treatment,1,14.2,73.6,63.9,2,3.5,81.9,Not Applicable,0.0
+P122,Visit 1 (Week 4),1,2024-01-29,55,Female,Former Smoker,38.0,Stage I,Treatment,1,6.8,72.2,60.0,4,0.0,81.0,Responder,-52.1
+P122,Visit 2 (Week 8),2,2024-02-25,55,Female,Former Smoker,38.0,Stage I,Treatment,1,17.8,74.8,76.3,0,1.7,73.8,Non-Responder,25.4
+P123,Baseline,0,2024-01-04,79,Female,Current Smoker,53.4,Stage II,Placebo,1,28.9,60.8,59.1,0,5.9,72.3,Not Applicable,0.0
+P123,Visit 1 (Week 4),1,2024-01-31,79,Female,Current Smoker,53.4,Stage II,Placebo,1,30.6,58.6,52.6,0,4.5,76.4,Non-Responder,5.9
+P123,Visit 2 (Week 8),2,2024-02-25,79,Female,Current Smoker,53.4,Stage II,Placebo,1,32.0,63.8,53.1,0,7.7,78.7,Non-Responder,10.7
+P124,Baseline,0,2024-01-01,50,Male,Current Smoker,30.5,Stage II,Placebo,0,43.0,66.8,72.5,0,4.8,87.0,Not Applicable,0.0
+P124,Visit 1 (Week 4),1,2024-01-31,50,Male,Current Smoker,30.5,Stage II,Placebo,0,41.4,66.0,59.4,0,4.8,93.4,Non-Responder,-3.7
+P124,Visit 2 (Week 8),2,2024-02-24,50,Male,Current Smoker,30.5,Stage II,Placebo,0,27.6,66.1,68.9,0,6.3,88.0,Responder,-35.8
+P125,Baseline,0,2024-01-04,70,Male,Former Smoker,17.5,Stage II,Placebo,2,39.8,62.7,53.9,0,3.4,59.4,Not Applicable,0.0
+P125,Visit 1 (Week 4),1,2024-01-28,70,Male,Former Smoker,17.5,Stage II,Placebo,2,38.9,64.4,60.8,0,4.2,71.1,Non-Responder,-2.3
+P125,Visit 2 (Week 8),2,2024-02-24,70,Male,Former Smoker,17.5,Stage II,Placebo,2,22.3,62.2,59.6,1,3.6,68.2,Responder,-44.0
+P126,Baseline,0,2024-01-04,86,Male,Never Smoker,0.0,Stage II,Placebo,2,16.8,72.1,72.0,0,3.7,60.6,Not Applicable,0.0
+P126,Visit 1 (Week 4),1,2024-01-30,86,Male,Never Smoker,0.0,Stage II,Placebo,2,27.9,73.3,55.9,2,2.9,67.4,Non-Responder,66.1
+P126,Visit 2 (Week 8),2,2024-02-29,86,Male,Never Smoker,0.0,Stage II,Placebo,2,16.5,78.6,53.5,0,4.7,79.2,Non-Responder,-1.8
+P127,Baseline,0,2024-01-03,55,Male,Former Smoker,29.6,Stage IV,Treatment,1,46.7,56.7,61.1,1,9.8,81.5,Not Applicable,0.0
+P127,Visit 1 (Week 4),1,2024-01-29,55,Male,Former Smoker,29.6,Stage IV,Treatment,1,47.5,59.5,50.8,0,9.2,74.9,Non-Responder,1.7
+P127,Visit 2 (Week 8),2,2024-02-27,55,Male,Former Smoker,29.6,Stage IV,Treatment,1,44.3,62.7,49.5,0,8.3,64.2,Non-Responder,-5.1
+P128,Baseline,0,2023-12-31,59,Female,Former Smoker,18.2,Stage III,Placebo,0,48.1,63.7,55.8,0,4.9,86.3,Not Applicable,0.0
+P128,Visit 1 (Week 4),1,2024-01-28,59,Female,Former Smoker,18.2,Stage III,Placebo,0,49.3,61.2,59.3,0,7.5,93.1,Non-Responder,2.5
+P128,Visit 2 (Week 8),2,2024-02-23,59,Female,Former Smoker,18.2,Stage III,Placebo,0,38.5,67.7,65.1,0,5.2,88.5,Non-Responder,-20.0
+P129,Baseline,0,2024-01-03,65,Male,Never Smoker,0.0,Stage III,Treatment,2,29.0,63.6,44.7,0,7.3,70.5,Not Applicable,0.0
+P129,Visit 1 (Week 4),1,2024-01-26,65,Male,Never Smoker,0.0,Stage III,Treatment,2,35.2,63.2,51.0,2,7.0,64.5,Non-Responder,21.4
+P129,Visit 2 (Week 8),2,2024-02-24,65,Male,Never Smoker,0.0,Stage III,Treatment,2,45.6,71.0,58.8,1,4.6,51.7,Non-Responder,57.2
+P130,Baseline,0,2024-01-04,59,Male,Former Smoker,45.1,Stage II,Placebo,1,35.3,68.3,61.6,0,3.6,83.1,Not Applicable,0.0
+P130,Visit 1 (Week 4),1,2024-01-26,59,Male,Former Smoker,45.1,Stage II,Placebo,1,29.8,66.8,66.3,0,4.3,73.6,Non-Responder,-15.6
+P130,Visit 2 (Week 8),2,2024-02-25,59,Male,Former Smoker,45.1,Stage II,Placebo,1,26.2,65.4,59.8,0,3.1,82.2,Non-Responder,-25.8
+P131,Baseline,0,2023-12-31,49,Male,Never Smoker,0.0,Stage IV,Placebo,2,82.3,59.9,39.1,0,7.6,68.8,Not Applicable,0.0
+P131,Visit 1 (Week 4),1,2024-01-30,49,Male,Never Smoker,0.0,Stage IV,Placebo,2,76.5,63.2,42.5,0,8.4,74.0,Non-Responder,-7.0
+P131,Visit 2 (Week 8),2,2024-02-23,49,Male,Never Smoker,0.0,Stage IV,Placebo,2,52.9,60.1,50.3,0,8.8,71.2,Responder,-35.7
+P132,Baseline,0,2023-12-30,65,Female,Never Smoker,0.0,Stage IV,Treatment,2,64.7,60.1,50.7,0,9.0,64.8,Not Applicable,0.0
+P132,Visit 1 (Week 4),1,2024-01-28,65,Female,Never Smoker,0.0,Stage IV,Treatment,2,48.4,59.1,48.7,1,9.1,68.4,Non-Responder,-25.2
+P132,Visit 2 (Week 8),2,2024-02-29,65,Female,Never Smoker,0.0,Stage IV,Treatment,2,61.4,62.3,57.6,1,6.1,48.4,Non-Responder,-5.1
+P133,Baseline,0,2024-01-02,54,Male,Former Smoker,26.4,Stage IV,Treatment,2,76.3,49.9,43.0,2,9.0,58.2,Not Applicable,0.0
+P133,Visit 1 (Week 4),1,2024-01-31,54,Male,Former Smoker,26.4,Stage IV,Treatment,2,44.5,48.7,44.6,1,7.1,62.9,Responder,-41.7
+P133,Visit 2 (Week 8),2,2024-02-24,54,Male,Former Smoker,26.4,Stage IV,Treatment,2,58.5,52.1,45.6,1,7.7,59.0,Non-Responder,-23.3
+P134,Baseline,0,2024-01-02,69,Male,Never Smoker,0.0,Stage I,Placebo,1,13.0,78.8,61.2,0,4.6,85.6,Not Applicable,0.0
+P134,Visit 1 (Week 4),1,2024-01-29,69,Male,Never Smoker,0.0,Stage I,Placebo,1,22.0,82.8,61.8,0,4.1,79.9,Non-Responder,69.2
+P134,Visit 2 (Week 8),2,2024-02-24,69,Male,Never Smoker,0.0,Stage I,Placebo,1,11.2,79.7,68.7,0,2.1,86.4,Non-Responder,-13.8
+P135,Baseline,0,2023-12-31,55,Male,Former Smoker,21.3,Stage III,Placebo,0,39.1,66.1,54.2,1,6.1,92.3,Not Applicable,0.0
+P135,Visit 1 (Week 4),1,2024-01-26,55,Male,Former Smoker,21.3,Stage III,Placebo,0,35.7,69.8,58.6,1,8.7,98.9,Non-Responder,-8.7
+P135,Visit 2 (Week 8),2,2024-02-23,55,Male,Former Smoker,21.3,Stage III,Placebo,0,48.5,65.5,68.3,0,7.3,91.0,Non-Responder,24.0
+P136,Baseline,0,2023-12-30,80,Female,Current Smoker,32.8,Stage I,Placebo,1,19.3,65.4,67.4,1,2.6,90.2,Not Applicable,0.0
+P136,Visit 1 (Week 4),1,2024-01-29,80,Female,Current Smoker,32.8,Stage I,Placebo,1,16.4,65.9,66.8,0,3.1,81.4,Non-Responder,-15.0
+P136,Visit 2 (Week 8),2,2024-02-24,80,Female,Current Smoker,32.8,Stage I,Placebo,1,16.4,66.9,74.5,0,1.2,81.9,Non-Responder,-15.0
+P137,Baseline,0,2024-01-02,57,Male,Current Smoker,9.8,Stage II,Placebo,1,29.3,57.9,53.2,0,3.4,74.1,Not Applicable,0.0
+P137,Visit 1 (Week 4),1,2024-02-01,57,Male,Current Smoker,9.8,Stage II,Placebo,1,31.2,60.5,48.8,0,5.3,87.4,Non-Responder,6.5
+P137,Visit 2 (Week 8),2,2024-02-29,57,Male,Current Smoker,9.8,Stage II,Placebo,1,22.3,64.2,55.6,0,4.6,79.3,Non-Responder,-23.9
+P138,Baseline,0,2024-01-02,61,Female,Former Smoker,15.3,Stage I,Treatment,2,15.9,69.9,53.5,1,4.0,78.1,Not Applicable,0.0
+P138,Visit 1 (Week 4),1,2024-01-31,61,Female,Former Smoker,15.3,Stage I,Treatment,2,12.6,72.7,61.9,0,2.4,60.3,Non-Responder,-20.8
+P138,Visit 2 (Week 8),2,2024-02-28,61,Female,Former Smoker,15.3,Stage I,Treatment,2,14.1,71.5,66.1,0,2.5,65.9,Non-Responder,-11.3
+P139,Baseline,0,2024-01-02,73,Female,Former Smoker,37.0,Stage III,Placebo,0,42.6,67.6,60.5,0,6.8,91.6,Not Applicable,0.0
+P139,Visit 1 (Week 4),1,2024-01-26,73,Female,Former Smoker,37.0,Stage III,Placebo,0,31.7,64.4,64.8,0,6.5,87.3,Non-Responder,-25.6
+P139,Visit 2 (Week 8),2,2024-02-25,73,Female,Former Smoker,37.0,Stage III,Placebo,0,33.9,70.5,62.3,0,6.4,93.6,Non-Responder,-20.4
+P140,Baseline,0,2023-12-31,52,Male,Never Smoker,0.0,Stage III,Placebo,0,38.6,70.2,50.9,0,7.6,85.6,Not Applicable,0.0
+P140,Visit 1 (Week 4),1,2024-01-31,52,Male,Never Smoker,0.0,Stage III,Placebo,0,49.5,75.6,52.0,0,6.7,89.5,Non-Responder,28.2
+P140,Visit 2 (Week 8),2,2024-02-25,52,Male,Never Smoker,0.0,Stage III,Placebo,0,58.5,78.8,57.0,0,6.3,92.7,Non-Responder,51.6
+P141,Baseline,0,2024-01-01,67,Female,Current Smoker,20.1,Stage I,Placebo,2,18.6,62.4,63.9,0,3.4,67.1,Not Applicable,0.0
+P141,Visit 1 (Week 4),1,2024-01-26,67,Female,Current Smoker,20.1,Stage I,Placebo,2,14.3,60.1,70.0,0,1.4,69.9,Non-Responder,-23.1
+P141,Visit 2 (Week 8),2,2024-02-26,67,Female,Current Smoker,20.1,Stage I,Placebo,2,11.4,62.2,61.8,1,3.7,72.5,Responder,-38.7
+P142,Baseline,0,2024-01-03,78,Female,Current Smoker,14.3,Stage II,Treatment,2,14.4,50.6,57.2,0,4.7,65.1,Not Applicable,0.0
+P142,Visit 1 (Week 4),1,2024-01-28,78,Female,Current Smoker,14.3,Stage II,Treatment,2,24.0,58.1,58.3,2,4.1,72.2,Non-Responder,66.7
+P142,Visit 2 (Week 8),2,2024-02-24,78,Female,Current Smoker,14.3,Stage II,Treatment,2,22.5,64.1,67.5,2,2.3,58.9,Non-Responder,56.2
+P143,Baseline,0,2023-12-29,48,Female,Never Smoker,0.0,Stage II,Treatment,3,26.4,67.1,52.0,0,2.9,53.3,Not Applicable,0.0
+P143,Visit 1 (Week 4),1,2024-01-29,48,Female,Never Smoker,0.0,Stage II,Treatment,3,28.5,69.8,46.5,1,4.8,60.2,Non-Responder,8.0
+P143,Visit 2 (Week 8),2,2024-02-23,48,Female,Never Smoker,0.0,Stage II,Treatment,3,31.6,69.2,62.2,0,3.1,52.3,Non-Responder,19.7
+P144,Baseline,0,2023-12-30,66,Male,Current Smoker,38.0,Stage II,Placebo,2,32.5,55.9,51.6,0,3.2,70.9,Not Applicable,0.0
+P144,Visit 1 (Week 4),1,2024-01-26,66,Male,Current Smoker,38.0,Stage II,Placebo,2,33.1,58.0,53.7,0,6.0,65.4,Non-Responder,1.8
+P144,Visit 2 (Week 8),2,2024-02-28,66,Male,Current Smoker,38.0,Stage II,Placebo,2,33.2,54.8,58.6,0,3.8,72.0,Non-Responder,2.2
+P145,Baseline,0,2024-01-04,67,Male,Never Smoker,0.0,Stage I,Treatment,1,8.7,77.2,70.7,2,2.1,90.3,Not Applicable,0.0
+P145,Visit 1 (Week 4),1,2024-02-01,67,Male,Never Smoker,0.0,Stage I,Treatment,1,21.0,81.0,69.8,0,1.9,64.6,Non-Responder,141.4
+P145,Visit 2 (Week 8),2,2024-02-24,67,Male,Never Smoker,0.0,Stage I,Treatment,1,14.6,86.7,79.7,0,2.9,68.1,Non-Responder,67.8
+P146,Baseline,0,2024-01-04,72,Female,Former Smoker,36.9,Stage II,Placebo,1,20.5,67.8,58.2,0,3.4,83.3,Not Applicable,0.0
+P146,Visit 1 (Week 4),1,2024-01-30,72,Female,Former Smoker,36.9,Stage II,Placebo,1,30.9,69.3,63.9,1,4.5,85.5,Non-Responder,50.7
+P146,Visit 2 (Week 8),2,2024-02-28,72,Female,Former Smoker,36.9,Stage II,Placebo,1,16.3,67.4,62.4,0,5.8,80.5,Non-Responder,-20.5
+P147,Baseline,0,2024-01-02,52,Male,Current Smoker,40.8,Stage III,Placebo,2,44.8,52.7,56.9,0,5.7,73.4,Not Applicable,0.0
+P147,Visit 1 (Week 4),1,2024-01-26,52,Male,Current Smoker,40.8,Stage III,Placebo,2,46.2,52.1,52.0,0,6.0,73.1,Non-Responder,3.1
+P147,Visit 2 (Week 8),2,2024-02-24,52,Male,Current Smoker,40.8,Stage III,Placebo,2,41.3,50.7,43.4,0,6.6,73.6,Non-Responder,-7.8
+P148,Baseline,0,2023-12-30,51,Female,Current Smoker,44.9,Stage I,Treatment,1,15.3,65.3,64.3,1,2.8,90.0,Not Applicable,0.0
+P148,Visit 1 (Week 4),1,2024-01-26,51,Female,Current Smoker,44.9,Stage I,Treatment,1,15.0,69.4,70.6,0,3.1,74.3,Non-Responder,-2.0
+P148,Visit 2 (Week 8),2,2024-02-27,51,Female,Current Smoker,44.9,Stage I,Treatment,1,6.7,69.4,73.8,2,2.4,68.9,Responder,-56.2
+P149,Baseline,0,2023-12-30,70,Female,Current Smoker,18.6,Stage I,Treatment,1,17.6,65.0,59.5,0,1.9,82.4,Not Applicable,0.0
+P149,Visit 1 (Week 4),1,2024-01-26,70,Female,Current Smoker,18.6,Stage I,Treatment,1,9.4,63.9,76.3,0,2.9,81.0,Responder,-46.6
+P149,Visit 2 (Week 8),2,2024-02-26,70,Female,Current Smoker,18.6,Stage I,Treatment,1,13.1,74.4,78.8,0,1.7,66.5,Non-Responder,-25.6
+P150,Baseline,0,2024-01-04,67,Female,Current Smoker,8.7,Stage II,Treatment,0,32.4,63.2,63.8,3,3.9,91.3,Not Applicable,0.0
+P150,Visit 1 (Week 4),1,2024-01-31,67,Female,Current Smoker,8.7,Stage II,Treatment,0,38.3,66.6,61.9,0,3.8,88.1,Non-Responder,18.2
+P150,Visit 2 (Week 8),2,2024-02-26,67,Female,Current Smoker,8.7,Stage II,Treatment,0,27.2,67.5,66.2,0,3.4,77.6,Non-Responder,-16.0
+P151,Baseline,0,2024-01-03,67,Male,Former Smoker,40.0,Stage IV,Treatment,1,85.6,56.1,51.3,0,8.3,83.0,Not Applicable,0.0
+P151,Visit 1 (Week 4),1,2024-01-30,67,Male,Former Smoker,40.0,Stage IV,Treatment,1,41.7,59.4,54.5,4,8.8,82.2,Responder,-51.3
+P151,Visit 2 (Week 8),2,2024-02-24,67,Male,Former Smoker,40.0,Stage IV,Treatment,1,49.5,66.4,56.6,1,8.0,59.6,Responder,-42.2
+P152,Baseline,0,2024-01-03,68,Male,Current Smoker,25.2,Stage III,Placebo,2,47.2,49.9,55.8,0,5.9,66.0,Not Applicable,0.0
+P152,Visit 1 (Week 4),1,2024-01-28,68,Male,Current Smoker,25.2,Stage III,Placebo,2,61.4,58.3,53.4,0,7.2,72.5,Non-Responder,30.1
+P152,Visit 2 (Week 8),2,2024-02-23,68,Male,Current Smoker,25.2,Stage III,Placebo,2,62.9,53.3,48.9,0,6.6,73.9,Non-Responder,33.3
+P153,Baseline,0,2024-01-01,58,Female,Never Smoker,0.0,Stage III,Treatment,0,52.6,75.3,67.8,1,5.2,94.4,Not Applicable,0.0
+P153,Visit 1 (Week 4),1,2024-02-01,58,Female,Never Smoker,0.0,Stage III,Treatment,0,52.7,78.7,64.1,3,6.3,98.1,Non-Responder,0.2
+P153,Visit 2 (Week 8),2,2024-02-28,58,Female,Never Smoker,0.0,Stage III,Treatment,0,20.9,79.1,54.5,0,5.6,79.5,Responder,-60.3
+P154,Baseline,0,2024-01-04,67,Female,Current Smoker,26.2,Stage II,Placebo,0,40.4,63.9,68.7,1,5.1,89.4,Not Applicable,0.0
+P154,Visit 1 (Week 4),1,2024-01-27,67,Female,Current Smoker,26.2,Stage II,Placebo,0,42.0,63.7,71.7,0,4.0,100.0,Non-Responder,4.0
+P154,Visit 2 (Week 8),2,2024-02-25,67,Female,Current Smoker,26.2,Stage II,Placebo,0,19.0,68.8,59.3,1,5.0,82.5,Responder,-53.0
+P155,Baseline,0,2023-12-31,67,Male,Former Smoker,38.3,Stage III,Treatment,1,39.8,60.5,51.2,0,7.9,80.3,Not Applicable,0.0
+P155,Visit 1 (Week 4),1,2024-01-26,67,Male,Former Smoker,38.3,Stage III,Treatment,1,33.4,63.0,57.8,0,5.9,74.8,Non-Responder,-16.1
+P155,Visit 2 (Week 8),2,2024-02-25,67,Male,Former Smoker,38.3,Stage III,Treatment,1,31.2,64.5,73.4,1,3.2,72.9,Non-Responder,-21.6
+P156,Baseline,0,2023-12-30,57,Female,Current Smoker,38.3,Stage I,Placebo,0,19.6,75.4,66.7,0,3.4,93.0,Not Applicable,0.0
+P156,Visit 1 (Week 4),1,2024-01-27,57,Female,Current Smoker,38.3,Stage I,Placebo,0,15.6,77.5,69.5,2,4.3,82.6,Non-Responder,-20.4
+P156,Visit 2 (Week 8),2,2024-02-29,57,Female,Current Smoker,38.3,Stage I,Placebo,0,18.0,67.5,70.8,0,3.8,86.5,Non-Responder,-8.2
+P157,Baseline,0,2024-01-02,83,Female,Former Smoker,29.6,Stage III,Treatment,0,38.1,63.8,58.3,0,8.2,86.5,Not Applicable,0.0
+P157,Visit 1 (Week 4),1,2024-01-28,83,Female,Former Smoker,29.6,Stage III,Treatment,0,36.9,63.6,68.3,1,6.5,97.0,Non-Responder,-3.1
+P157,Visit 2 (Week 8),2,2024-02-23,83,Female,Former Smoker,29.6,Stage III,Treatment,0,25.6,71.4,68.2,0,7.2,83.8,Responder,-32.8
+P158,Baseline,0,2023-12-29,69,Male,Current Smoker,62.5,Stage IV,Placebo,1,66.1,50.8,50.0,2,8.2,90.0,Not Applicable,0.0
+P158,Visit 1 (Week 4),1,2024-01-26,69,Male,Current Smoker,62.5,Stage IV,Placebo,1,57.9,48.4,41.5,1,7.4,77.4,Non-Responder,-12.4
+P158,Visit 2 (Week 8),2,2024-02-29,69,Male,Current Smoker,62.5,Stage IV,Placebo,1,69.8,51.9,55.6,0,10.2,87.3,Non-Responder,5.6
+P159,Baseline,0,2023-12-30,53,Male,Former Smoker,18.6,Stage III,Placebo,3,63.7,48.3,46.3,1,7.4,60.8,Not Applicable,0.0
+P159,Visit 1 (Week 4),1,2024-01-28,53,Male,Former Smoker,18.6,Stage III,Placebo,3,38.5,52.3,46.7,0,6.0,72.7,Responder,-39.6
+P159,Visit 2 (Week 8),2,2024-02-24,53,Male,Former Smoker,18.6,Stage III,Placebo,3,32.5,52.5,45.4,0,7.1,64.5,Responder,-49.0
+P160,Baseline,0,2024-01-01,71,Male,Current Smoker,43.9,Stage IV,Treatment,1,61.8,51.8,46.9,2,7.8,79.4,Not Applicable,0.0
+P160,Visit 1 (Week 4),1,2024-01-27,71,Male,Current Smoker,43.9,Stage IV,Treatment,1,37.1,49.6,54.7,3,6.3,72.4,Responder,-40.0
+P160,Visit 2 (Week 8),2,2024-02-29,71,Male,Current Smoker,43.9,Stage IV,Treatment,1,52.3,56.6,55.4,0,6.0,71.9,Non-Responder,-15.4
+P161,Baseline,0,2023-12-31,55,Male,Never Smoker,0.0,Stage III,Placebo,0,27.8,70.7,58.9,0,6.9,94.3,Not Applicable,0.0
+P161,Visit 1 (Week 4),1,2024-02-01,55,Male,Never Smoker,0.0,Stage III,Placebo,0,42.9,81.6,55.1,0,7.0,98.8,Non-Responder,54.3
+P161,Visit 2 (Week 8),2,2024-02-29,55,Male,Never Smoker,0.0,Stage III,Placebo,0,51.2,72.5,71.7,1,5.0,94.1,Non-Responder,84.2
+P162,Baseline,0,2023-12-29,72,Male,Never Smoker,0.0,Stage I,Treatment,0,9.7,82.0,67.3,0,3.9,89.3,Not Applicable,0.0
+P162,Visit 1 (Week 4),1,2024-01-31,72,Male,Never Smoker,0.0,Stage I,Treatment,0,12.7,86.3,59.9,0,1.1,82.5,Non-Responder,30.9
+P162,Visit 2 (Week 8),2,2024-02-26,72,Male,Never Smoker,0.0,Stage I,Treatment,0,5.5,92.0,75.8,0,1.9,75.6,Responder,-43.3
+P163,Baseline,0,2024-01-01,76,Female,Former Smoker,25.6,Stage IV,Placebo,1,50.1,59.1,46.8,1,6.8,87.8,Not Applicable,0.0
+P163,Visit 1 (Week 4),1,2024-01-28,76,Female,Former Smoker,25.6,Stage IV,Placebo,1,77.3,57.0,48.9,0,7.4,75.2,Non-Responder,54.3
+P163,Visit 2 (Week 8),2,2024-02-24,76,Female,Former Smoker,25.6,Stage IV,Placebo,1,60.9,59.4,51.9,0,8.1,82.7,Non-Responder,21.6
+P164,Baseline,0,2024-01-03,56,Male,Former Smoker,27.7,Stage I,Placebo,1,8.7,75.5,65.6,0,3.7,87.6,Not Applicable,0.0
+P164,Visit 1 (Week 4),1,2024-01-31,56,Male,Former Smoker,27.7,Stage I,Placebo,1,24.5,69.2,70.8,0,1.7,84.3,Non-Responder,181.6
+P164,Visit 2 (Week 8),2,2024-02-27,56,Male,Former Smoker,27.7,Stage I,Placebo,1,18.2,72.7,70.5,0,3.8,78.0,Non-Responder,109.2
+P165,Baseline,0,2023-12-31,74,Male,Current Smoker,52.9,Stage III,Placebo,2,53.9,48.5,52.9,0,6.6,70.3,Not Applicable,0.0
+P165,Visit 1 (Week 4),1,2024-01-31,74,Male,Current Smoker,52.9,Stage III,Placebo,2,65.4,44.9,38.8,0,4.9,74.3,Non-Responder,21.3
+P165,Visit 2 (Week 8),2,2024-02-29,74,Male,Current Smoker,52.9,Stage III,Placebo,2,52.3,52.0,55.1,0,6.9,65.7,Non-Responder,-3.0
+P166,Baseline,0,2024-01-02,69,Male,Former Smoker,30.1,Stage I,Placebo,1,15.1,70.5,64.9,0,4.9,83.5,Not Applicable,0.0
+P166,Visit 1 (Week 4),1,2024-02-01,69,Male,Former Smoker,30.1,Stage I,Placebo,1,9.2,70.7,69.1,0,2.6,80.1,Responder,-39.1
+P166,Visit 2 (Week 8),2,2024-02-28,69,Male,Former Smoker,30.1,Stage I,Placebo,1,18.8,77.0,62.7,0,4.0,86.0,Non-Responder,24.5
+P167,Baseline,0,2024-01-01,73,Male,Current Smoker,38.1,Stage I,Treatment,2,9.0,59.1,62.4,0,3.9,66.1,Not Applicable,0.0
+P167,Visit 1 (Week 4),1,2024-01-28,73,Male,Current Smoker,38.1,Stage I,Treatment,2,17.2,63.6,54.2,2,2.7,66.1,Non-Responder,91.1
+P167,Visit 2 (Week 8),2,2024-02-25,73,Male,Current Smoker,38.1,Stage I,Treatment,2,7.6,63.5,66.0,1,2.2,51.2,Non-Responder,-15.6
+P168,Baseline,0,2024-01-01,83,Female,Former Smoker,35.7,Stage II,Placebo,0,45.8,76.6,66.8,0,7.1,88.6,Not Applicable,0.0
+P168,Visit 1 (Week 4),1,2024-01-29,83,Female,Former Smoker,35.7,Stage II,Placebo,0,28.5,71.2,65.1,0,4.4,99.2,Responder,-37.8
+P168,Visit 2 (Week 8),2,2024-02-23,83,Female,Former Smoker,35.7,Stage II,Placebo,0,27.4,72.1,65.3,0,4.3,89.8,Responder,-40.2
+P169,Baseline,0,2023-12-29,62,Male,Former Smoker,21.4,Stage II,Treatment,1,12.1,68.7,59.5,2,6.6,88.8,Not Applicable,0.0
+P169,Visit 1 (Week 4),1,2024-01-28,62,Male,Former Smoker,21.4,Stage II,Treatment,1,21.5,75.8,65.9,0,2.5,77.7,Non-Responder,77.7
+P169,Visit 2 (Week 8),2,2024-02-23,62,Male,Former Smoker,21.4,Stage II,Treatment,1,14.8,75.5,63.1,0,2.2,77.2,Non-Responder,22.3
+P170,Baseline,0,2024-01-01,57,Male,Current Smoker,17.4,Stage II,Treatment,0,16.3,65.5,64.6,2,4.3,87.7,Not Applicable,0.0
+P170,Visit 1 (Week 4),1,2024-01-28,57,Male,Current Smoker,17.4,Stage II,Treatment,0,24.1,69.6,66.1,2,4.0,83.7,Non-Responder,47.9
+P170,Visit 2 (Week 8),2,2024-02-29,57,Male,Current Smoker,17.4,Stage II,Treatment,0,25.9,74.2,68.7,2,3.0,78.9,Non-Responder,58.9
+P171,Baseline,0,2024-01-01,56,Female,Current Smoker,14.3,Stage III,Placebo,3,47.3,49.9,41.7,0,3.7,58.6,Not Applicable,0.0
+P171,Visit 1 (Week 4),1,2024-02-01,56,Female,Current Smoker,14.3,Stage III,Placebo,3,65.7,38.4,43.1,0,6.6,63.3,Non-Responder,38.9
+P171,Visit 2 (Week 8),2,2024-02-26,56,Female,Current Smoker,14.3,Stage III,Placebo,3,62.1,43.8,42.7,0,4.4,61.5,Non-Responder,31.3
+P172,Baseline,0,2023-12-29,56,Male,Former Smoker,5.3,Stage I,Treatment,1,18.2,75.5,64.1,1,1.5,78.5,Not Applicable,0.0
+P172,Visit 1 (Week 4),1,2024-02-01,56,Male,Former Smoker,5.3,Stage I,Treatment,1,18.6,79.4,71.1,0,1.3,72.3,Non-Responder,2.2
+P172,Visit 2 (Week 8),2,2024-02-26,56,Male,Former Smoker,5.3,Stage I,Treatment,1,9.7,77.3,74.8,0,1.5,81.0,Responder,-46.7
+P173,Baseline,0,2023-12-31,64,Male,Former Smoker,45.6,Stage I,Treatment,1,18.2,73.2,57.2,2,4.2,73.4,Not Applicable,0.0
+P173,Visit 1 (Week 4),1,2024-01-30,64,Male,Former Smoker,45.6,Stage I,Treatment,1,15.0,74.2,55.9,1,4.7,75.0,Non-Responder,-17.6
+P173,Visit 2 (Week 8),2,2024-02-23,64,Male,Former Smoker,45.6,Stage I,Treatment,1,11.7,73.7,69.9,0,2.3,73.3,Responder,-35.7
+P174,Baseline,0,2024-01-04,68,Male,Current Smoker,13.5,Stage III,Treatment,0,32.4,60.8,63.0,0,6.2,93.1,Not Applicable,0.0
+P174,Visit 1 (Week 4),1,2024-01-30,68,Male,Current Smoker,13.5,Stage III,Treatment,0,48.4,59.4,65.4,0,7.4,81.8,Non-Responder,49.4
+P174,Visit 2 (Week 8),2,2024-02-23,68,Male,Current Smoker,13.5,Stage III,Treatment,0,24.0,67.8,70.7,3,5.9,86.1,Non-Responder,-25.9
+P175,Baseline,0,2024-01-04,67,Male,Former Smoker,22.8,Stage II,Placebo,0,34.9,73.3,60.9,1,2.4,90.9,Not Applicable,0.0
+P175,Visit 1 (Week 4),1,2024-02-01,67,Male,Former Smoker,22.8,Stage II,Placebo,0,42.7,71.7,54.7,2,5.1,83.8,Non-Responder,22.3
+P175,Visit 2 (Week 8),2,2024-02-23,67,Male,Former Smoker,22.8,Stage II,Placebo,0,34.7,72.7,57.5,0,5.3,86.3,Non-Responder,-0.6
+P176,Baseline,0,2024-01-03,73,Male,Current Smoker,25.8,Stage III,Placebo,1,42.8,60.4,57.9,0,3.7,77.8,Not Applicable,0.0
+P176,Visit 1 (Week 4),1,2024-01-30,73,Male,Current Smoker,25.8,Stage III,Placebo,1,59.9,59.1,53.9,0,8.2,69.2,Non-Responder,40.0
+P176,Visit 2 (Week 8),2,2024-02-24,73,Male,Current Smoker,25.8,Stage III,Placebo,1,24.3,51.5,60.8,0,6.1,76.6,Responder,-43.2
+P177,Baseline,0,2024-01-01,65,Male,Current Smoker,34.6,Stage III,Treatment,0,42.1,57.0,50.5,4,6.7,82.4,Not Applicable,0.0
+P177,Visit 1 (Week 4),1,2024-01-31,65,Male,Current Smoker,34.6,Stage III,Treatment,0,40.9,59.6,73.5,0,4.4,88.5,Non-Responder,-2.9
+P177,Visit 2 (Week 8),2,2024-02-26,65,Male,Current Smoker,34.6,Stage III,Treatment,0,43.7,71.3,73.4,0,4.4,79.3,Non-Responder,3.8
+P178,Baseline,0,2023-12-30,79,Male,Current Smoker,42.2,Stage IV,Treatment,1,51.2,47.0,45.8,1,7.5,79.8,Not Applicable,0.0
+P178,Visit 1 (Week 4),1,2024-01-30,79,Male,Current Smoker,42.2,Stage IV,Treatment,1,69.0,48.7,57.1,0,8.5,74.5,Non-Responder,34.8
+P178,Visit 2 (Week 8),2,2024-02-25,79,Male,Current Smoker,42.2,Stage IV,Treatment,1,25.0,56.9,51.6,0,9.0,69.9,Responder,-51.2
+P179,Baseline,0,2023-12-31,62,Female,Former Smoker,33.6,Stage III,Treatment,0,52.4,66.6,55.5,0,7.8,84.3,Not Applicable,0.0
+P179,Visit 1 (Week 4),1,2024-01-30,62,Female,Former Smoker,33.6,Stage III,Treatment,0,52.0,69.6,60.1,1,5.5,86.2,Non-Responder,-0.8
+P179,Visit 2 (Week 8),2,2024-02-24,62,Female,Former Smoker,33.6,Stage III,Treatment,0,35.1,66.9,74.3,3,6.3,74.9,Responder,-33.0
+P180,Baseline,0,2024-01-04,90,Male,Current Smoker,21.3,Stage II,Placebo,1,15.7,56.7,62.0,1,5.2,77.8,Not Applicable,0.0
+P180,Visit 1 (Week 4),1,2024-01-27,90,Male,Current Smoker,21.3,Stage II,Placebo,1,40.5,59.9,71.7,0,5.0,85.0,Non-Responder,158.0
+P180,Visit 2 (Week 8),2,2024-02-25,90,Male,Current Smoker,21.3,Stage II,Placebo,1,27.3,60.9,55.6,0,3.3,76.0,Non-Responder,73.9
+P181,Baseline,0,2024-01-03,71,Male,Never Smoker,0.0,Stage III,Treatment,2,61.9,62.2,54.8,1,7.4,68.2,Not Applicable,0.0
+P181,Visit 1 (Week 4),1,2024-02-01,71,Male,Never Smoker,0.0,Stage III,Treatment,2,30.1,67.0,55.9,0,5.7,66.2,Responder,-51.4
+P181,Visit 2 (Week 8),2,2024-02-27,71,Male,Never Smoker,0.0,Stage III,Treatment,2,31.9,69.6,55.5,1,5.3,52.3,Responder,-48.5
+P182,Baseline,0,2024-01-04,56,Female,Never Smoker,0.0,Stage II,Placebo,2,30.2,66.0,56.5,0,5.4,68.9,Not Applicable,0.0
+P182,Visit 1 (Week 4),1,2024-01-28,56,Female,Never Smoker,0.0,Stage II,Placebo,2,20.6,75.6,59.0,0,3.9,73.4,Responder,-31.8
+P182,Visit 2 (Week 8),2,2024-02-24,56,Female,Never Smoker,0.0,Stage II,Placebo,2,32.3,67.5,58.8,0,4.6,75.5,Non-Responder,7.0
+P183,Baseline,0,2023-12-29,54,Male,Former Smoker,23.3,Stage II,Placebo,2,21.2,57.3,47.8,0,5.6,66.6,Not Applicable,0.0
+P183,Visit 1 (Week 4),1,2024-02-01,54,Male,Former Smoker,23.3,Stage II,Placebo,2,34.2,64.6,55.8,0,2.8,59.4,Non-Responder,61.3
+P183,Visit 2 (Week 8),2,2024-02-25,54,Male,Former Smoker,23.3,Stage II,Placebo,2,47.3,61.0,61.4,0,4.0,71.6,Non-Responder,123.1
+P184,Baseline,0,2023-12-31,69,Female,Former Smoker,27.8,Stage III,Placebo,0,30.9,65.9,54.9,0,5.2,94.9,Not Applicable,0.0
+P184,Visit 1 (Week 4),1,2024-01-30,69,Female,Former Smoker,27.8,Stage III,Placebo,0,49.1,69.5,58.9,1,5.3,90.5,Non-Responder,58.9
+P184,Visit 2 (Week 8),2,2024-02-27,69,Female,Former Smoker,27.8,Stage III,Placebo,0,58.6,71.2,70.2,0,8.8,87.4,Non-Responder,89.6
+P185,Baseline,0,2024-01-04,62,Male,Current Smoker,26.3,Stage II,Treatment,0,29.9,62.8,69.0,1,5.3,89.2,Not Applicable,0.0
+P185,Visit 1 (Week 4),1,2024-01-26,62,Male,Current Smoker,26.3,Stage II,Treatment,0,25.2,72.2,68.0,0,2.9,83.1,Non-Responder,-15.7
+P185,Visit 2 (Week 8),2,2024-02-25,62,Male,Current Smoker,26.3,Stage II,Treatment,0,16.2,64.6,66.5,0,2.4,76.4,Responder,-45.8
+P186,Baseline,0,2023-12-31,72,Female,Current Smoker,54.1,Stage III,Placebo,1,53.7,52.6,58.6,0,5.5,73.6,Not Applicable,0.0
+P186,Visit 1 (Week 4),1,2024-01-30,72,Female,Current Smoker,54.1,Stage III,Placebo,1,38.3,56.5,56.8,0,8.0,76.1,Non-Responder,-28.7
+P186,Visit 2 (Week 8),2,2024-02-23,72,Female,Current Smoker,54.1,Stage III,Placebo,1,52.0,56.6,60.7,0,5.6,76.6,Non-Responder,-3.2
+P187,Baseline,0,2024-01-01,69,Male,Current Smoker,37.4,Stage IV,Placebo,1,61.7,52.0,38.3,1,6.8,75.8,Not Applicable,0.0
+P187,Visit 1 (Week 4),1,2024-01-29,69,Male,Current Smoker,37.4,Stage IV,Placebo,1,38.7,48.9,55.4,0,8.3,82.4,Responder,-37.3
+P187,Visit 2 (Week 8),2,2024-02-29,69,Male,Current Smoker,37.4,Stage IV,Placebo,1,76.5,50.7,57.9,0,5.7,85.7,Non-Responder,24.0
+P188,Baseline,0,2024-01-01,64,Male,Former Smoker,32.3,Stage IV,Treatment,1,92.2,56.8,49.6,0,8.1,72.8,Not Applicable,0.0
+P188,Visit 1 (Week 4),1,2024-02-01,64,Male,Former Smoker,32.3,Stage IV,Treatment,1,52.0,56.5,54.1,0,7.2,73.4,Responder,-43.6
+P188,Visit 2 (Week 8),2,2024-02-29,64,Male,Former Smoker,32.3,Stage IV,Treatment,1,51.9,56.5,55.9,1,8.2,81.7,Responder,-43.7
+P189,Baseline,0,2023-12-30,56,Male,Former Smoker,31.6,Stage IV,Placebo,0,37.1,59.3,50.1,0,7.5,95.6,Not Applicable,0.0
+P189,Visit 1 (Week 4),1,2024-01-29,56,Male,Former Smoker,31.6,Stage IV,Placebo,0,77.5,63.0,60.4,0,9.2,95.4,Non-Responder,108.9
+P189,Visit 2 (Week 8),2,2024-02-24,56,Male,Former Smoker,31.6,Stage IV,Placebo,0,93.2,59.0,65.4,0,7.8,88.8,Non-Responder,151.2
+P190,Baseline,0,2023-12-29,49,Female,Former Smoker,36.7,Stage II,Placebo,0,25.7,73.0,70.9,0,4.8,92.8,Not Applicable,0.0
+P190,Visit 1 (Week 4),1,2024-01-26,49,Female,Former Smoker,36.7,Stage II,Placebo,0,34.2,76.4,61.0,1,4.2,91.8,Non-Responder,33.1
+P190,Visit 2 (Week 8),2,2024-02-25,49,Female,Former Smoker,36.7,Stage II,Placebo,0,27.4,69.0,72.4,0,3.7,94.2,Non-Responder,6.6
+P191,Baseline,0,2023-12-31,60,Male,Current Smoker,32.7,Stage II,Placebo,0,33.0,63.5,68.4,0,4.8,90.8,Not Applicable,0.0
+P191,Visit 1 (Week 4),1,2024-01-26,60,Male,Current Smoker,32.7,Stage II,Placebo,0,25.3,67.1,57.1,0,4.9,94.4,Non-Responder,-23.3
+P191,Visit 2 (Week 8),2,2024-02-25,60,Male,Current Smoker,32.7,Stage II,Placebo,0,22.2,60.3,74.4,1,3.3,86.2,Responder,-32.7
+P192,Baseline,0,2024-01-03,73,Male,Never Smoker,0.0,Stage III,Treatment,2,29.4,69.3,55.6,1,4.9,63.0,Not Applicable,0.0
+P192,Visit 1 (Week 4),1,2024-01-27,73,Male,Never Smoker,0.0,Stage III,Treatment,2,45.4,72.2,58.0,0,5.5,63.2,Non-Responder,54.4
+P192,Visit 2 (Week 8),2,2024-02-23,73,Male,Never Smoker,0.0,Stage III,Treatment,2,32.7,68.9,53.3,1,3.3,72.6,Non-Responder,11.2
+P193,Baseline,0,2024-01-02,67,Male,Current Smoker,10.5,Stage II,Treatment,0,13.1,63.7,60.2,1,3.8,89.3,Not Applicable,0.0
+P193,Visit 1 (Week 4),1,2024-01-29,67,Male,Current Smoker,10.5,Stage II,Treatment,0,27.3,63.4,63.1,1,5.9,80.6,Non-Responder,108.4
+P193,Visit 2 (Week 8),2,2024-02-25,67,Male,Current Smoker,10.5,Stage II,Treatment,0,34.4,66.6,67.1,2,3.6,97.3,Non-Responder,162.6
+P194,Baseline,0,2023-12-30,52,Female,Former Smoker,29.0,Stage III,Placebo,1,38.6,61.3,60.0,0,7.2,81.3,Not Applicable,0.0
+P194,Visit 1 (Week 4),1,2024-01-29,52,Female,Former Smoker,29.0,Stage III,Placebo,1,58.6,63.8,53.6,0,5.9,88.1,Non-Responder,51.8
+P194,Visit 2 (Week 8),2,2024-02-29,52,Female,Former Smoker,29.0,Stage III,Placebo,1,43.7,67.0,59.2,0,6.9,81.4,Non-Responder,13.2
+P195,Baseline,0,2023-12-31,66,Male,Former Smoker,18.5,Stage III,Treatment,0,30.7,71.9,56.2,0,5.2,99.9,Not Applicable,0.0
+P195,Visit 1 (Week 4),1,2024-02-01,66,Male,Former Smoker,18.5,Stage III,Treatment,0,42.0,74.2,61.7,2,6.6,87.2,Non-Responder,36.8
+P195,Visit 2 (Week 8),2,2024-02-23,66,Male,Former Smoker,18.5,Stage III,Treatment,0,37.0,69.2,70.3,1,5.7,85.9,Non-Responder,20.5
+P196,Baseline,0,2024-01-04,68,Female,Current Smoker,22.1,Stage III,Treatment,1,42.2,52.4,58.4,3,5.4,73.9,Not Applicable,0.0
+P196,Visit 1 (Week 4),1,2024-01-28,68,Female,Current Smoker,22.1,Stage III,Treatment,1,44.6,62.3,47.9,4,6.5,74.4,Non-Responder,5.7
+P196,Visit 2 (Week 8),2,2024-02-24,68,Female,Current Smoker,22.1,Stage III,Treatment,1,40.7,55.7,46.6,2,5.7,69.1,Non-Responder,-3.6
+P197,Baseline,0,2023-12-31,56,Male,Former Smoker,30.9,Stage II,Placebo,1,42.6,67.2,59.0,0,2.3,76.0,Not Applicable,0.0
+P197,Visit 1 (Week 4),1,2024-01-29,56,Male,Former Smoker,30.9,Stage II,Placebo,1,41.6,66.0,65.7,0,5.1,88.0,Non-Responder,-2.3
+P197,Visit 2 (Week 8),2,2024-02-25,56,Male,Former Smoker,30.9,Stage II,Placebo,1,24.9,66.9,65.7,0,4.8,82.1,Responder,-41.5
+P198,Baseline,0,2023-12-29,66,Male,Current Smoker,48.6,Stage I,Treatment,2,18.4,60.4,63.4,0,3.1,72.0,Not Applicable,0.0
+P198,Visit 1 (Week 4),1,2024-01-27,66,Male,Current Smoker,48.6,Stage I,Treatment,2,13.7,60.8,64.6,4,0.8,62.6,Non-Responder,-25.5
+P198,Visit 2 (Week 8),2,2024-02-27,66,Male,Current Smoker,48.6,Stage I,Treatment,2,5.7,68.3,60.6,1,2.3,54.7,Responder,-69.0
+P199,Baseline,0,2023-12-31,65,Male,Current Smoker,30.3,Stage II,Treatment,2,25.4,53.3,44.9,0,4.3,68.7,Not Applicable,0.0
+P199,Visit 1 (Week 4),1,2024-01-30,65,Male,Current Smoker,30.3,Stage II,Treatment,2,18.8,53.5,55.9,1,4.5,66.6,Non-Responder,-26.0
+P199,Visit 2 (Week 8),2,2024-02-23,65,Male,Current Smoker,30.3,Stage II,Treatment,2,15.0,63.3,58.0,1,2.9,64.0,Responder,-40.9
+P200,Baseline,0,2023-12-30,53,Male,Former Smoker,28.1,Stage I,Treatment,1,13.7,70.5,64.5,2,1.8,81.9,Not Applicable,0.0
+P200,Visit 1 (Week 4),1,2024-01-26,53,Male,Former Smoker,28.1,Stage I,Treatment,1,11.6,78.4,65.0,0,3.0,77.8,Non-Responder,-15.3
+P200,Visit 2 (Week 8),2,2024-02-23,53,Male,Former Smoker,28.1,Stage I,Treatment,1,11.3,78.2,58.4,0,5.4,68.6,Non-Responder,-17.5
+P201,Baseline,0,2024-01-04,68,Male,Former Smoker,42.0,Stage IV,Placebo,3,52.7,42.8,43.0,1,6.2,53.9,Not Applicable,0.0
+P201,Visit 1 (Week 4),1,2024-01-26,68,Male,Former Smoker,42.0,Stage IV,Placebo,3,103.0,45.5,43.8,0,7.0,70.4,Non-Responder,95.4
+P201,Visit 2 (Week 8),2,2024-02-28,68,Male,Former Smoker,42.0,Stage IV,Placebo,3,70.9,51.7,38.4,0,6.3,54.9,Non-Responder,34.5
+P202,Baseline,0,2024-01-04,70,Male,Former Smoker,27.4,Stage II,Treatment,3,28.1,55.5,47.3,0,5.6,63.5,Not Applicable,0.0
+P202,Visit 1 (Week 4),1,2024-01-29,70,Male,Former Smoker,27.4,Stage II,Treatment,3,22.3,59.7,54.8,1,6.1,58.5,Non-Responder,-20.6
+P202,Visit 2 (Week 8),2,2024-02-28,70,Male,Former Smoker,27.4,Stage II,Treatment,3,24.6,60.0,58.3,0,4.0,58.8,Non-Responder,-12.5
+P203,Baseline,0,2024-01-04,75,Female,Current Smoker,69.0,Stage I,Treatment,2,13.4,61.9,66.8,2,3.6,75.8,Not Applicable,0.0
+P203,Visit 1 (Week 4),1,2024-01-26,75,Female,Current Smoker,69.0,Stage I,Treatment,2,15.7,55.0,57.0,4,1.1,65.1,Non-Responder,17.2
+P203,Visit 2 (Week 8),2,2024-02-25,75,Female,Current Smoker,69.0,Stage I,Treatment,2,20.8,67.7,71.6,0,1.0,64.7,Non-Responder,55.2
+P204,Baseline,0,2024-01-03,75,Male,Former Smoker,30.7,Stage I,Placebo,2,12.3,62.8,63.8,0,2.7,60.9,Not Applicable,0.0
+P204,Visit 1 (Week 4),1,2024-01-26,75,Male,Former Smoker,30.7,Stage I,Placebo,2,20.6,61.9,55.7,1,2.2,68.7,Non-Responder,67.5
+P204,Visit 2 (Week 8),2,2024-02-29,75,Male,Former Smoker,30.7,Stage I,Placebo,2,10.8,67.0,64.0,1,3.7,62.6,Non-Responder,-12.2
+P205,Baseline,0,2023-12-29,51,Male,Current Smoker,3.6,Stage III,Placebo,0,61.7,57.5,57.5,0,7.2,81.1,Not Applicable,0.0
+P205,Visit 1 (Week 4),1,2024-01-28,51,Male,Current Smoker,3.6,Stage III,Placebo,0,43.2,64.6,56.6,0,7.0,91.0,Non-Responder,-30.0
+P205,Visit 2 (Week 8),2,2024-02-25,51,Male,Current Smoker,3.6,Stage III,Placebo,0,42.3,66.5,55.4,0,5.6,86.8,Responder,-31.4
+P206,Baseline,0,2023-12-30,55,Male,Current Smoker,41.3,Stage III,Placebo,1,36.4,54.7,46.6,0,6.1,70.7,Not Applicable,0.0
+P206,Visit 1 (Week 4),1,2024-01-31,55,Male,Current Smoker,41.3,Stage III,Placebo,1,39.8,61.3,62.0,0,6.7,88.7,Non-Responder,9.3
+P206,Visit 2 (Week 8),2,2024-02-23,55,Male,Current Smoker,41.3,Stage III,Placebo,1,49.2,52.6,65.8,1,5.0,76.6,Non-Responder,35.2
+P207,Baseline,0,2024-01-02,70,Male,Current Smoker,35.7,Stage II,Placebo,0,34.5,65.0,70.7,0,6.0,92.9,Not Applicable,0.0
+P207,Visit 1 (Week 4),1,2024-01-29,70,Male,Current Smoker,35.7,Stage II,Placebo,0,37.5,61.5,56.8,0,3.9,87.5,Non-Responder,8.7
+P207,Visit 2 (Week 8),2,2024-02-26,70,Male,Current Smoker,35.7,Stage II,Placebo,0,23.0,63.3,71.9,0,3.7,93.9,Responder,-33.3
+P208,Baseline,0,2024-01-02,70,Male,Never Smoker,0.0,Stage I,Treatment,0,17.0,86.3,54.8,0,2.8,98.3,Not Applicable,0.0
+P208,Visit 1 (Week 4),1,2024-01-29,70,Male,Never Smoker,0.0,Stage I,Treatment,0,15.1,88.4,71.6,0,2.7,82.5,Non-Responder,-11.2
+P208,Visit 2 (Week 8),2,2024-02-26,70,Male,Never Smoker,0.0,Stage I,Treatment,0,7.4,91.7,83.8,0,1.9,72.7,Responder,-56.5
+P209,Baseline,0,2024-01-04,70,Male,Current Smoker,49.3,Stage II,Placebo,3,33.0,48.9,54.1,0,5.7,61.1,Not Applicable,0.0
+P209,Visit 1 (Week 4),1,2024-01-30,70,Male,Current Smoker,49.3,Stage II,Placebo,3,32.3,49.3,52.8,0,4.8,64.9,Non-Responder,-2.1
+P209,Visit 2 (Week 8),2,2024-02-25,70,Male,Current Smoker,49.3,Stage II,Placebo,3,38.6,53.7,57.2,1,5.3,67.1,Non-Responder,17.0
+P210,Baseline,0,2023-12-29,90,Male,Current Smoker,40.1,Stage II,Placebo,1,28.0,64.9,58.1,0,4.9,79.3,Not Applicable,0.0
+P210,Visit 1 (Week 4),1,2024-01-28,90,Male,Current Smoker,40.1,Stage II,Placebo,1,35.6,61.2,54.9,0,3.6,88.4,Non-Responder,27.1
+P210,Visit 2 (Week 8),2,2024-02-29,90,Male,Current Smoker,40.1,Stage II,Placebo,1,35.7,63.9,66.4,0,4.8,79.7,Non-Responder,27.5
+P211,Baseline,0,2023-12-29,70,Female,Former Smoker,23.6,Stage III,Treatment,2,66.5,56.1,45.9,1,6.6,74.1,Not Applicable,0.0
+P211,Visit 1 (Week 4),1,2024-01-27,70,Female,Former Smoker,23.6,Stage III,Treatment,2,37.1,58.2,50.3,0,7.7,59.5,Responder,-44.2
+P211,Visit 2 (Week 8),2,2024-02-24,70,Female,Former Smoker,23.6,Stage III,Treatment,2,22.3,56.2,54.1,0,7.2,67.2,Responder,-66.5
+P212,Baseline,0,2023-12-30,76,Female,Former Smoker,12.8,Stage III,Placebo,2,30.4,60.2,48.8,0,5.1,65.4,Not Applicable,0.0
+P212,Visit 1 (Week 4),1,2024-01-27,76,Female,Former Smoker,12.8,Stage III,Placebo,2,52.0,53.7,45.9,1,6.2,74.9,Non-Responder,71.1
+P212,Visit 2 (Week 8),2,2024-02-27,76,Female,Former Smoker,12.8,Stage III,Placebo,2,48.4,49.3,44.4,2,4.9,65.7,Non-Responder,59.2
+P213,Baseline,0,2024-01-01,74,Male,Current Smoker,26.9,Stage II,Treatment,2,24.1,52.5,60.3,3,4.3,71.0,Not Applicable,0.0
+P213,Visit 1 (Week 4),1,2024-02-01,74,Male,Current Smoker,26.9,Stage II,Treatment,2,17.0,58.9,49.7,2,4.9,72.1,Non-Responder,-29.5
+P213,Visit 2 (Week 8),2,2024-02-27,74,Male,Current Smoker,26.9,Stage II,Treatment,2,23.9,59.3,61.6,0,4.8,52.3,Non-Responder,-0.8
+P214,Baseline,0,2024-01-03,71,Male,Former Smoker,16.5,Stage II,Placebo,3,21.6,50.2,56.7,0,3.0,59.0,Not Applicable,0.0
+P214,Visit 1 (Week 4),1,2024-01-28,71,Male,Former Smoker,16.5,Stage II,Placebo,3,34.2,55.8,51.5,0,4.6,62.5,Non-Responder,58.3
+P214,Visit 2 (Week 8),2,2024-02-24,71,Male,Former Smoker,16.5,Stage II,Placebo,3,31.1,60.7,44.1,2,3.1,62.8,Non-Responder,44.0
+P215,Baseline,0,2024-01-04,61,Female,Current Smoker,21.3,Stage IV,Placebo,0,80.5,57.6,60.3,1,8.8,95.4,Not Applicable,0.0
+P215,Visit 1 (Week 4),1,2024-01-27,61,Female,Current Smoker,21.3,Stage IV,Placebo,0,78.6,55.6,51.2,0,4.9,90.8,Non-Responder,-2.4
+P215,Visit 2 (Week 8),2,2024-02-23,61,Female,Current Smoker,21.3,Stage IV,Placebo,0,73.6,57.3,50.3,2,8.3,90.7,Non-Responder,-8.6
+P216,Baseline,0,2023-12-30,72,Male,Former Smoker,30.9,Stage II,Placebo,0,12.2,68.2,58.8,0,4.6,85.9,Not Applicable,0.0
+P216,Visit 1 (Week 4),1,2024-01-31,72,Male,Former Smoker,30.9,Stage II,Placebo,0,50.1,72.4,69.9,0,4.8,92.3,Non-Responder,310.7
+P216,Visit 2 (Week 8),2,2024-02-27,72,Male,Former Smoker,30.9,Stage II,Placebo,0,28.2,73.9,60.9,0,5.0,91.4,Non-Responder,131.1
+P217,Baseline,0,2024-01-04,57,Male,Former Smoker,41.7,Stage III,Placebo,1,32.1,66.0,52.6,0,5.9,87.3,Not Applicable,0.0
+P217,Visit 1 (Week 4),1,2024-01-27,57,Male,Former Smoker,41.7,Stage III,Placebo,1,44.8,63.3,55.0,0,7.2,77.8,Non-Responder,39.6
+P217,Visit 2 (Week 8),2,2024-02-23,57,Male,Former Smoker,41.7,Stage III,Placebo,1,42.7,64.5,54.4,1,5.6,82.9,Non-Responder,33.0
+P218,Baseline,0,2024-01-04,62,Male,Current Smoker,35.9,Stage I,Placebo,0,16.7,70.7,69.5,1,3.1,84.0,Not Applicable,0.0
+P218,Visit 1 (Week 4),1,2024-01-31,62,Male,Current Smoker,35.9,Stage I,Placebo,0,15.7,73.3,74.6,0,3.4,86.7,Non-Responder,-6.0
+P218,Visit 2 (Week 8),2,2024-02-28,62,Male,Current Smoker,35.9,Stage I,Placebo,0,15.7,71.4,73.5,1,0.8,96.4,Non-Responder,-6.0
+P219,Baseline,0,2023-12-29,60,Female,Former Smoker,13.0,Stage II,Treatment,0,39.6,72.2,65.6,0,5.1,92.3,Not Applicable,0.0
+P219,Visit 1 (Week 4),1,2024-01-29,60,Female,Former Smoker,13.0,Stage II,Treatment,0,34.2,72.4,67.5,3,4.8,83.8,Non-Responder,-13.6
+P219,Visit 2 (Week 8),2,2024-02-24,60,Female,Former Smoker,13.0,Stage II,Treatment,0,22.4,77.3,82.6,1,2.6,70.1,Responder,-43.4
+P220,Baseline,0,2024-01-02,65,Female,Former Smoker,29.4,Stage I,Treatment,1,17.5,71.7,68.4,2,1.0,84.0,Not Applicable,0.0
+P220,Visit 1 (Week 4),1,2024-01-26,65,Female,Former Smoker,29.4,Stage I,Treatment,1,13.2,67.5,67.4,2,1.3,73.5,Non-Responder,-24.6
+P220,Visit 2 (Week 8),2,2024-02-23,65,Female,Former Smoker,29.4,Stage I,Treatment,1,10.3,74.2,64.9,0,2.0,66.7,Responder,-41.1
+P221,Baseline,0,2023-12-29,88,Male,Former Smoker,37.0,Stage III,Placebo,2,49.4,57.3,52.2,1,5.2,73.4,Not Applicable,0.0
+P221,Visit 1 (Week 4),1,2024-01-30,88,Male,Former Smoker,37.0,Stage III,Placebo,2,46.4,51.9,55.3,0,4.1,69.6,Non-Responder,-6.1
+P221,Visit 2 (Week 8),2,2024-02-29,88,Male,Former Smoker,37.0,Stage III,Placebo,2,46.6,55.3,54.7,0,6.6,65.0,Non-Responder,-5.7
+P222,Baseline,0,2023-12-29,46,Male,Former Smoker,18.9,Stage IV,Treatment,1,41.5,55.6,49.5,2,7.8,78.5,Not Applicable,0.0
+P222,Visit 1 (Week 4),1,2024-01-27,46,Male,Former Smoker,18.9,Stage IV,Treatment,1,73.9,60.1,53.3,1,6.6,65.4,Non-Responder,78.1
+P222,Visit 2 (Week 8),2,2024-02-27,46,Male,Former Smoker,18.9,Stage IV,Treatment,1,35.4,68.6,58.6,1,7.7,67.8,Non-Responder,-14.7
+P223,Baseline,0,2023-12-29,71,Male,Former Smoker,23.7,Stage II,Treatment,1,24.4,66.0,53.0,0,4.5,76.0,Not Applicable,0.0
+P223,Visit 1 (Week 4),1,2024-01-27,71,Male,Former Smoker,23.7,Stage II,Treatment,1,30.7,70.9,68.4,0,5.0,72.4,Non-Responder,25.8
+P223,Visit 2 (Week 8),2,2024-02-23,71,Male,Former Smoker,23.7,Stage II,Treatment,1,11.4,64.4,68.2,1,5.0,75.9,Responder,-53.3
+P224,Baseline,0,2024-01-03,48,Female,Former Smoker,25.1,Stage I,Treatment,1,18.2,73.0,68.4,0,3.7,83.1,Not Applicable,0.0
+P224,Visit 1 (Week 4),1,2024-01-29,48,Female,Former Smoker,25.1,Stage I,Treatment,1,12.3,74.8,68.9,0,3.8,66.6,Responder,-32.4
+P224,Visit 2 (Week 8),2,2024-02-28,48,Female,Former Smoker,25.1,Stage I,Treatment,1,17.1,75.9,72.0,1,2.5,79.5,Non-Responder,-6.0
+P225,Baseline,0,2023-12-31,60,Male,Current Smoker,18.2,Stage I,Placebo,0,16.6,70.4,67.2,0,4.0,91.6,Not Applicable,0.0
+P225,Visit 1 (Week 4),1,2024-02-01,60,Male,Current Smoker,18.2,Stage I,Placebo,0,16.9,75.0,69.1,1,2.6,93.4,Non-Responder,1.8
+P225,Visit 2 (Week 8),2,2024-02-29,60,Male,Current Smoker,18.2,Stage I,Placebo,0,15.1,70.6,76.1,0,3.6,85.2,Non-Responder,-9.0
+P226,Baseline,0,2024-01-03,75,Male,Former Smoker,31.5,Stage II,Placebo,0,26.3,72.0,62.8,0,4.8,92.1,Not Applicable,0.0
+P226,Visit 1 (Week 4),1,2024-01-31,75,Male,Former Smoker,31.5,Stage II,Placebo,0,29.6,78.0,72.0,1,3.8,84.9,Non-Responder,12.5
+P226,Visit 2 (Week 8),2,2024-02-24,75,Male,Former Smoker,31.5,Stage II,Placebo,0,37.3,68.2,75.8,1,3.3,85.7,Non-Responder,41.8
+P227,Baseline,0,2024-01-03,65,Female,Current Smoker,28.2,Stage I,Placebo,2,11.3,62.8,51.1,0,2.7,71.3,Not Applicable,0.0
+P227,Visit 1 (Week 4),1,2024-01-30,65,Female,Current Smoker,28.2,Stage I,Placebo,2,8.8,59.9,58.8,0,2.5,69.1,Non-Responder,-22.1
+P227,Visit 2 (Week 8),2,2024-02-26,65,Female,Current Smoker,28.2,Stage I,Placebo,2,21.7,65.1,55.7,0,2.0,84.6,Non-Responder,92.0
+P228,Baseline,0,2024-01-01,54,Male,Former Smoker,29.2,Stage I,Treatment,1,8.3,71.1,57.6,2,1.6,72.9,Not Applicable,0.0
+P228,Visit 1 (Week 4),1,2024-01-30,54,Male,Former Smoker,29.2,Stage I,Treatment,1,13.2,73.8,65.2,0,4.0,69.2,Non-Responder,59.0
+P228,Visit 2 (Week 8),2,2024-02-23,54,Male,Former Smoker,29.2,Stage I,Treatment,1,18.9,75.6,77.7,3,1.2,58.5,Non-Responder,127.7
+P229,Baseline,0,2024-01-03,57,Female,Current Smoker,16.7,Stage III,Treatment,2,51.4,45.6,47.6,2,6.0,77.1,Not Applicable,0.0
+P229,Visit 1 (Week 4),1,2024-01-29,57,Female,Current Smoker,16.7,Stage III,Treatment,2,48.9,47.4,51.6,2,7.6,70.9,Non-Responder,-4.9
+P229,Visit 2 (Week 8),2,2024-02-26,57,Female,Current Smoker,16.7,Stage III,Treatment,2,35.0,54.0,60.7,2,6.1,56.9,Responder,-31.9
+P230,Baseline,0,2024-01-02,71,Male,Never Smoker,0.0,Stage II,Placebo,0,29.4,78.3,61.2,0,3.3,93.2,Not Applicable,0.0
+P230,Visit 1 (Week 4),1,2024-01-31,71,Male,Never Smoker,0.0,Stage II,Placebo,0,46.3,74.6,63.6,0,5.7,97.1,Non-Responder,57.5
+P230,Visit 2 (Week 8),2,2024-02-26,71,Male,Never Smoker,0.0,Stage II,Placebo,0,31.7,76.8,65.6,0,4.7,84.5,Non-Responder,7.8
+P231,Baseline,0,2024-01-03,57,Male,Current Smoker,23.4,Stage II,Placebo,2,58.0,54.6,59.3,0,1.6,72.5,Not Applicable,0.0
+P231,Visit 1 (Week 4),1,2024-01-29,57,Male,Current Smoker,23.4,Stage II,Placebo,2,29.5,52.8,53.3,0,5.2,63.2,Responder,-49.1
+P231,Visit 2 (Week 8),2,2024-02-28,57,Male,Current Smoker,23.4,Stage II,Placebo,2,20.7,54.8,61.9,1,6.1,64.1,Responder,-64.3
+P232,Baseline,0,2024-01-03,67,Male,Former Smoker,32.2,Stage IV,Treatment,1,65.0,53.6,54.5,0,8.9,78.6,Not Applicable,0.0
+P232,Visit 1 (Week 4),1,2024-01-26,67,Male,Former Smoker,32.2,Stage IV,Treatment,1,50.2,63.0,57.3,0,7.5,74.4,Non-Responder,-22.8
+P232,Visit 2 (Week 8),2,2024-02-28,67,Male,Former Smoker,32.2,Stage IV,Treatment,1,44.9,66.6,54.4,0,7.3,75.3,Responder,-30.9
+P233,Baseline,0,2024-01-03,65,Female,Former Smoker,21.3,Stage I,Treatment,1,17.4,71.8,68.7,1,5.5,75.2,Not Applicable,0.0
+P233,Visit 1 (Week 4),1,2024-01-31,65,Female,Former Smoker,21.3,Stage I,Treatment,1,9.2,71.2,65.4,2,4.5,71.1,Responder,-47.1
+P233,Visit 2 (Week 8),2,2024-02-28,65,Female,Former Smoker,21.3,Stage I,Treatment,1,4.1,76.6,71.2,1,2.2,74.3,Responder,-76.4
+P234,Baseline,0,2023-12-30,58,Female,Never Smoker,0.0,Stage IV,Treatment,1,43.6,66.2,51.8,0,6.5,80.0,Not Applicable,0.0
+P234,Visit 1 (Week 4),1,2024-02-01,58,Female,Never Smoker,0.0,Stage IV,Treatment,1,45.8,69.3,51.1,1,9.1,72.1,Non-Responder,5.0
+P234,Visit 2 (Week 8),2,2024-02-28,58,Female,Never Smoker,0.0,Stage IV,Treatment,1,48.9,72.8,59.5,4,5.0,71.7,Non-Responder,12.2
+P235,Baseline,0,2024-01-03,86,Female,Former Smoker,42.3,Stage II,Treatment,2,30.9,61.9,53.9,1,5.7,61.0,Not Applicable,0.0
+P235,Visit 1 (Week 4),1,2024-01-28,86,Female,Former Smoker,42.3,Stage II,Treatment,2,24.3,62.5,59.0,1,3.3,61.7,Non-Responder,-21.4
+P235,Visit 2 (Week 8),2,2024-02-28,86,Female,Former Smoker,42.3,Stage II,Treatment,2,11.2,64.1,79.4,2,2.6,63.0,Responder,-63.8
+P236,Baseline,0,2024-01-04,71,Male,Former Smoker,21.0,Stage IV,Placebo,1,81.2,59.2,48.0,0,6.2,74.5,Not Applicable,0.0
+P236,Visit 1 (Week 4),1,2024-01-28,71,Male,Former Smoker,21.0,Stage IV,Placebo,1,68.1,61.9,57.9,0,6.2,89.9,Non-Responder,-16.1
+P236,Visit 2 (Week 8),2,2024-02-27,71,Male,Former Smoker,21.0,Stage IV,Placebo,1,60.0,65.0,54.4,0,7.8,85.4,Non-Responder,-26.1
+P237,Baseline,0,2023-12-31,44,Female,Former Smoker,27.2,Stage III,Treatment,1,49.1,61.3,56.2,0,5.9,78.6,Not Applicable,0.0
+P237,Visit 1 (Week 4),1,2024-02-01,44,Female,Former Smoker,27.2,Stage III,Treatment,1,50.9,68.6,55.2,0,7.6,74.5,Non-Responder,3.7
+P237,Visit 2 (Week 8),2,2024-02-24,44,Female,Former Smoker,27.2,Stage III,Treatment,1,18.6,66.4,54.5,0,5.0,74.3,Responder,-62.1
+P238,Baseline,0,2024-01-01,66,Male,Current Smoker,44.0,Stage IV,Treatment,3,49.1,40.3,44.5,3,7.3,70.7,Not Applicable,0.0
+P238,Visit 1 (Week 4),1,2024-01-31,66,Male,Current Smoker,44.0,Stage IV,Treatment,3,51.4,40.2,45.9,2,7.5,66.5,Non-Responder,4.7
+P238,Visit 2 (Week 8),2,2024-02-29,66,Male,Current Smoker,44.0,Stage IV,Treatment,3,71.0,36.7,38.4,4,8.2,47.8,Non-Responder,44.6
+P239,Baseline,0,2023-12-31,58,Male,Former Smoker,10.8,Stage IV,Placebo,2,75.1,56.0,45.7,0,8.9,82.0,Not Applicable,0.0
+P239,Visit 1 (Week 4),1,2024-01-30,58,Male,Former Smoker,10.8,Stage IV,Placebo,2,51.9,47.4,48.7,0,6.0,71.8,Responder,-30.9
+P239,Visit 2 (Week 8),2,2024-02-27,58,Male,Former Smoker,10.8,Stage IV,Placebo,2,50.8,54.4,52.0,0,8.9,80.8,Responder,-32.4
+P240,Baseline,0,2023-12-31,73,Female,Former Smoker,7.4,Stage II,Treatment,1,31.0,71.9,51.1,0,3.2,88.8,Not Applicable,0.0
+P240,Visit 1 (Week 4),1,2024-02-01,73,Female,Former Smoker,7.4,Stage II,Treatment,1,24.4,68.6,68.6,0,5.2,76.3,Non-Responder,-21.3
+P240,Visit 2 (Week 8),2,2024-02-29,73,Female,Former Smoker,7.4,Stage II,Treatment,1,20.7,72.4,69.9,0,3.4,69.6,Responder,-33.2
+P241,Baseline,0,2024-01-03,57,Male,Current Smoker,7.1,Stage IV,Treatment,2,51.9,46.0,49.5,0,7.9,71.4,Not Applicable,0.0
+P241,Visit 1 (Week 4),1,2024-01-30,57,Male,Current Smoker,7.1,Stage IV,Treatment,2,63.8,48.8,44.6,2,8.0,66.8,Non-Responder,22.9
+P241,Visit 2 (Week 8),2,2024-02-28,57,Male,Current Smoker,7.1,Stage IV,Treatment,2,57.6,48.2,49.3,1,5.9,60.5,Non-Responder,11.0
+P242,Baseline,0,2023-12-31,63,Male,Current Smoker,48.9,Stage II,Placebo,1,38.4,55.8,60.1,0,5.8,82.6,Not Applicable,0.0
+P242,Visit 1 (Week 4),1,2024-01-30,63,Male,Current Smoker,48.9,Stage II,Placebo,1,21.1,64.2,65.2,0,5.6,84.8,Responder,-45.1
+P242,Visit 2 (Week 8),2,2024-02-27,63,Male,Current Smoker,48.9,Stage II,Placebo,1,34.1,65.5,55.2,0,5.3,83.9,Non-Responder,-11.2
+P243,Baseline,0,2024-01-03,70,Male,Former Smoker,19.5,Stage II,Treatment,0,38.2,74.4,61.1,1,6.4,79.2,Not Applicable,0.0
+P243,Visit 1 (Week 4),1,2024-01-30,70,Male,Former Smoker,19.5,Stage II,Treatment,0,26.4,72.0,70.5,0,2.5,82.8,Responder,-30.9
+P243,Visit 2 (Week 8),2,2024-02-28,70,Male,Former Smoker,19.5,Stage II,Treatment,0,22.3,70.2,70.0,1,6.8,78.0,Responder,-41.6
+P244,Baseline,0,2024-01-02,73,Male,Former Smoker,50.6,Stage II,Treatment,1,40.8,66.4,60.2,0,4.3,77.4,Not Applicable,0.0
+P244,Visit 1 (Week 4),1,2024-01-31,73,Male,Former Smoker,50.6,Stage II,Treatment,1,28.5,69.9,61.8,1,4.0,72.0,Responder,-30.1
+P244,Visit 2 (Week 8),2,2024-02-29,73,Male,Former Smoker,50.6,Stage II,Treatment,1,23.4,71.2,56.2,0,4.4,71.1,Responder,-42.6
+P245,Baseline,0,2024-01-04,52,Male,Never Smoker,0.0,Stage III,Treatment,3,42.7,60.8,51.7,3,6.1,68.0,Not Applicable,0.0
+P245,Visit 1 (Week 4),1,2024-01-28,52,Male,Never Smoker,0.0,Stage III,Treatment,3,30.6,62.9,44.4,1,5.1,58.5,Non-Responder,-28.3
+P245,Visit 2 (Week 8),2,2024-02-25,52,Male,Never Smoker,0.0,Stage III,Treatment,3,41.3,64.0,53.1,0,5.2,53.1,Non-Responder,-3.3
+P246,Baseline,0,2024-01-01,61,Male,Current Smoker,21.5,Stage I,Placebo,3,15.6,53.4,63.2,1,2.1,52.5,Not Applicable,0.0
+P246,Visit 1 (Week 4),1,2024-01-31,61,Male,Current Smoker,21.5,Stage I,Placebo,3,19.6,52.2,55.9,1,3.1,65.8,Non-Responder,25.6
+P246,Visit 2 (Week 8),2,2024-02-28,61,Male,Current Smoker,21.5,Stage I,Placebo,3,17.8,54.9,63.4,0,3.5,61.8,Non-Responder,14.1
+P247,Baseline,0,2024-01-01,60,Male,Current Smoker,32.8,Stage III,Placebo,1,60.6,53.3,55.2,1,4.1,84.1,Not Applicable,0.0
+P247,Visit 1 (Week 4),1,2024-02-01,60,Male,Current Smoker,32.8,Stage III,Placebo,1,46.1,63.0,54.1,0,5.6,76.3,Non-Responder,-23.9
+P247,Visit 2 (Week 8),2,2024-02-26,60,Male,Current Smoker,32.8,Stage III,Placebo,1,59.4,58.8,52.0,2,5.8,74.3,Non-Responder,-2.0
+P248,Baseline,0,2023-12-30,58,Female,Former Smoker,40.4,Stage III,Treatment,1,52.0,60.8,54.9,2,7.0,82.9,Not Applicable,0.0
+P248,Visit 1 (Week 4),1,2024-01-26,58,Female,Former Smoker,40.4,Stage III,Treatment,1,41.3,64.9,52.0,0,7.8,79.2,Non-Responder,-20.6
+P248,Visit 2 (Week 8),2,2024-02-28,58,Female,Former Smoker,40.4,Stage III,Treatment,1,34.3,63.4,62.9,0,6.5,68.9,Responder,-34.0
+P249,Baseline,0,2024-01-03,82,Female,Current Smoker,60.1,Stage III,Placebo,0,51.3,60.5,66.5,0,5.6,90.7,Not Applicable,0.0
+P249,Visit 1 (Week 4),1,2024-01-29,82,Female,Current Smoker,60.1,Stage III,Placebo,0,58.0,61.5,59.5,0,7.5,87.9,Non-Responder,13.1
+P249,Visit 2 (Week 8),2,2024-02-25,82,Female,Current Smoker,60.1,Stage III,Placebo,0,68.8,63.3,55.2,0,6.7,92.3,Non-Responder,34.1
+P250,Baseline,0,2024-01-02,69,Male,Current Smoker,60.9,Stage IV,Treatment,3,78.4,37.8,43.5,1,8.4,64.8,Not Applicable,0.0
+P250,Visit 1 (Week 4),1,2024-01-27,69,Male,Current Smoker,60.9,Stage IV,Treatment,3,40.3,39.5,36.8,0,8.6,55.4,Responder,-48.6
+P250,Visit 2 (Week 8),2,2024-02-24,69,Male,Current Smoker,60.9,Stage IV,Treatment,3,31.5,43.0,55.3,0,6.8,49.6,Responder,-59.8
+P251,Baseline,0,2023-12-29,52,Male,Former Smoker,37.1,Stage II,Treatment,3,27.2,63.4,53.8,3,5.4,59.3,Not Applicable,0.0
+P251,Visit 1 (Week 4),1,2024-01-28,52,Male,Former Smoker,37.1,Stage II,Treatment,3,19.3,55.2,54.7,3,3.7,49.3,Non-Responder,-29.0
+P251,Visit 2 (Week 8),2,2024-02-23,52,Male,Former Smoker,37.1,Stage II,Treatment,3,24.3,66.6,52.9,0,3.2,47.0,Non-Responder,-10.7
+P252,Baseline,0,2024-01-01,74,Male,Current Smoker,45.4,Stage II,Placebo,1,14.5,62.5,63.9,0,4.7,82.2,Not Applicable,0.0
+P252,Visit 1 (Week 4),1,2024-02-01,74,Male,Current Smoker,45.4,Stage II,Placebo,1,39.9,63.3,56.6,0,3.6,68.2,Non-Responder,175.2
+P252,Visit 2 (Week 8),2,2024-02-26,74,Male,Current Smoker,45.4,Stage II,Placebo,1,35.1,67.0,64.0,0,5.5,76.5,Non-Responder,142.1
+P253,Baseline,0,2023-12-30,86,Male,Former Smoker,30.9,Stage II,Treatment,2,16.5,66.6,51.3,3,4.5,77.3,Not Applicable,0.0
+P253,Visit 1 (Week 4),1,2024-01-30,86,Male,Former Smoker,30.9,Stage II,Treatment,2,33.6,64.4,64.0,0,4.1,69.1,Non-Responder,103.6
+P253,Visit 2 (Week 8),2,2024-02-27,86,Male,Former Smoker,30.9,Stage II,Treatment,2,9.7,68.4,54.8,0,2.6,66.7,Responder,-41.2
+P254,Baseline,0,2024-01-02,75,Male,Never Smoker,0.0,Stage I,Treatment,2,20.5,73.1,54.7,0,2.3,67.5,Not Applicable,0.0
+P254,Visit 1 (Week 4),1,2024-01-28,75,Male,Never Smoker,0.0,Stage I,Treatment,2,21.3,75.2,62.3,2,4.0,65.9,Non-Responder,3.9
+P254,Visit 2 (Week 8),2,2024-02-27,75,Male,Never Smoker,0.0,Stage I,Treatment,2,7.4,88.4,70.2,1,0.1,64.7,Responder,-63.9
+P255,Baseline,0,2023-12-31,49,Female,Former Smoker,32.8,Stage I,Placebo,1,10.3,70.3,60.6,2,2.8,77.9,Not Applicable,0.0
+P255,Visit 1 (Week 4),1,2024-01-30,49,Female,Former Smoker,32.8,Stage I,Placebo,1,15.9,75.6,54.8,0,0.9,69.0,Non-Responder,54.4
+P255,Visit 2 (Week 8),2,2024-02-29,49,Female,Former Smoker,32.8,Stage I,Placebo,1,10.0,75.9,54.4,0,2.4,82.1,Non-Responder,-2.9
+P256,Baseline,0,2023-12-30,60,Male,Never Smoker,0.0,Stage II,Treatment,0,23.4,82.5,63.5,1,4.4,91.6,Not Applicable,0.0
+P256,Visit 1 (Week 4),1,2024-02-01,60,Male,Never Smoker,0.0,Stage II,Treatment,0,20.0,83.7,71.3,2,4.6,91.5,Non-Responder,-14.5
+P256,Visit 2 (Week 8),2,2024-02-27,60,Male,Never Smoker,0.0,Stage II,Treatment,0,21.7,85.1,72.7,1,5.0,86.4,Non-Responder,-7.3
+P257,Baseline,0,2024-01-02,77,Male,Former Smoker,19.5,Stage II,Treatment,1,31.9,71.2,66.6,0,6.6,79.6,Not Applicable,0.0
+P257,Visit 1 (Week 4),1,2024-01-29,77,Male,Former Smoker,19.5,Stage II,Treatment,1,39.4,68.7,65.5,0,4.9,75.4,Non-Responder,23.5
+P257,Visit 2 (Week 8),2,2024-02-24,77,Male,Former Smoker,19.5,Stage II,Treatment,1,34.0,74.7,63.5,0,3.9,71.8,Non-Responder,6.6
+P258,Baseline,0,2024-01-02,57,Male,Current Smoker,17.7,Stage IV,Treatment,1,48.9,52.5,43.6,1,8.7,84.3,Not Applicable,0.0
+P258,Visit 1 (Week 4),1,2024-01-28,57,Male,Current Smoker,17.7,Stage IV,Treatment,1,67.7,53.8,53.9,0,7.9,76.1,Non-Responder,38.4
+P258,Visit 2 (Week 8),2,2024-02-27,57,Male,Current Smoker,17.7,Stage IV,Treatment,1,67.9,50.1,54.2,3,8.0,81.7,Non-Responder,38.9
+P259,Baseline,0,2024-01-03,69,Male,Never Smoker,0.0,Stage III,Treatment,1,34.4,66.7,55.2,0,6.2,74.4,Not Applicable,0.0
+P259,Visit 1 (Week 4),1,2024-01-30,69,Male,Never Smoker,0.0,Stage III,Treatment,1,52.4,71.4,58.1,0,7.0,73.5,Non-Responder,52.3
+P259,Visit 2 (Week 8),2,2024-02-23,69,Male,Never Smoker,0.0,Stage III,Treatment,1,40.8,70.3,62.3,0,4.7,74.3,Non-Responder,18.6
+P260,Baseline,0,2024-01-04,72,Female,Never Smoker,0.0,Stage II,Placebo,1,35.9,74.2,63.7,0,3.8,82.8,Not Applicable,0.0
+P260,Visit 1 (Week 4),1,2024-01-30,72,Female,Never Smoker,0.0,Stage II,Placebo,1,30.4,76.4,54.2,0,5.6,71.2,Non-Responder,-15.3
+P260,Visit 2 (Week 8),2,2024-02-28,72,Female,Never Smoker,0.0,Stage II,Placebo,1,19.9,77.2,63.4,0,2.8,79.6,Responder,-44.6
+P261,Baseline,0,2024-01-01,55,Female,Former Smoker,25.0,Stage III,Treatment,3,27.0,53.5,51.0,2,5.7,55.2,Not Applicable,0.0
+P261,Visit 1 (Week 4),1,2024-01-28,55,Female,Former Smoker,25.0,Stage III,Treatment,3,42.3,55.8,55.4,0,6.7,62.8,Non-Responder,56.7
+P261,Visit 2 (Week 8),2,2024-02-29,55,Female,Former Smoker,25.0,Stage III,Treatment,3,44.6,57.6,51.2,1,3.7,52.5,Non-Responder,65.2
+P262,Baseline,0,2023-12-31,64,Male,Current Smoker,27.4,Stage I,Treatment,0,18.9,69.6,69.2,0,3.9,91.8,Not Applicable,0.0
+P262,Visit 1 (Week 4),1,2024-01-29,64,Male,Current Smoker,27.4,Stage I,Treatment,0,6.7,73.9,70.8,1,1.8,89.2,Responder,-64.6
+P262,Visit 2 (Week 8),2,2024-02-27,64,Male,Current Smoker,27.4,Stage I,Treatment,0,5.8,74.6,64.8,0,2.4,76.8,Responder,-69.3
+P263,Baseline,0,2023-12-29,40,Female,Former Smoker,20.5,Stage II,Treatment,1,44.4,66.5,52.3,2,4.7,73.9,Not Applicable,0.0
+P263,Visit 1 (Week 4),1,2024-01-31,40,Female,Former Smoker,20.5,Stage II,Treatment,1,33.6,61.1,66.2,0,4.9,74.3,Non-Responder,-24.3
+P263,Visit 2 (Week 8),2,2024-02-24,40,Female,Former Smoker,20.5,Stage II,Treatment,1,16.4,74.0,64.2,3,2.2,69.3,Responder,-63.1
+P264,Baseline,0,2023-12-30,54,Male,Former Smoker,32.0,Stage III,Treatment,1,59.2,61.2,51.8,0,6.3,84.7,Not Applicable,0.0
+P264,Visit 1 (Week 4),1,2024-01-28,54,Male,Former Smoker,32.0,Stage III,Treatment,1,41.2,63.2,57.9,2,6.1,77.6,Responder,-30.4
+P264,Visit 2 (Week 8),2,2024-02-24,54,Male,Former Smoker,32.0,Stage III,Treatment,1,38.2,63.1,63.2,0,6.6,72.4,Responder,-35.5
+P265,Baseline,0,2024-01-01,62,Female,Never Smoker,0.0,Stage II,Placebo,1,39.4,72.4,56.4,0,1.0,79.1,Not Applicable,0.0
+P265,Visit 1 (Week 4),1,2024-01-26,62,Female,Never Smoker,0.0,Stage II,Placebo,1,21.5,71.3,54.4,0,5.4,82.3,Responder,-45.4
+P265,Visit 2 (Week 8),2,2024-02-27,62,Female,Never Smoker,0.0,Stage II,Placebo,1,24.1,79.4,65.4,1,5.3,87.3,Responder,-38.8
+P266,Baseline,0,2024-01-02,52,Female,Never Smoker,0.0,Stage II,Treatment,1,31.1,74.7,61.4,0,3.3,80.4,Not Applicable,0.0
+P266,Visit 1 (Week 4),1,2024-01-31,52,Female,Never Smoker,0.0,Stage II,Treatment,1,18.3,77.3,66.8,3,3.2,71.4,Responder,-41.2
+P266,Visit 2 (Week 8),2,2024-02-26,52,Female,Never Smoker,0.0,Stage II,Treatment,1,23.0,77.3,71.7,1,4.6,69.1,Non-Responder,-26.0
+P267,Baseline,0,2023-12-29,81,Male,Current Smoker,44.3,Stage IV,Placebo,0,70.1,56.1,50.8,1,5.4,85.9,Not Applicable,0.0
+P267,Visit 1 (Week 4),1,2024-01-30,81,Male,Current Smoker,44.3,Stage IV,Placebo,0,66.4,59.4,63.8,1,7.0,78.4,Non-Responder,-5.3
+P267,Visit 2 (Week 8),2,2024-02-24,81,Male,Current Smoker,44.3,Stage IV,Placebo,0,26.7,52.2,60.5,0,5.3,97.4,Responder,-61.9
+P268,Baseline,0,2024-01-01,50,Male,Current Smoker,31.3,Stage IV,Placebo,0,80.3,57.9,53.2,1,7.8,89.7,Not Applicable,0.0
+P268,Visit 1 (Week 4),1,2024-01-30,50,Male,Current Smoker,31.3,Stage IV,Placebo,0,18.4,58.8,57.3,0,7.2,88.6,Responder,-77.1
+P268,Visit 2 (Week 8),2,2024-02-26,50,Male,Current Smoker,31.3,Stage IV,Placebo,0,49.1,55.0,59.4,0,8.8,90.4,Responder,-38.9
+P269,Baseline,0,2023-12-30,60,Male,Never Smoker,0.0,Stage III,Placebo,1,45.2,73.1,49.5,1,4.8,73.7,Not Applicable,0.0
+P269,Visit 1 (Week 4),1,2024-01-28,60,Male,Never Smoker,0.0,Stage III,Placebo,1,47.3,67.0,49.7,0,6.3,74.9,Non-Responder,4.6
+P269,Visit 2 (Week 8),2,2024-02-28,60,Male,Never Smoker,0.0,Stage III,Placebo,1,67.9,75.9,64.8,0,6.6,85.1,Non-Responder,50.2
+P270,Baseline,0,2024-01-03,66,Male,Current Smoker,52.2,Stage III,Treatment,1,33.5,51.0,52.7,1,5.2,74.0,Not Applicable,0.0
+P270,Visit 1 (Week 4),1,2024-02-01,66,Male,Current Smoker,52.2,Stage III,Treatment,1,43.7,58.8,53.2,0,6.4,79.8,Non-Responder,30.4
+P270,Visit 2 (Week 8),2,2024-02-25,66,Male,Current Smoker,52.2,Stage III,Treatment,1,28.8,61.2,68.2,1,5.7,79.7,Non-Responder,-14.0
+P271,Baseline,0,2024-01-03,79,Female,Current Smoker,12.9,Stage III,Treatment,0,39.6,60.1,54.3,0,7.4,82.8,Not Applicable,0.0
+P271,Visit 1 (Week 4),1,2024-01-27,79,Female,Current Smoker,12.9,Stage III,Treatment,0,51.3,63.9,56.6,0,6.9,95.7,Non-Responder,29.5
+P271,Visit 2 (Week 8),2,2024-02-25,79,Female,Current Smoker,12.9,Stage III,Treatment,0,31.8,64.4,64.2,2,5.9,79.1,Non-Responder,-19.7
+P272,Baseline,0,2024-01-04,50,Male,Current Smoker,27.1,Stage II,Treatment,2,26.7,51.4,62.2,1,4.9,71.5,Not Applicable,0.0
+P272,Visit 1 (Week 4),1,2024-02-01,50,Male,Current Smoker,27.1,Stage II,Treatment,2,28.9,56.6,60.9,3,5.2,60.8,Non-Responder,8.2
+P272,Visit 2 (Week 8),2,2024-02-28,50,Male,Current Smoker,27.1,Stage II,Treatment,2,22.0,58.7,68.9,1,4.9,48.2,Non-Responder,-17.6
+P273,Baseline,0,2023-12-30,76,Male,Former Smoker,17.8,Stage II,Treatment,1,31.5,68.6,58.8,1,4.3,85.5,Not Applicable,0.0
+P273,Visit 1 (Week 4),1,2024-02-01,76,Male,Former Smoker,17.8,Stage II,Treatment,1,26.2,69.0,65.5,2,4.5,76.8,Non-Responder,-16.8
+P273,Visit 2 (Week 8),2,2024-02-23,76,Male,Former Smoker,17.8,Stage II,Treatment,1,23.6,81.1,61.5,0,5.4,75.1,Non-Responder,-25.1
+P274,Baseline,0,2024-01-02,65,Female,Former Smoker,6.3,Stage I,Treatment,1,10.1,72.2,63.1,2,2.8,80.5,Not Applicable,0.0
+P274,Visit 1 (Week 4),1,2024-01-29,65,Female,Former Smoker,6.3,Stage I,Treatment,1,11.9,77.7,62.7,0,1.8,81.2,Non-Responder,17.8
+P274,Visit 2 (Week 8),2,2024-02-29,65,Female,Former Smoker,6.3,Stage I,Treatment,1,14.1,77.9,76.4,0,3.8,70.5,Non-Responder,39.6
+P275,Baseline,0,2024-01-04,55,Female,Former Smoker,24.2,Stage II,Treatment,2,29.7,62.5,55.3,0,4.9,73.1,Not Applicable,0.0
+P275,Visit 1 (Week 4),1,2024-01-29,55,Female,Former Smoker,24.2,Stage II,Treatment,2,29.5,65.4,65.1,0,2.8,62.7,Non-Responder,-0.7
+P275,Visit 2 (Week 8),2,2024-02-27,55,Female,Former Smoker,24.2,Stage II,Treatment,2,26.1,66.4,60.1,2,4.5,59.5,Non-Responder,-12.1
+P276,Baseline,0,2023-12-31,69,Male,Current Smoker,28.2,Stage III,Placebo,0,35.1,60.6,55.4,0,5.7,85.1,Not Applicable,0.0
+P276,Visit 1 (Week 4),1,2024-01-29,69,Male,Current Smoker,28.2,Stage III,Placebo,0,58.6,64.3,75.1,0,6.9,87.7,Non-Responder,67.0
+P276,Visit 2 (Week 8),2,2024-02-27,69,Male,Current Smoker,28.2,Stage III,Placebo,0,55.1,60.2,58.3,0,4.9,84.6,Non-Responder,57.0
+P277,Baseline,0,2024-01-04,66,Male,Never Smoker,0.0,Stage II,Placebo,0,40.1,70.7,64.4,0,5.3,97.8,Not Applicable,0.0
+P277,Visit 1 (Week 4),1,2024-02-01,66,Male,Never Smoker,0.0,Stage II,Placebo,0,20.2,76.6,73.7,0,5.9,87.3,Responder,-49.6
+P277,Visit 2 (Week 8),2,2024-02-26,66,Male,Never Smoker,0.0,Stage II,Placebo,0,30.6,79.1,71.2,1,5.5,95.6,Non-Responder,-23.7
+P278,Baseline,0,2024-01-01,58,Male,Never Smoker,0.0,Stage IV,Placebo,2,68.4,58.8,47.4,0,7.5,80.0,Not Applicable,0.0
+P278,Visit 1 (Week 4),1,2024-01-30,58,Male,Never Smoker,0.0,Stage IV,Placebo,2,57.4,67.3,46.0,2,8.0,70.2,Non-Responder,-16.1
+P278,Visit 2 (Week 8),2,2024-02-28,58,Male,Never Smoker,0.0,Stage IV,Placebo,2,71.7,61.7,50.4,0,7.7,68.2,Non-Responder,4.8
+P279,Baseline,0,2024-01-02,65,Male,Former Smoker,40.1,Stage IV,Treatment,1,57.2,60.2,47.4,3,9.2,81.5,Not Applicable,0.0
+P279,Visit 1 (Week 4),1,2024-01-29,65,Male,Former Smoker,40.1,Stage IV,Treatment,1,44.3,63.1,51.1,2,7.4,70.4,Non-Responder,-22.6
+P279,Visit 2 (Week 8),2,2024-02-24,65,Male,Former Smoker,40.1,Stage IV,Treatment,1,37.3,58.7,51.2,2,6.9,67.7,Responder,-34.8
+P280,Baseline,0,2024-01-02,61,Female,Current Smoker,39.5,Stage III,Treatment,1,50.0,51.6,50.5,3,6.5,85.5,Not Applicable,0.0
+P280,Visit 1 (Week 4),1,2024-01-27,61,Female,Current Smoker,39.5,Stage III,Treatment,1,41.5,54.7,57.2,2,4.3,70.7,Non-Responder,-17.0
+P280,Visit 2 (Week 8),2,2024-02-24,61,Female,Current Smoker,39.5,Stage III,Treatment,1,47.9,58.2,62.6,0,5.4,69.5,Non-Responder,-4.2
+P281,Baseline,0,2024-01-02,66,Male,Former Smoker,14.8,Stage III,Placebo,2,46.4,50.5,46.6,0,6.0,75.7,Not Applicable,0.0
+P281,Visit 1 (Week 4),1,2024-01-30,66,Male,Former Smoker,14.8,Stage III,Placebo,2,60.2,58.7,51.5,0,5.7,76.5,Non-Responder,29.7
+P281,Visit 2 (Week 8),2,2024-02-25,66,Male,Former Smoker,14.8,Stage III,Placebo,2,56.2,59.7,48.7,0,7.0,72.9,Non-Responder,21.1
+P282,Baseline,0,2024-01-04,71,Male,Current Smoker,57.8,Stage IV,Placebo,2,40.3,46.5,49.0,0,8.1,68.6,Not Applicable,0.0
+P282,Visit 1 (Week 4),1,2024-01-31,71,Male,Current Smoker,57.8,Stage IV,Placebo,2,32.9,48.0,45.8,0,9.9,73.0,Non-Responder,-18.4
+P282,Visit 2 (Week 8),2,2024-02-24,71,Male,Current Smoker,57.8,Stage IV,Placebo,2,80.9,45.9,48.3,0,8.1,66.3,Non-Responder,100.7
+P283,Baseline,0,2023-12-31,80,Male,Current Smoker,48.3,Stage I,Treatment,3,11.2,55.0,54.1,0,3.6,61.2,Not Applicable,0.0
+P283,Visit 1 (Week 4),1,2024-01-29,80,Male,Current Smoker,48.3,Stage I,Treatment,3,15.3,57.8,58.4,1,2.2,61.0,Non-Responder,36.6
+P283,Visit 2 (Week 8),2,2024-02-25,80,Male,Current Smoker,48.3,Stage I,Treatment,3,11.8,55.5,59.8,3,1.2,43.3,Non-Responder,5.4
+P284,Baseline,0,2023-12-30,52,Male,Never Smoker,0.0,Stage III,Placebo,1,41.4,66.0,49.4,0,7.6,79.7,Not Applicable,0.0
+P284,Visit 1 (Week 4),1,2024-01-29,52,Male,Never Smoker,0.0,Stage III,Placebo,1,57.7,73.7,54.5,1,5.7,82.2,Non-Responder,39.4
+P284,Visit 2 (Week 8),2,2024-02-27,52,Male,Never Smoker,0.0,Stage III,Placebo,1,31.9,68.1,52.9,0,6.8,78.9,Non-Responder,-22.9
+P285,Baseline,0,2024-01-03,86,Female,Current Smoker,38.7,Stage I,Treatment,1,18.0,62.0,62.3,1,1.9,78.0,Not Applicable,0.0
+P285,Visit 1 (Week 4),1,2024-02-01,86,Female,Current Smoker,38.7,Stage I,Treatment,1,5.6,68.3,64.7,3,3.5,67.4,Responder,-68.9
+P285,Visit 2 (Week 8),2,2024-02-24,86,Female,Current Smoker,38.7,Stage I,Treatment,1,6.6,71.0,69.9,3,1.2,67.4,Responder,-63.3
+P286,Baseline,0,2024-01-03,45,Female,Former Smoker,22.7,Stage III,Treatment,1,32.6,61.6,56.6,0,6.7,80.0,Not Applicable,0.0
+P286,Visit 1 (Week 4),1,2024-01-26,45,Female,Former Smoker,22.7,Stage III,Treatment,1,25.0,58.1,47.7,0,5.5,80.4,Non-Responder,-23.3
+P286,Visit 2 (Week 8),2,2024-02-26,45,Female,Former Smoker,22.7,Stage III,Treatment,1,19.4,66.4,77.7,1,5.4,62.9,Responder,-40.5
+P287,Baseline,0,2023-12-30,63,Male,Current Smoker,15.6,Stage II,Placebo,0,27.6,70.5,66.0,0,3.2,88.4,Not Applicable,0.0
+P287,Visit 1 (Week 4),1,2024-01-28,63,Male,Current Smoker,15.6,Stage II,Placebo,0,25.1,67.5,68.1,0,5.2,94.4,Non-Responder,-9.1
+P287,Visit 2 (Week 8),2,2024-02-28,63,Male,Current Smoker,15.6,Stage II,Placebo,0,36.9,67.5,69.9,0,4.5,81.4,Non-Responder,33.7
+P288,Baseline,0,2023-12-31,70,Male,Former Smoker,21.3,Stage IV,Placebo,1,92.9,56.8,50.2,1,9.0,80.1,Not Applicable,0.0
+P288,Visit 1 (Week 4),1,2024-02-01,70,Male,Former Smoker,21.3,Stage IV,Placebo,1,39.6,56.5,46.2,0,7.7,73.4,Responder,-57.4
+P288,Visit 2 (Week 8),2,2024-02-27,70,Male,Former Smoker,21.3,Stage IV,Placebo,1,59.8,56.5,51.9,1,8.0,88.9,Responder,-35.6
+P289,Baseline,0,2023-12-31,67,Male,Current Smoker,46.3,Stage IV,Treatment,0,32.9,51.5,54.4,0,7.6,96.0,Not Applicable,0.0
+P289,Visit 1 (Week 4),1,2024-02-01,67,Male,Current Smoker,46.3,Stage IV,Treatment,0,27.8,52.5,58.3,0,5.9,85.5,Non-Responder,-15.5
+P289,Visit 2 (Week 8),2,2024-02-27,67,Male,Current Smoker,46.3,Stage IV,Treatment,0,39.1,62.8,70.2,0,7.3,73.7,Non-Responder,18.8
+P290,Baseline,0,2024-01-03,58,Female,Current Smoker,58.3,Stage I,Treatment,3,7.1,55.1,53.5,0,2.4,61.3,Not Applicable,0.0
+P290,Visit 1 (Week 4),1,2024-01-30,58,Female,Current Smoker,58.3,Stage I,Treatment,3,15.8,59.8,55.5,0,3.5,47.5,Non-Responder,122.5
+P290,Visit 2 (Week 8),2,2024-02-24,58,Female,Current Smoker,58.3,Stage I,Treatment,3,17.6,61.6,64.9,0,1.6,54.3,Non-Responder,147.9
+P291,Baseline,0,2024-01-01,62,Female,Current Smoker,53.1,Stage II,Treatment,1,34.5,63.7,61.1,0,4.9,74.2,Not Applicable,0.0
+P291,Visit 1 (Week 4),1,2024-01-28,62,Female,Current Smoker,53.1,Stage II,Treatment,1,29.4,58.7,61.2,1,6.2,73.8,Non-Responder,-14.8
+P291,Visit 2 (Week 8),2,2024-02-23,62,Female,Current Smoker,53.1,Stage II,Treatment,1,13.8,65.8,69.6,0,1.4,65.4,Responder,-60.0
+P292,Baseline,0,2023-12-29,60,Male,Current Smoker,22.7,Stage IV,Treatment,1,42.9,47.9,46.3,0,8.4,76.9,Not Applicable,0.0
+P292,Visit 1 (Week 4),1,2024-01-28,60,Male,Current Smoker,22.7,Stage IV,Treatment,1,51.9,53.4,59.1,1,6.2,75.7,Non-Responder,21.0
+P292,Visit 2 (Week 8),2,2024-02-28,60,Male,Current Smoker,22.7,Stage IV,Treatment,1,36.4,53.6,52.3,1,7.0,77.1,Non-Responder,-15.2
+P293,Baseline,0,2024-01-03,59,Female,Former Smoker,13.8,Stage II,Placebo,1,30.6,60.5,58.0,0,3.8,76.9,Not Applicable,0.0
+P293,Visit 1 (Week 4),1,2024-02-01,59,Female,Former Smoker,13.8,Stage II,Placebo,1,46.2,65.2,68.5,0,4.3,80.5,Non-Responder,51.0
+P293,Visit 2 (Week 8),2,2024-02-28,59,Female,Former Smoker,13.8,Stage II,Placebo,1,30.8,65.5,60.0,0,4.2,83.3,Non-Responder,0.7
+P294,Baseline,0,2024-01-01,73,Female,Current Smoker,32.1,Stage IV,Treatment,0,61.1,51.3,48.3,0,7.5,93.6,Not Applicable,0.0
+P294,Visit 1 (Week 4),1,2024-02-01,73,Female,Current Smoker,32.1,Stage IV,Treatment,0,64.2,52.6,57.3,0,7.1,89.3,Non-Responder,5.1
+P294,Visit 2 (Week 8),2,2024-02-27,73,Female,Current Smoker,32.1,Stage IV,Treatment,0,47.8,63.4,67.5,4,8.6,79.9,Non-Responder,-21.8
+P295,Baseline,0,2024-01-03,68,Male,Current Smoker,3.5,Stage III,Treatment,0,43.8,62.5,59.8,0,5.5,97.0,Not Applicable,0.0
+P295,Visit 1 (Week 4),1,2024-01-27,68,Male,Current Smoker,3.5,Stage III,Treatment,0,46.2,59.7,52.2,1,6.0,84.7,Non-Responder,5.5
+P295,Visit 2 (Week 8),2,2024-02-27,68,Male,Current Smoker,3.5,Stage III,Treatment,0,29.0,64.4,67.2,0,2.9,73.3,Responder,-33.8
+P296,Baseline,0,2023-12-29,58,Female,Former Smoker,28.2,Stage II,Treatment,1,43.2,67.8,58.7,2,6.5,73.5,Not Applicable,0.0
+P296,Visit 1 (Week 4),1,2024-02-01,58,Female,Former Smoker,28.2,Stage II,Treatment,1,19.3,68.8,65.0,4,5.3,73.6,Responder,-55.3
+P296,Visit 2 (Week 8),2,2024-02-29,58,Female,Former Smoker,28.2,Stage II,Treatment,1,27.3,64.8,63.7,1,2.9,65.6,Responder,-36.8
+P297,Baseline,0,2024-01-04,73,Male,Never Smoker,0.0,Stage II,Placebo,0,33.9,76.6,71.1,0,4.7,88.9,Not Applicable,0.0
+P297,Visit 1 (Week 4),1,2024-01-29,73,Male,Never Smoker,0.0,Stage II,Placebo,0,3.6,85.7,61.9,0,4.9,94.9,Responder,-89.4
+P297,Visit 2 (Week 8),2,2024-02-24,73,Male,Never Smoker,0.0,Stage II,Placebo,0,22.7,76.6,56.6,0,3.0,81.5,Responder,-33.0
+P298,Baseline,0,2023-12-29,68,Male,Current Smoker,27.8,Stage II,Treatment,1,37.9,53.9,61.1,1,4.5,90.7,Not Applicable,0.0
+P298,Visit 1 (Week 4),1,2024-01-31,68,Male,Current Smoker,27.8,Stage II,Treatment,1,30.5,69.2,70.5,0,5.3,83.3,Non-Responder,-19.5
+P298,Visit 2 (Week 8),2,2024-02-23,68,Male,Current Smoker,27.8,Stage II,Treatment,1,23.3,65.4,63.5,2,3.3,68.9,Responder,-38.5
+P299,Baseline,0,2024-01-04,73,Male,Current Smoker,23.0,Stage III,Treatment,2,61.1,50.4,43.2,0,7.1,66.2,Not Applicable,0.0
+P299,Visit 1 (Week 4),1,2024-01-29,73,Male,Current Smoker,23.0,Stage III,Treatment,2,37.9,45.8,58.2,3,7.1,53.4,Responder,-38.0
+P299,Visit 2 (Week 8),2,2024-02-24,73,Male,Current Smoker,23.0,Stage III,Treatment,2,48.3,59.4,56.7,0,5.7,56.8,Non-Responder,-20.9
+P300,Baseline,0,2023-12-31,71,Male,Current Smoker,6.1,Stage II,Placebo,2,39.6,56.0,52.4,0,5.5,64.7,Not Applicable,0.0
+P300,Visit 1 (Week 4),1,2024-01-26,71,Male,Current Smoker,6.1,Stage II,Placebo,2,32.8,54.7,54.6,0,4.5,68.0,Non-Responder,-17.2
+P300,Visit 2 (Week 8),2,2024-02-25,71,Male,Current Smoker,6.1,Stage II,Placebo,2,28.7,59.7,60.8,1,4.1,83.1,Non-Responder,-27.5
+P301,Baseline,0,2023-12-29,56,Male,Former Smoker,30.1,Stage III,Placebo,1,48.1,56.7,56.5,0,2.8,83.1,Not Applicable,0.0
+P301,Visit 1 (Week 4),1,2024-01-30,56,Male,Former Smoker,30.1,Stage III,Placebo,1,38.4,61.0,56.4,0,6.3,81.5,Non-Responder,-20.2
+P301,Visit 2 (Week 8),2,2024-02-26,56,Male,Former Smoker,30.1,Stage III,Placebo,1,49.6,62.2,61.6,0,6.3,80.5,Non-Responder,3.1
+P302,Baseline,0,2024-01-02,59,Female,Current Smoker,22.0,Stage II,Treatment,0,33.3,63.7,67.6,0,6.3,96.8,Not Applicable,0.0
+P302,Visit 1 (Week 4),1,2024-01-26,59,Female,Current Smoker,22.0,Stage II,Treatment,0,31.6,65.7,69.4,3,5.0,80.0,Non-Responder,-5.1
+P302,Visit 2 (Week 8),2,2024-02-23,59,Female,Current Smoker,22.0,Stage II,Treatment,0,21.9,73.2,70.6,0,4.0,72.0,Responder,-34.2
+P303,Baseline,0,2024-01-01,72,Male,Former Smoker,13.3,Stage III,Placebo,2,33.1,59.2,51.5,1,6.5,68.9,Not Applicable,0.0
+P303,Visit 1 (Week 4),1,2024-01-28,72,Male,Former Smoker,13.3,Stage III,Placebo,2,56.7,53.7,60.5,0,6.0,76.9,Non-Responder,71.3
+P303,Visit 2 (Week 8),2,2024-02-26,72,Male,Former Smoker,13.3,Stage III,Placebo,2,27.5,59.2,49.8,0,6.8,82.6,Non-Responder,-16.9
+P304,Baseline,0,2023-12-31,71,Female,Current Smoker,0.0,Stage IV,Placebo,2,71.0,45.0,51.4,0,10.7,67.7,Not Applicable,0.0
+P304,Visit 1 (Week 4),1,2024-01-26,71,Female,Current Smoker,0.0,Stage IV,Placebo,2,60.4,47.9,43.2,0,7.3,74.8,Non-Responder,-14.9
+P304,Visit 2 (Week 8),2,2024-02-27,71,Female,Current Smoker,0.0,Stage IV,Placebo,2,41.1,47.3,46.7,0,8.0,68.3,Responder,-42.1
+P305,Baseline,0,2023-12-30,64,Male,Never Smoker,0.0,Stage IV,Placebo,0,51.4,69.4,61.8,1,6.9,85.2,Not Applicable,0.0
+P305,Visit 1 (Week 4),1,2024-01-27,64,Male,Never Smoker,0.0,Stage IV,Placebo,0,56.4,67.2,58.8,0,8.4,87.8,Non-Responder,9.7
+P305,Visit 2 (Week 8),2,2024-02-29,64,Male,Never Smoker,0.0,Stage IV,Placebo,0,57.0,69.8,61.0,0,8.6,95.0,Non-Responder,10.9
+P306,Baseline,0,2024-01-02,66,Male,Current Smoker,29.6,Stage II,Treatment,2,25.9,54.3,59.3,1,4.9,67.9,Not Applicable,0.0
+P306,Visit 1 (Week 4),1,2024-02-01,66,Male,Current Smoker,29.6,Stage II,Treatment,2,28.4,57.9,60.4,0,3.2,71.1,Non-Responder,9.7
+P306,Visit 2 (Week 8),2,2024-02-29,66,Male,Current Smoker,29.6,Stage II,Treatment,2,27.4,55.9,71.0,3,3.6,53.0,Non-Responder,5.8
+P307,Baseline,0,2024-01-01,77,Male,Current Smoker,56.6,Stage IV,Treatment,0,51.4,52.4,48.9,2,8.6,86.5,Not Applicable,0.0
+P307,Visit 1 (Week 4),1,2024-01-29,77,Male,Current Smoker,56.6,Stage IV,Treatment,0,68.5,60.0,53.5,1,6.9,77.0,Non-Responder,33.3
+P307,Visit 2 (Week 8),2,2024-02-27,77,Male,Current Smoker,56.6,Stage IV,Treatment,0,34.0,55.2,67.7,0,5.8,78.7,Responder,-33.9
+P308,Baseline,0,2023-12-29,59,Male,Never Smoker,0.0,Stage III,Treatment,2,45.7,67.9,49.2,1,7.0,67.9,Not Applicable,0.0
+P308,Visit 1 (Week 4),1,2024-01-31,59,Male,Never Smoker,0.0,Stage III,Treatment,2,18.5,63.3,55.4,2,5.7,64.9,Responder,-59.5
+P308,Visit 2 (Week 8),2,2024-02-28,59,Male,Never Smoker,0.0,Stage III,Treatment,2,30.8,66.0,57.7,0,6.3,57.8,Responder,-32.6
+P309,Baseline,0,2024-01-03,70,Female,Current Smoker,54.9,Stage III,Placebo,3,48.1,41.0,48.0,1,7.2,59.3,Not Applicable,0.0
+P309,Visit 1 (Week 4),1,2024-01-26,70,Female,Current Smoker,54.9,Stage III,Placebo,3,45.6,50.2,42.8,0,6.4,53.6,Non-Responder,-5.2
+P309,Visit 2 (Week 8),2,2024-02-24,70,Female,Current Smoker,54.9,Stage III,Placebo,3,63.7,43.0,47.3,0,7.8,57.0,Non-Responder,32.4
+P310,Baseline,0,2024-01-01,62,Male,Former Smoker,20.4,Stage IV,Treatment,0,67.3,57.4,59.2,2,7.0,94.7,Not Applicable,0.0
+P310,Visit 1 (Week 4),1,2024-01-30,62,Male,Former Smoker,20.4,Stage IV,Treatment,0,58.2,65.0,48.8,2,7.7,83.0,Non-Responder,-13.5
+P310,Visit 2 (Week 8),2,2024-02-26,62,Male,Former Smoker,20.4,Stage IV,Treatment,0,47.8,66.8,72.4,0,8.7,74.6,Non-Responder,-29.0
+P311,Baseline,0,2024-01-04,62,Male,Current Smoker,21.0,Stage II,Treatment,2,34.3,56.1,50.7,0,5.3,69.0,Not Applicable,0.0
+P311,Visit 1 (Week 4),1,2024-02-01,62,Male,Current Smoker,21.0,Stage II,Treatment,2,24.8,52.9,47.7,2,3.8,66.1,Non-Responder,-27.7
+P311,Visit 2 (Week 8),2,2024-02-27,62,Male,Current Smoker,21.0,Stage II,Treatment,2,20.4,59.0,69.3,0,4.5,52.1,Responder,-40.5
+P312,Baseline,0,2024-01-02,75,Male,Current Smoker,37.0,Stage I,Treatment,1,14.8,62.0,63.1,1,3.4,71.2,Not Applicable,0.0
+P312,Visit 1 (Week 4),1,2024-02-01,75,Male,Current Smoker,37.0,Stage I,Treatment,1,10.4,67.3,72.1,0,3.7,70.3,Non-Responder,-29.7
+P312,Visit 2 (Week 8),2,2024-02-23,75,Male,Current Smoker,37.0,Stage I,Treatment,1,15.8,69.9,72.0,2,4.0,70.2,Non-Responder,6.8
+P313,Baseline,0,2023-12-29,73,Female,Former Smoker,15.0,Stage IV,Treatment,3,49.7,47.7,38.7,1,6.9,61.2,Not Applicable,0.0
+P313,Visit 1 (Week 4),1,2024-02-01,73,Female,Former Smoker,15.0,Stage IV,Treatment,3,40.4,48.5,45.4,3,6.6,58.6,Non-Responder,-18.7
+P313,Visit 2 (Week 8),2,2024-02-26,73,Female,Former Smoker,15.0,Stage IV,Treatment,3,57.1,51.5,36.4,0,7.3,39.1,Non-Responder,14.9
+P314,Baseline,0,2023-12-31,73,Female,Current Smoker,34.5,Stage II,Placebo,1,30.0,60.4,53.3,2,6.6,77.3,Not Applicable,0.0
+P314,Visit 1 (Week 4),1,2024-01-29,73,Female,Current Smoker,34.5,Stage II,Placebo,1,22.2,56.2,62.9,0,3.1,84.6,Non-Responder,-26.0
+P314,Visit 2 (Week 8),2,2024-02-28,73,Female,Current Smoker,34.5,Stage II,Placebo,1,36.4,63.3,57.6,1,3.5,84.7,Non-Responder,21.3
+P315,Baseline,0,2024-01-02,78,Female,Current Smoker,41.5,Stage IV,Treatment,2,69.3,41.6,39.4,0,7.9,74.5,Not Applicable,0.0
+P315,Visit 1 (Week 4),1,2024-02-01,78,Female,Current Smoker,41.5,Stage IV,Treatment,2,50.1,39.7,48.4,0,5.2,65.5,Non-Responder,-27.7
+P315,Visit 2 (Week 8),2,2024-02-27,78,Female,Current Smoker,41.5,Stage IV,Treatment,2,46.2,43.5,50.7,0,5.2,66.9,Responder,-33.3
+P316,Baseline,0,2024-01-02,65,Male,Former Smoker,37.3,Stage IV,Placebo,0,86.0,64.4,60.4,0,9.5,92.1,Not Applicable,0.0
+P316,Visit 1 (Week 4),1,2024-01-27,65,Male,Former Smoker,37.3,Stage IV,Placebo,0,42.6,64.6,52.2,0,7.7,72.6,Responder,-50.5
+P316,Visit 2 (Week 8),2,2024-02-25,65,Male,Former Smoker,37.3,Stage IV,Placebo,0,92.8,56.9,49.5,1,7.5,93.3,Non-Responder,7.9
+P317,Baseline,0,2024-01-02,71,Male,Former Smoker,24.0,Stage I,Treatment,1,4.7,70.7,69.4,0,5.3,86.0,Not Applicable,0.0
+P317,Visit 1 (Week 4),1,2024-01-31,71,Male,Former Smoker,24.0,Stage I,Treatment,1,19.0,75.0,70.3,1,1.6,73.8,Non-Responder,304.3
+P317,Visit 2 (Week 8),2,2024-02-28,71,Male,Former Smoker,24.0,Stage I,Treatment,1,12.4,72.3,67.6,3,1.4,66.1,Non-Responder,163.8
+P318,Baseline,0,2024-01-03,61,Male,Current Smoker,26.9,Stage IV,Placebo,0,58.3,56.5,59.8,0,8.0,93.6,Not Applicable,0.0
+P318,Visit 1 (Week 4),1,2024-01-29,61,Male,Current Smoker,26.9,Stage IV,Placebo,0,75.8,60.4,54.6,0,7.4,86.4,Non-Responder,30.0
+P318,Visit 2 (Week 8),2,2024-02-25,61,Male,Current Smoker,26.9,Stage IV,Placebo,0,70.2,59.0,64.7,0,8.8,91.0,Non-Responder,20.4
+P319,Baseline,0,2024-01-01,68,Male,Current Smoker,16.8,Stage II,Placebo,3,34.3,54.3,41.5,0,4.8,62.0,Not Applicable,0.0
+P319,Visit 1 (Week 4),1,2024-02-01,68,Male,Current Smoker,16.8,Stage II,Placebo,3,35.6,47.2,50.0,1,4.6,66.2,Non-Responder,3.8
+P319,Visit 2 (Week 8),2,2024-02-24,68,Male,Current Smoker,16.8,Stage II,Placebo,3,28.5,55.9,49.1,0,5.0,62.8,Non-Responder,-16.9
+P320,Baseline,0,2024-01-02,63,Male,Current Smoker,17.6,Stage III,Placebo,2,39.3,48.6,40.5,0,7.0,71.1,Not Applicable,0.0
+P320,Visit 1 (Week 4),1,2024-01-29,63,Male,Current Smoker,17.6,Stage III,Placebo,2,37.8,47.9,39.9,0,3.3,74.5,Non-Responder,-3.8
+P320,Visit 2 (Week 8),2,2024-02-29,63,Male,Current Smoker,17.6,Stage III,Placebo,2,38.9,53.3,55.5,0,6.4,71.5,Non-Responder,-1.0
+P321,Baseline,0,2023-12-30,65,Male,Current Smoker,26.6,Stage III,Treatment,2,51.9,48.9,49.0,4,6.4,74.4,Not Applicable,0.0
+P321,Visit 1 (Week 4),1,2024-01-30,65,Male,Current Smoker,26.6,Stage III,Treatment,2,38.8,49.9,53.1,0,5.9,69.5,Non-Responder,-25.2
+P321,Visit 2 (Week 8),2,2024-02-26,65,Male,Current Smoker,26.6,Stage III,Treatment,2,28.4,55.2,57.6,3,7.2,63.0,Responder,-45.3
+P322,Baseline,0,2023-12-31,70,Male,Former Smoker,28.7,Stage IV,Placebo,3,69.1,48.9,44.5,0,7.6,56.5,Not Applicable,0.0
+P322,Visit 1 (Week 4),1,2024-01-30,70,Male,Former Smoker,28.7,Stage IV,Placebo,3,89.1,47.9,42.3,0,7.7,64.7,Non-Responder,28.9
+P322,Visit 2 (Week 8),2,2024-02-24,70,Male,Former Smoker,28.7,Stage IV,Placebo,3,57.0,45.6,31.6,0,9.3,61.8,Non-Responder,-17.5
+P323,Baseline,0,2023-12-29,56,Male,Current Smoker,43.7,Stage I,Treatment,0,17.1,72.2,68.0,1,3.7,90.8,Not Applicable,0.0
+P323,Visit 1 (Week 4),1,2024-01-27,56,Male,Current Smoker,43.7,Stage I,Treatment,0,21.6,71.0,77.0,0,3.0,86.9,Non-Responder,26.3
+P323,Visit 2 (Week 8),2,2024-02-26,56,Male,Current Smoker,43.7,Stage I,Treatment,0,7.1,72.5,76.6,0,0.9,70.9,Responder,-58.5
+P324,Baseline,0,2023-12-30,85,Female,Never Smoker,0.0,Stage II,Placebo,1,33.3,75.9,56.0,0,4.7,83.2,Not Applicable,0.0
+P324,Visit 1 (Week 4),1,2024-01-27,85,Female,Never Smoker,0.0,Stage II,Placebo,1,49.0,75.0,56.2,0,2.9,82.0,Non-Responder,47.1
+P324,Visit 2 (Week 8),2,2024-02-28,85,Female,Never Smoker,0.0,Stage II,Placebo,1,29.4,75.1,60.3,0,5.0,73.1,Non-Responder,-11.7
+P325,Baseline,0,2023-12-31,54,Male,Former Smoker,17.0,Stage III,Placebo,0,36.7,69.5,56.8,0,7.3,86.9,Not Applicable,0.0
+P325,Visit 1 (Week 4),1,2024-01-26,54,Male,Former Smoker,17.0,Stage III,Placebo,0,36.3,70.1,56.7,0,4.8,90.6,Non-Responder,-1.1
+P325,Visit 2 (Week 8),2,2024-02-27,54,Male,Former Smoker,17.0,Stage III,Placebo,0,47.7,65.6,61.2,0,5.3,90.1,Non-Responder,30.0
+P326,Baseline,0,2024-01-01,52,Male,Never Smoker,0.0,Stage III,Treatment,0,48.1,71.4,60.9,0,5.0,86.9,Not Applicable,0.0
+P326,Visit 1 (Week 4),1,2024-01-27,52,Male,Never Smoker,0.0,Stage III,Treatment,0,40.7,78.4,59.8,0,5.9,91.2,Non-Responder,-15.4
+P326,Visit 2 (Week 8),2,2024-02-28,52,Male,Never Smoker,0.0,Stage III,Treatment,0,35.1,80.6,70.1,1,5.0,77.8,Non-Responder,-27.0
+P327,Baseline,0,2024-01-01,76,Female,Former Smoker,39.9,Stage III,Placebo,0,46.7,66.2,61.4,0,7.5,87.7,Not Applicable,0.0
+P327,Visit 1 (Week 4),1,2024-02-01,76,Female,Former Smoker,39.9,Stage III,Placebo,0,44.9,71.3,65.2,0,7.0,86.7,Non-Responder,-3.9
+P327,Visit 2 (Week 8),2,2024-02-29,76,Female,Former Smoker,39.9,Stage III,Placebo,0,30.7,69.4,64.4,1,6.1,84.1,Responder,-34.3
+P328,Baseline,0,2024-01-03,72,Male,Former Smoker,22.3,Stage I,Placebo,1,8.2,72.4,65.9,2,1.7,72.1,Not Applicable,0.0
+P328,Visit 1 (Week 4),1,2024-01-26,72,Male,Former Smoker,22.3,Stage I,Placebo,1,17.8,75.4,68.7,0,3.9,78.0,Non-Responder,117.1
+P328,Visit 2 (Week 8),2,2024-02-23,72,Male,Former Smoker,22.3,Stage I,Placebo,1,15.5,73.9,64.9,0,3.7,85.8,Non-Responder,89.0
+P329,Baseline,0,2023-12-31,71,Female,Former Smoker,24.8,Stage II,Treatment,0,22.5,72.5,64.1,0,4.5,91.7,Not Applicable,0.0
+P329,Visit 1 (Week 4),1,2024-01-29,71,Female,Former Smoker,24.8,Stage II,Treatment,0,34.6,76.6,73.5,1,3.1,100.0,Non-Responder,53.8
+P329,Visit 2 (Week 8),2,2024-02-27,71,Female,Former Smoker,24.8,Stage II,Treatment,0,30.7,72.3,73.1,2,3.9,76.1,Non-Responder,36.4
+P330,Baseline,0,2024-01-03,71,Male,Current Smoker,18.8,Stage II,Placebo,0,22.1,67.6,59.1,0,4.1,83.2,Not Applicable,0.0
+P330,Visit 1 (Week 4),1,2024-01-30,71,Male,Current Smoker,18.8,Stage II,Placebo,0,21.9,62.7,67.0,0,5.3,90.1,Non-Responder,-0.9
+P330,Visit 2 (Week 8),2,2024-02-26,71,Male,Current Smoker,18.8,Stage II,Placebo,0,30.7,68.5,55.3,0,6.2,83.7,Non-Responder,38.9
+P331,Baseline,0,2024-01-01,64,Male,Former Smoker,0.8,Stage IV,Placebo,0,53.4,66.8,50.9,1,7.9,87.9,Not Applicable,0.0
+P331,Visit 1 (Week 4),1,2024-01-31,64,Male,Former Smoker,0.8,Stage IV,Placebo,0,65.2,66.3,48.6,0,10.3,84.1,Non-Responder,22.1
+P331,Visit 2 (Week 8),2,2024-02-25,64,Male,Former Smoker,0.8,Stage IV,Placebo,0,46.7,58.7,70.6,0,7.1,84.6,Non-Responder,-12.5
+P332,Baseline,0,2024-01-01,56,Female,Former Smoker,33.8,Stage II,Placebo,0,25.2,72.5,67.1,0,3.2,98.2,Not Applicable,0.0
+P332,Visit 1 (Week 4),1,2024-01-27,56,Female,Former Smoker,33.8,Stage II,Placebo,0,38.5,71.1,58.9,1,6.1,83.9,Non-Responder,52.8
+P332,Visit 2 (Week 8),2,2024-02-27,56,Female,Former Smoker,33.8,Stage II,Placebo,0,26.2,70.3,53.4,0,3.5,88.7,Non-Responder,4.0
+P333,Baseline,0,2024-01-02,65,Female,Former Smoker,32.4,Stage II,Treatment,3,23.9,65.3,56.4,0,4.9,60.7,Not Applicable,0.0
+P333,Visit 1 (Week 4),1,2024-01-30,65,Female,Former Smoker,32.4,Stage II,Treatment,3,19.5,58.1,57.7,1,2.7,55.1,Non-Responder,-18.4
+P333,Visit 2 (Week 8),2,2024-02-24,65,Female,Former Smoker,32.4,Stage II,Treatment,3,8.9,59.3,57.3,0,4.4,62.8,Responder,-62.8
+P334,Baseline,0,2024-01-02,58,Female,Former Smoker,22.2,Stage IV,Treatment,2,57.0,52.0,43.5,4,6.7,69.9,Not Applicable,0.0
+P334,Visit 1 (Week 4),1,2024-01-30,58,Female,Former Smoker,22.2,Stage IV,Treatment,2,36.3,53.3,47.9,2,6.6,72.4,Responder,-36.3
+P334,Visit 2 (Week 8),2,2024-02-29,58,Female,Former Smoker,22.2,Stage IV,Treatment,2,18.1,51.7,49.3,1,7.2,55.4,Responder,-68.2
+P335,Baseline,0,2024-01-01,74,Male,Former Smoker,25.7,Stage I,Treatment,3,5.6,60.0,55.9,1,4.3,56.8,Not Applicable,0.0
+P335,Visit 1 (Week 4),1,2024-01-29,74,Male,Former Smoker,25.7,Stage I,Treatment,3,13.6,63.6,49.4,1,4.3,50.6,Non-Responder,142.9
+P335,Visit 2 (Week 8),2,2024-02-23,74,Male,Former Smoker,25.7,Stage I,Treatment,3,12.5,63.9,65.4,0,2.2,65.2,Non-Responder,123.2
+P336,Baseline,0,2023-12-30,63,Male,Never Smoker,0.0,Stage IV,Treatment,1,72.2,66.2,54.5,1,6.7,79.2,Not Applicable,0.0
+P336,Visit 1 (Week 4),1,2024-02-01,63,Male,Never Smoker,0.0,Stage IV,Treatment,1,57.2,61.1,51.7,0,7.5,75.8,Non-Responder,-20.8
+P336,Visit 2 (Week 8),2,2024-02-23,63,Male,Never Smoker,0.0,Stage IV,Treatment,1,53.7,67.9,59.9,0,8.0,83.9,Non-Responder,-25.6
+P337,Baseline,0,2023-12-30,56,Male,Current Smoker,37.7,Stage III,Placebo,0,41.7,55.3,63.3,0,5.5,90.9,Not Applicable,0.0
+P337,Visit 1 (Week 4),1,2024-01-28,56,Male,Current Smoker,37.7,Stage III,Placebo,0,41.8,57.3,63.3,2,6.4,86.8,Non-Responder,0.2
+P337,Visit 2 (Week 8),2,2024-02-26,56,Male,Current Smoker,37.7,Stage III,Placebo,0,42.2,66.2,52.5,0,6.6,93.2,Non-Responder,1.2
+P338,Baseline,0,2024-01-04,61,Male,Current Smoker,6.6,Stage IV,Placebo,2,53.9,49.3,44.4,0,9.8,70.7,Not Applicable,0.0
+P338,Visit 1 (Week 4),1,2024-01-26,61,Male,Current Smoker,6.6,Stage IV,Placebo,2,62.5,55.7,47.5,0,9.2,59.2,Non-Responder,16.0
+P338,Visit 2 (Week 8),2,2024-02-24,61,Male,Current Smoker,6.6,Stage IV,Placebo,2,66.9,50.3,54.6,0,9.0,68.5,Non-Responder,24.1
+P339,Baseline,0,2024-01-03,69,Female,Current Smoker,22.1,Stage II,Treatment,1,19.3,56.8,57.3,1,1.6,74.5,Not Applicable,0.0
+P339,Visit 1 (Week 4),1,2024-01-26,69,Female,Current Smoker,22.1,Stage II,Treatment,1,9.0,64.0,67.4,0,3.0,72.3,Responder,-53.4
+P339,Visit 2 (Week 8),2,2024-02-29,69,Female,Current Smoker,22.1,Stage II,Treatment,1,18.2,60.2,56.9,2,3.7,57.5,Non-Responder,-5.7
+P340,Baseline,0,2023-12-30,59,Male,Former Smoker,32.9,Stage I,Placebo,0,20.0,83.4,71.6,0,3.5,96.8,Not Applicable,0.0
+P340,Visit 1 (Week 4),1,2024-01-28,59,Male,Former Smoker,32.9,Stage I,Placebo,0,13.7,74.3,69.8,0,1.4,83.3,Responder,-31.5
+P340,Visit 2 (Week 8),2,2024-02-29,59,Male,Former Smoker,32.9,Stage I,Placebo,0,6.5,79.0,71.4,0,3.1,100.0,Responder,-67.5
+P341,Baseline,0,2023-12-30,56,Female,Former Smoker,12.5,Stage III,Placebo,0,53.7,66.1,59.3,2,5.4,88.5,Not Applicable,0.0
+P341,Visit 1 (Week 4),1,2024-01-27,56,Female,Former Smoker,12.5,Stage III,Placebo,0,39.9,63.3,51.1,0,6.4,82.9,Non-Responder,-25.7
+P341,Visit 2 (Week 8),2,2024-02-27,56,Female,Former Smoker,12.5,Stage III,Placebo,0,58.1,63.1,65.6,0,5.8,83.0,Non-Responder,8.2
+P342,Baseline,0,2023-12-31,67,Male,Current Smoker,34.4,Stage IV,Placebo,0,30.0,56.2,51.9,1,9.4,82.8,Not Applicable,0.0
+P342,Visit 1 (Week 4),1,2024-01-30,67,Male,Current Smoker,34.4,Stage IV,Placebo,0,92.6,54.3,52.5,0,8.8,80.2,Non-Responder,208.7
+P342,Visit 2 (Week 8),2,2024-02-23,67,Male,Current Smoker,34.4,Stage IV,Placebo,0,67.2,53.8,53.0,0,8.1,92.3,Non-Responder,124.0
+P343,Baseline,0,2024-01-02,67,Male,Former Smoker,11.4,Stage III,Placebo,0,50.8,64.4,66.9,0,4.8,90.7,Not Applicable,0.0
+P343,Visit 1 (Week 4),1,2024-02-01,67,Male,Former Smoker,11.4,Stage III,Placebo,0,62.1,69.2,59.8,0,7.9,92.4,Non-Responder,22.2
+P343,Visit 2 (Week 8),2,2024-02-27,67,Male,Former Smoker,11.4,Stage III,Placebo,0,49.9,68.0,64.8,0,5.0,86.2,Non-Responder,-1.8
+P344,Baseline,0,2023-12-29,59,Male,Former Smoker,29.7,Stage I,Treatment,1,16.9,77.8,60.9,0,3.4,82.6,Not Applicable,0.0
+P344,Visit 1 (Week 4),1,2024-01-29,59,Male,Former Smoker,29.7,Stage I,Treatment,1,8.6,72.4,75.7,0,1.0,66.0,Responder,-49.1
+P344,Visit 2 (Week 8),2,2024-02-27,59,Male,Former Smoker,29.7,Stage I,Treatment,1,11.7,74.2,76.5,3,3.6,69.5,Responder,-30.8
+P345,Baseline,0,2024-01-01,60,Female,Never Smoker,0.0,Stage III,Placebo,1,45.3,63.2,47.1,0,6.4,62.3,Not Applicable,0.0
+P345,Visit 1 (Week 4),1,2024-01-28,60,Female,Never Smoker,0.0,Stage III,Placebo,1,48.4,67.3,59.5,0,6.2,80.8,Non-Responder,6.8
+P345,Visit 2 (Week 8),2,2024-02-24,60,Female,Never Smoker,0.0,Stage III,Placebo,1,67.3,71.7,56.4,0,9.9,83.5,Non-Responder,48.6
+P346,Baseline,0,2024-01-01,67,Female,Former Smoker,24.6,Stage III,Treatment,0,59.0,67.5,55.2,0,5.3,86.4,Not Applicable,0.0
+P346,Visit 1 (Week 4),1,2024-02-01,67,Female,Former Smoker,24.6,Stage III,Treatment,0,33.1,69.5,69.3,2,6.1,86.3,Responder,-43.9
+P346,Visit 2 (Week 8),2,2024-02-29,67,Female,Former Smoker,24.6,Stage III,Treatment,0,26.7,75.3,62.3,0,5.6,80.6,Responder,-54.7
+P347,Baseline,0,2023-12-31,50,Female,Former Smoker,8.8,Stage III,Placebo,0,44.1,69.1,62.0,2,6.4,85.3,Not Applicable,0.0
+P347,Visit 1 (Week 4),1,2024-01-27,50,Female,Former Smoker,8.8,Stage III,Placebo,0,54.3,68.7,53.6,0,4.5,93.1,Non-Responder,23.1
+P347,Visit 2 (Week 8),2,2024-02-23,50,Female,Former Smoker,8.8,Stage III,Placebo,0,33.4,72.1,64.4,1,5.5,85.7,Non-Responder,-24.3
+P348,Baseline,0,2024-01-01,50,Female,Former Smoker,36.6,Stage III,Treatment,2,49.7,57.7,50.6,0,7.4,74.4,Not Applicable,0.0
+P348,Visit 1 (Week 4),1,2024-01-29,50,Female,Former Smoker,36.6,Stage III,Treatment,2,31.6,56.1,62.0,1,5.9,64.3,Responder,-36.4
+P348,Visit 2 (Week 8),2,2024-02-25,50,Female,Former Smoker,36.6,Stage III,Treatment,2,35.9,53.8,58.9,0,3.4,70.3,Non-Responder,-27.8
+P349,Baseline,0,2024-01-02,57,Female,Former Smoker,17.7,Stage IV,Placebo,0,37.1,60.3,55.0,1,9.0,96.7,Not Applicable,0.0
+P349,Visit 1 (Week 4),1,2024-01-30,57,Female,Former Smoker,17.7,Stage IV,Placebo,0,58.5,64.3,46.6,1,9.1,97.3,Non-Responder,57.7
+P349,Visit 2 (Week 8),2,2024-02-27,57,Female,Former Smoker,17.7,Stage IV,Placebo,0,49.7,66.4,56.9,0,5.4,91.1,Non-Responder,34.0
+P350,Baseline,0,2024-01-02,62,Female,Former Smoker,16.9,Stage III,Placebo,1,38.3,63.3,58.4,0,5.2,79.4,Not Applicable,0.0
+P350,Visit 1 (Week 4),1,2024-01-29,62,Female,Former Smoker,16.9,Stage III,Placebo,1,33.5,65.3,53.3,0,6.7,74.1,Non-Responder,-12.5
+P350,Visit 2 (Week 8),2,2024-02-28,62,Female,Former Smoker,16.9,Stage III,Placebo,1,36.2,64.9,59.7,2,8.2,69.6,Non-Responder,-5.5
+P351,Baseline,0,2024-01-04,68,Male,Current Smoker,33.0,Stage I,Treatment,2,20.9,58.2,66.7,1,1.6,66.0,Not Applicable,0.0
+P351,Visit 1 (Week 4),1,2024-02-01,68,Male,Current Smoker,33.0,Stage I,Treatment,2,9.1,61.1,64.3,1,4.5,67.4,Responder,-56.5
+P351,Visit 2 (Week 8),2,2024-02-24,68,Male,Current Smoker,33.0,Stage I,Treatment,2,18.1,64.5,57.4,0,2.3,60.4,Non-Responder,-13.4
+P352,Baseline,0,2023-12-30,79,Male,Current Smoker,47.2,Stage II,Treatment,0,45.7,59.6,65.3,1,6.2,95.7,Not Applicable,0.0
+P352,Visit 1 (Week 4),1,2024-01-28,79,Male,Current Smoker,47.2,Stage II,Treatment,0,30.1,63.7,69.1,1,5.2,81.4,Responder,-34.1
+P352,Visit 2 (Week 8),2,2024-02-28,79,Male,Current Smoker,47.2,Stage II,Treatment,0,18.3,71.6,66.7,0,1.8,83.7,Responder,-60.0
+P353,Baseline,0,2023-12-29,73,Male,Current Smoker,14.8,Stage I,Placebo,0,25.7,68.0,74.8,0,3.2,90.6,Not Applicable,0.0
+P353,Visit 1 (Week 4),1,2024-01-26,73,Male,Current Smoker,14.8,Stage I,Placebo,0,9.1,72.2,72.1,1,4.1,88.2,Responder,-64.6
+P353,Visit 2 (Week 8),2,2024-02-27,73,Male,Current Smoker,14.8,Stage I,Placebo,0,23.2,70.6,67.6,0,2.0,97.0,Non-Responder,-9.7
+P354,Baseline,0,2023-12-31,63,Female,Current Smoker,30.9,Stage II,Placebo,1,48.3,62.6,66.5,0,6.2,80.8,Not Applicable,0.0
+P354,Visit 1 (Week 4),1,2024-01-26,63,Female,Current Smoker,30.9,Stage II,Placebo,1,23.0,62.0,63.1,2,4.7,80.1,Responder,-52.4
+P354,Visit 2 (Week 8),2,2024-02-29,63,Female,Current Smoker,30.9,Stage II,Placebo,1,26.6,64.0,69.8,0,3.2,79.1,Responder,-44.9
+P355,Baseline,0,2023-12-31,64,Female,Current Smoker,36.4,Stage II,Placebo,1,36.7,58.5,54.4,0,5.0,87.2,Not Applicable,0.0
+P355,Visit 1 (Week 4),1,2024-02-01,64,Female,Current Smoker,36.4,Stage II,Placebo,1,34.4,63.0,65.1,0,3.7,78.3,Non-Responder,-6.3
+P355,Visit 2 (Week 8),2,2024-02-23,64,Female,Current Smoker,36.4,Stage II,Placebo,1,23.7,62.5,60.0,0,3.8,83.6,Responder,-35.4
+P356,Baseline,0,2023-12-30,54,Male,Never Smoker,0.0,Stage I,Placebo,1,7.5,82.4,69.5,1,3.0,86.1,Not Applicable,0.0
+P356,Visit 1 (Week 4),1,2024-01-29,54,Male,Never Smoker,0.0,Stage I,Placebo,1,13.6,79.9,59.7,0,5.0,81.7,Non-Responder,81.3
+P356,Visit 2 (Week 8),2,2024-02-25,54,Male,Never Smoker,0.0,Stage I,Placebo,1,21.7,79.2,64.7,0,4.5,78.1,Non-Responder,189.3
+P357,Baseline,0,2024-01-01,64,Female,Former Smoker,31.9,Stage II,Placebo,2,19.2,67.1,58.0,0,4.4,64.6,Not Applicable,0.0
+P357,Visit 1 (Week 4),1,2024-02-01,64,Female,Former Smoker,31.9,Stage II,Placebo,2,23.8,62.1,42.4,1,5.3,78.5,Non-Responder,24.0
+P357,Visit 2 (Week 8),2,2024-02-28,64,Female,Former Smoker,31.9,Stage II,Placebo,2,41.5,65.5,52.6,0,4.2,73.0,Non-Responder,116.1
+P358,Baseline,0,2023-12-30,62,Female,Never Smoker,0.0,Stage I,Placebo,0,17.0,84.6,72.6,0,2.4,95.9,Not Applicable,0.0
+P358,Visit 1 (Week 4),1,2024-01-29,62,Female,Never Smoker,0.0,Stage I,Placebo,0,9.8,81.4,68.2,0,3.6,93.4,Responder,-42.4
+P358,Visit 2 (Week 8),2,2024-02-26,62,Female,Never Smoker,0.0,Stage I,Placebo,0,22.9,88.4,85.1,0,0.9,98.5,Non-Responder,34.7
+P359,Baseline,0,2024-01-01,68,Male,Current Smoker,32.6,Stage IV,Placebo,1,50.5,46.1,51.0,1,8.7,76.7,Not Applicable,0.0
+P359,Visit 1 (Week 4),1,2024-01-27,68,Male,Current Smoker,32.6,Stage IV,Placebo,1,79.1,46.1,50.4,0,7.2,79.5,Non-Responder,56.6
+P359,Visit 2 (Week 8),2,2024-02-29,68,Male,Current Smoker,32.6,Stage IV,Placebo,1,75.2,52.4,47.2,0,8.9,85.6,Non-Responder,48.9
+P360,Baseline,0,2023-12-31,56,Male,Current Smoker,24.5,Stage IV,Placebo,1,29.3,42.0,53.5,2,9.4,78.7,Not Applicable,0.0
+P360,Visit 1 (Week 4),1,2024-01-28,56,Male,Current Smoker,24.5,Stage IV,Placebo,1,52.3,48.2,54.0,0,10.5,79.2,Non-Responder,78.5
+P360,Visit 2 (Week 8),2,2024-02-23,56,Male,Current Smoker,24.5,Stage IV,Placebo,1,52.3,53.1,54.2,0,6.9,89.0,Non-Responder,78.5
+P361,Baseline,0,2023-12-29,70,Female,Former Smoker,16.7,Stage I,Treatment,0,12.2,75.2,75.1,0,3.3,93.1,Not Applicable,0.0
+P361,Visit 1 (Week 4),1,2024-01-31,70,Female,Former Smoker,16.7,Stage I,Treatment,0,14.9,76.6,72.2,0,0.8,88.8,Non-Responder,22.1
+P361,Visit 2 (Week 8),2,2024-02-29,70,Female,Former Smoker,16.7,Stage I,Treatment,0,10.7,81.4,84.9,1,1.7,76.9,Non-Responder,-12.3
+P362,Baseline,0,2024-01-01,80,Male,Current Smoker,31.3,Stage IV,Treatment,1,62.6,50.8,57.6,1,8.2,83.6,Not Applicable,0.0
+P362,Visit 1 (Week 4),1,2024-01-31,80,Male,Current Smoker,31.3,Stage IV,Treatment,1,80.3,55.2,45.7,1,8.0,78.1,Non-Responder,28.3
+P362,Visit 2 (Week 8),2,2024-02-26,80,Male,Current Smoker,31.3,Stage IV,Treatment,1,46.5,52.5,52.0,1,9.9,62.1,Non-Responder,-25.7
+P363,Baseline,0,2024-01-03,63,Female,Never Smoker,0.0,Stage III,Treatment,0,36.3,69.3,69.3,0,7.3,90.3,Not Applicable,0.0
+P363,Visit 1 (Week 4),1,2024-01-29,63,Female,Never Smoker,0.0,Stage III,Treatment,0,37.7,80.2,64.4,3,6.1,89.8,Non-Responder,3.9
+P363,Visit 2 (Week 8),2,2024-02-24,63,Female,Never Smoker,0.0,Stage III,Treatment,0,16.6,81.0,62.7,1,3.9,82.2,Responder,-54.3
+P364,Baseline,0,2023-12-31,69,Male,Current Smoker,13.9,Stage II,Placebo,1,31.1,65.1,58.9,0,3.2,81.4,Not Applicable,0.0
+P364,Visit 1 (Week 4),1,2024-01-30,69,Male,Current Smoker,13.9,Stage II,Placebo,1,37.0,64.0,69.7,0,3.7,83.1,Non-Responder,19.0
+P364,Visit 2 (Week 8),2,2024-02-29,69,Male,Current Smoker,13.9,Stage II,Placebo,1,25.6,58.8,58.9,1,5.1,84.4,Non-Responder,-17.7
+P365,Baseline,0,2024-01-02,71,Female,Former Smoker,0.0,Stage I,Placebo,0,19.1,75.8,73.8,0,3.5,95.0,Not Applicable,0.0
+P365,Visit 1 (Week 4),1,2024-01-26,71,Female,Former Smoker,0.0,Stage I,Placebo,0,22.5,82.0,71.7,0,3.7,89.4,Non-Responder,17.8
+P365,Visit 2 (Week 8),2,2024-02-25,71,Female,Former Smoker,0.0,Stage I,Placebo,0,12.0,81.6,84.8,0,3.2,91.9,Responder,-37.2
+P366,Baseline,0,2023-12-30,60,Female,Never Smoker,0.0,Stage III,Treatment,1,42.5,71.2,54.4,2,7.4,85.9,Not Applicable,0.0
+P366,Visit 1 (Week 4),1,2024-01-29,60,Female,Never Smoker,0.0,Stage III,Treatment,1,33.7,66.9,60.2,0,5.6,67.8,Non-Responder,-20.7
+P366,Visit 2 (Week 8),2,2024-02-25,60,Female,Never Smoker,0.0,Stage III,Treatment,1,29.1,70.1,65.0,3,7.7,62.3,Responder,-31.5
+P367,Baseline,0,2024-01-03,67,Female,Former Smoker,29.4,Stage III,Placebo,1,37.4,63.7,44.6,0,6.8,79.9,Not Applicable,0.0
+P367,Visit 1 (Week 4),1,2024-01-28,67,Female,Former Smoker,29.4,Stage III,Placebo,1,52.2,61.0,54.8,1,6.4,73.9,Non-Responder,39.6
+P367,Visit 2 (Week 8),2,2024-02-29,67,Female,Former Smoker,29.4,Stage III,Placebo,1,43.6,61.6,57.6,0,6.4,78.0,Non-Responder,16.6
+P368,Baseline,0,2023-12-29,65,Male,Former Smoker,34.0,Stage III,Placebo,2,47.7,64.0,44.6,0,6.1,76.2,Not Applicable,0.0
+P368,Visit 1 (Week 4),1,2024-01-29,65,Male,Former Smoker,34.0,Stage III,Placebo,2,46.5,56.4,58.5,0,5.5,65.0,Non-Responder,-2.5
+P368,Visit 2 (Week 8),2,2024-02-28,65,Male,Former Smoker,34.0,Stage III,Placebo,2,38.0,59.3,58.3,0,6.2,67.8,Non-Responder,-20.3
+P369,Baseline,0,2023-12-31,65,Female,Former Smoker,1.4,Stage I,Treatment,0,19.1,72.0,67.9,0,4.4,84.3,Not Applicable,0.0
+P369,Visit 1 (Week 4),1,2024-01-31,65,Female,Former Smoker,1.4,Stage I,Treatment,0,12.5,81.0,67.2,0,2.1,79.0,Responder,-34.6
+P369,Visit 2 (Week 8),2,2024-02-28,65,Female,Former Smoker,1.4,Stage I,Treatment,0,7.0,82.7,80.6,3,2.4,76.6,Responder,-63.4
+P370,Baseline,0,2024-01-02,57,Female,Former Smoker,14.9,Stage I,Treatment,1,22.8,74.4,67.1,0,3.1,77.0,Not Applicable,0.0
+P370,Visit 1 (Week 4),1,2024-02-01,57,Female,Former Smoker,14.9,Stage I,Treatment,1,10.8,74.7,64.6,2,3.7,77.6,Responder,-52.6
+P370,Visit 2 (Week 8),2,2024-02-23,57,Female,Former Smoker,14.9,Stage I,Treatment,1,8.5,75.2,60.0,2,0.0,64.2,Responder,-62.7
+P371,Baseline,0,2024-01-04,65,Male,Current Smoker,39.3,Stage II,Treatment,1,26.5,67.4,63.1,1,4.8,84.4,Not Applicable,0.0
+P371,Visit 1 (Week 4),1,2024-01-29,65,Male,Current Smoker,39.3,Stage II,Treatment,1,31.6,63.7,69.5,4,5.0,75.7,Non-Responder,19.2
+P371,Visit 2 (Week 8),2,2024-02-27,65,Male,Current Smoker,39.3,Stage II,Treatment,1,15.7,62.3,60.4,1,2.7,71.7,Responder,-40.8
+P372,Baseline,0,2023-12-29,69,Female,Former Smoker,45.6,Stage II,Placebo,2,28.8,63.6,57.6,0,6.2,70.7,Not Applicable,0.0
+P372,Visit 1 (Week 4),1,2024-01-30,69,Female,Former Smoker,45.6,Stage II,Placebo,2,28.0,64.4,63.1,0,4.3,65.1,Non-Responder,-2.8
+P372,Visit 2 (Week 8),2,2024-02-28,69,Female,Former Smoker,45.6,Stage II,Placebo,2,23.5,70.9,53.9,2,5.3,71.4,Non-Responder,-18.4
+P373,Baseline,0,2024-01-04,79,Male,Former Smoker,25.2,Stage II,Placebo,1,26.4,74.9,63.3,0,3.9,76.3,Not Applicable,0.0
+P373,Visit 1 (Week 4),1,2024-01-31,79,Male,Former Smoker,25.2,Stage II,Placebo,1,68.8,70.2,58.9,0,5.0,80.7,Non-Responder,160.6
+P373,Visit 2 (Week 8),2,2024-02-26,79,Male,Former Smoker,25.2,Stage II,Placebo,1,14.7,72.3,65.1,1,5.5,80.4,Responder,-44.3
+P374,Baseline,0,2024-01-01,74,Male,Current Smoker,19.1,Stage II,Treatment,1,46.8,57.6,69.8,3,4.9,86.5,Not Applicable,0.0
+P374,Visit 1 (Week 4),1,2024-01-31,74,Male,Current Smoker,19.1,Stage II,Treatment,1,23.2,60.9,64.2,2,4.0,80.1,Responder,-50.4
+P374,Visit 2 (Week 8),2,2024-02-27,74,Male,Current Smoker,19.1,Stage II,Treatment,1,19.2,63.0,65.9,1,4.5,67.5,Responder,-59.0
+P375,Baseline,0,2024-01-01,86,Male,Current Smoker,27.3,Stage IV,Placebo,2,79.4,45.1,43.6,1,7.1,66.3,Not Applicable,0.0
+P375,Visit 1 (Week 4),1,2024-01-26,86,Male,Current Smoker,27.3,Stage IV,Placebo,2,76.3,41.6,40.9,0,9.2,66.5,Non-Responder,-3.9
+P375,Visit 2 (Week 8),2,2024-02-27,86,Male,Current Smoker,27.3,Stage IV,Placebo,2,57.2,42.6,32.4,0,8.0,66.5,Non-Responder,-28.0
+P376,Baseline,0,2023-12-30,57,Male,Former Smoker,38.7,Stage IV,Treatment,2,56.7,54.7,41.9,0,9.1,62.2,Not Applicable,0.0
+P376,Visit 1 (Week 4),1,2024-01-27,57,Male,Former Smoker,38.7,Stage IV,Treatment,2,39.9,57.3,45.1,1,7.6,60.1,Non-Responder,-29.6
+P376,Visit 2 (Week 8),2,2024-02-26,57,Male,Former Smoker,38.7,Stage IV,Treatment,2,45.3,62.6,55.5,1,5.7,47.9,Non-Responder,-20.1
+P377,Baseline,0,2024-01-03,73,Male,Former Smoker,18.5,Stage II,Treatment,1,23.2,64.0,56.4,0,5.3,72.2,Not Applicable,0.0
+P377,Visit 1 (Week 4),1,2024-01-27,73,Male,Former Smoker,18.5,Stage II,Treatment,1,26.9,68.0,59.6,0,4.4,78.9,Non-Responder,15.9
+P377,Visit 2 (Week 8),2,2024-02-25,73,Male,Former Smoker,18.5,Stage II,Treatment,1,17.5,68.7,72.0,0,2.6,64.2,Non-Responder,-24.6
+P378,Baseline,0,2024-01-04,66,Female,Never Smoker,0.0,Stage IV,Treatment,1,67.4,68.7,48.9,2,5.8,82.2,Not Applicable,0.0
+P378,Visit 1 (Week 4),1,2024-01-29,66,Female,Never Smoker,0.0,Stage IV,Treatment,1,49.6,64.3,59.2,1,8.4,75.4,Non-Responder,-26.4
+P378,Visit 2 (Week 8),2,2024-02-29,66,Female,Never Smoker,0.0,Stage IV,Treatment,1,58.1,67.3,54.1,3,5.1,65.8,Non-Responder,-13.8
+P379,Baseline,0,2024-01-04,86,Male,Former Smoker,17.0,Stage II,Placebo,2,22.2,60.7,48.6,0,3.6,71.6,Not Applicable,0.0
+P379,Visit 1 (Week 4),1,2024-01-30,86,Male,Former Smoker,17.0,Stage II,Placebo,2,41.0,59.8,49.8,1,3.8,70.1,Non-Responder,84.7
+P379,Visit 2 (Week 8),2,2024-02-25,86,Male,Former Smoker,17.0,Stage II,Placebo,2,32.9,64.0,51.3,0,4.8,64.1,Non-Responder,48.2
+P380,Baseline,0,2024-01-03,56,Female,Current Smoker,22.8,Stage II,Placebo,3,33.7,50.4,56.2,0,2.1,56.1,Not Applicable,0.0
+P380,Visit 1 (Week 4),1,2024-01-29,56,Female,Current Smoker,22.8,Stage II,Placebo,3,14.6,52.7,39.7,0,4.5,64.0,Responder,-56.7
+P380,Visit 2 (Week 8),2,2024-02-24,56,Female,Current Smoker,22.8,Stage II,Placebo,3,24.3,46.1,46.6,0,5.7,54.3,Non-Responder,-27.9
+P381,Baseline,0,2024-01-01,56,Male,Former Smoker,15.5,Stage II,Treatment,2,36.8,62.6,54.5,0,6.0,73.6,Not Applicable,0.0
+P381,Visit 1 (Week 4),1,2024-01-31,56,Male,Former Smoker,15.5,Stage II,Treatment,2,18.2,66.1,49.2,2,4.0,62.7,Responder,-50.5
+P381,Visit 2 (Week 8),2,2024-02-23,56,Male,Former Smoker,15.5,Stage II,Treatment,2,23.6,71.7,62.3,2,6.8,60.6,Responder,-35.9
+P382,Baseline,0,2023-12-31,59,Male,Former Smoker,26.2,Stage III,Treatment,1,48.7,61.1,47.8,1,7.2,78.2,Not Applicable,0.0
+P382,Visit 1 (Week 4),1,2024-01-26,59,Male,Former Smoker,26.2,Stage III,Treatment,1,43.3,68.0,62.1,0,5.3,73.4,Non-Responder,-11.1
+P382,Visit 2 (Week 8),2,2024-02-25,59,Male,Former Smoker,26.2,Stage III,Treatment,1,21.9,67.0,69.3,0,3.4,70.0,Responder,-55.0
+P383,Baseline,0,2023-12-29,43,Male,Current Smoker,54.4,Stage IV,Treatment,0,71.5,58.6,52.2,1,7.7,92.7,Not Applicable,0.0
+P383,Visit 1 (Week 4),1,2024-01-30,43,Male,Current Smoker,54.4,Stage IV,Treatment,0,55.3,53.2,47.8,1,8.3,88.2,Non-Responder,-22.7
+P383,Visit 2 (Week 8),2,2024-02-23,43,Male,Current Smoker,54.4,Stage IV,Treatment,0,43.3,67.6,66.0,4,8.4,73.3,Responder,-39.4
+P384,Baseline,0,2023-12-30,59,Female,Never Smoker,0.0,Stage III,Placebo,1,40.7,70.6,52.7,0,6.6,92.6,Not Applicable,0.0
+P384,Visit 1 (Week 4),1,2024-01-31,59,Female,Never Smoker,0.0,Stage III,Placebo,1,53.7,65.8,59.0,1,5.9,74.8,Non-Responder,31.9
+P384,Visit 2 (Week 8),2,2024-02-25,59,Female,Never Smoker,0.0,Stage III,Placebo,1,49.1,72.1,62.0,0,6.3,77.8,Non-Responder,20.6
+P385,Baseline,0,2023-12-30,57,Male,Former Smoker,28.2,Stage II,Placebo,2,31.2,63.3,52.1,0,4.9,67.4,Not Applicable,0.0
+P385,Visit 1 (Week 4),1,2024-02-01,57,Male,Former Smoker,28.2,Stage II,Placebo,2,26.5,60.2,65.6,1,3.3,66.4,Non-Responder,-15.1
+P385,Visit 2 (Week 8),2,2024-02-24,57,Male,Former Smoker,28.2,Stage II,Placebo,2,14.4,64.0,52.4,0,3.9,59.8,Responder,-53.8
+P386,Baseline,0,2023-12-31,66,Female,Former Smoker,22.5,Stage III,Treatment,1,15.9,58.1,59.4,1,8.5,73.8,Not Applicable,0.0
+P386,Visit 1 (Week 4),1,2024-01-28,66,Female,Former Smoker,22.5,Stage III,Treatment,1,43.1,67.3,66.4,2,6.0,74.5,Non-Responder,171.1
+P386,Visit 2 (Week 8),2,2024-02-24,66,Female,Former Smoker,22.5,Stage III,Treatment,1,43.7,67.5,66.0,0,4.0,73.7,Non-Responder,174.8
+P387,Baseline,0,2024-01-02,68,Female,Current Smoker,25.6,Stage I,Treatment,1,8.1,65.7,74.9,1,3.2,77.1,Not Applicable,0.0
+P387,Visit 1 (Week 4),1,2024-01-28,68,Female,Current Smoker,25.6,Stage I,Treatment,1,14.9,74.1,65.6,0,1.1,82.5,Non-Responder,84.0
+P387,Visit 2 (Week 8),2,2024-02-29,68,Female,Current Smoker,25.6,Stage I,Treatment,1,11.4,70.3,78.3,1,1.2,67.3,Non-Responder,40.7
+P388,Baseline,0,2023-12-29,83,Female,Former Smoker,9.4,Stage IV,Treatment,2,79.1,48.9,44.3,1,6.6,69.8,Not Applicable,0.0
+P388,Visit 1 (Week 4),1,2024-01-29,83,Female,Former Smoker,9.4,Stage IV,Treatment,2,32.3,53.1,43.0,0,8.8,77.3,Responder,-59.2
+P388,Visit 2 (Week 8),2,2024-02-29,83,Female,Former Smoker,9.4,Stage IV,Treatment,2,36.2,48.3,44.7,3,5.8,62.6,Responder,-54.2
+P389,Baseline,0,2024-01-04,74,Male,Current Smoker,43.2,Stage III,Placebo,1,45.5,59.9,51.7,1,6.4,74.0,Not Applicable,0.0
+P389,Visit 1 (Week 4),1,2024-01-31,74,Male,Current Smoker,43.2,Stage III,Placebo,1,41.9,53.5,55.7,1,6.0,77.6,Non-Responder,-7.9
+P389,Visit 2 (Week 8),2,2024-02-25,74,Male,Current Smoker,43.2,Stage III,Placebo,1,68.6,58.4,63.4,0,6.1,71.3,Non-Responder,50.8
+P390,Baseline,0,2023-12-31,59,Male,Former Smoker,24.2,Stage II,Treatment,2,35.9,60.6,64.9,2,1.9,64.9,Not Applicable,0.0
+P390,Visit 1 (Week 4),1,2024-01-27,59,Male,Former Smoker,24.2,Stage II,Treatment,2,31.9,64.7,58.2,0,5.1,65.7,Non-Responder,-11.1
+P390,Visit 2 (Week 8),2,2024-02-25,59,Male,Former Smoker,24.2,Stage II,Treatment,2,18.1,64.5,66.0,2,2.4,56.9,Responder,-49.6
+P391,Baseline,0,2023-12-31,56,Female,Never Smoker,0.0,Stage III,Treatment,1,42.0,69.3,61.4,1,6.1,77.3,Not Applicable,0.0
+P391,Visit 1 (Week 4),1,2024-01-31,56,Female,Never Smoker,0.0,Stage III,Treatment,1,27.9,73.3,50.5,1,5.5,70.8,Responder,-33.6
+P391,Visit 2 (Week 8),2,2024-02-24,56,Female,Never Smoker,0.0,Stage III,Treatment,1,32.6,68.2,59.0,1,3.5,75.0,Non-Responder,-22.4
+P392,Baseline,0,2023-12-29,69,Male,Current Smoker,27.3,Stage III,Treatment,1,42.8,55.7,62.0,0,4.3,77.8,Not Applicable,0.0
+P392,Visit 1 (Week 4),1,2024-01-27,69,Male,Current Smoker,27.3,Stage III,Treatment,1,27.6,54.8,59.3,1,6.4,72.5,Responder,-35.5
+P392,Visit 2 (Week 8),2,2024-02-24,69,Male,Current Smoker,27.3,Stage III,Treatment,1,26.3,61.5,72.6,0,7.6,65.8,Responder,-38.6
+P393,Baseline,0,2023-12-29,51,Female,Current Smoker,77.9,Stage I,Placebo,1,19.7,66.1,65.9,0,2.8,80.0,Not Applicable,0.0
+P393,Visit 1 (Week 4),1,2024-01-28,51,Female,Current Smoker,77.9,Stage I,Placebo,1,17.7,68.5,59.9,1,4.3,77.2,Non-Responder,-10.2
+P393,Visit 2 (Week 8),2,2024-02-26,51,Female,Current Smoker,77.9,Stage I,Placebo,1,21.6,68.0,61.2,0,3.3,80.5,Non-Responder,9.6
+P394,Baseline,0,2024-01-03,83,Male,Current Smoker,34.5,Stage III,Placebo,2,35.1,46.5,50.8,1,6.8,70.8,Not Applicable,0.0
+P394,Visit 1 (Week 4),1,2024-01-29,83,Male,Current Smoker,34.5,Stage III,Placebo,2,44.1,45.6,55.2,1,6.1,72.8,Non-Responder,25.6
+P394,Visit 2 (Week 8),2,2024-02-26,83,Male,Current Smoker,34.5,Stage III,Placebo,2,37.2,52.2,51.7,0,6.7,75.6,Non-Responder,6.0
+P395,Baseline,0,2024-01-04,76,Female,Current Smoker,18.7,Stage II,Treatment,0,38.9,72.3,57.7,1,3.6,87.2,Not Applicable,0.0
+P395,Visit 1 (Week 4),1,2024-01-27,76,Female,Current Smoker,18.7,Stage II,Treatment,0,11.3,66.5,67.3,1,4.7,82.1,Responder,-71.0
+P395,Visit 2 (Week 8),2,2024-02-29,76,Female,Current Smoker,18.7,Stage II,Treatment,0,26.9,67.1,72.9,0,6.1,82.2,Responder,-30.8
+P396,Baseline,0,2023-12-30,60,Female,Current Smoker,23.6,Stage III,Placebo,0,36.3,62.5,62.8,0,7.4,89.3,Not Applicable,0.0
+P396,Visit 1 (Week 4),1,2024-01-27,60,Female,Current Smoker,23.6,Stage III,Placebo,0,52.2,60.6,60.4,0,5.1,86.5,Non-Responder,43.8
+P396,Visit 2 (Week 8),2,2024-02-29,60,Female,Current Smoker,23.6,Stage III,Placebo,0,61.0,60.2,68.0,0,4.2,96.3,Non-Responder,68.0
+P397,Baseline,0,2024-01-04,47,Female,Former Smoker,36.5,Stage IV,Placebo,3,73.4,44.4,45.1,0,6.6,54.6,Not Applicable,0.0
+P397,Visit 1 (Week 4),1,2024-01-26,47,Female,Former Smoker,36.5,Stage IV,Placebo,3,57.6,51.7,40.3,0,6.9,56.8,Non-Responder,-21.5
+P397,Visit 2 (Week 8),2,2024-02-29,47,Female,Former Smoker,36.5,Stage IV,Placebo,3,74.0,45.1,44.7,0,8.0,54.7,Non-Responder,0.8
+P398,Baseline,0,2024-01-02,78,Male,Former Smoker,26.1,Stage IV,Treatment,0,60.1,61.3,53.9,1,6.5,96.9,Not Applicable,0.0
+P398,Visit 1 (Week 4),1,2024-01-28,78,Male,Former Smoker,26.1,Stage IV,Treatment,0,38.2,64.8,52.9,0,8.0,87.6,Responder,-36.4
+P398,Visit 2 (Week 8),2,2024-02-26,78,Male,Former Smoker,26.1,Stage IV,Treatment,0,39.0,63.8,69.1,2,8.2,82.6,Responder,-35.1
+P399,Baseline,0,2023-12-31,63,Female,Current Smoker,8.4,Stage III,Placebo,1,47.8,51.1,56.6,0,5.7,76.1,Not Applicable,0.0
+P399,Visit 1 (Week 4),1,2024-01-30,63,Female,Current Smoker,8.4,Stage III,Placebo,1,41.7,57.6,65.3,0,6.5,88.0,Non-Responder,-12.8
+P399,Visit 2 (Week 8),2,2024-02-23,63,Female,Current Smoker,8.4,Stage III,Placebo,1,36.2,56.4,58.6,0,6.9,74.5,Non-Responder,-24.3
+P400,Baseline,0,2023-12-29,77,Male,Former Smoker,34.2,Stage III,Treatment,1,62.3,64.9,48.2,2,7.9,88.6,Not Applicable,0.0
+P400,Visit 1 (Week 4),1,2024-01-30,77,Male,Former Smoker,34.2,Stage III,Treatment,1,43.1,68.5,66.4,2,5.2,73.9,Responder,-30.8
+P400,Visit 2 (Week 8),2,2024-02-23,77,Male,Former Smoker,34.2,Stage III,Treatment,1,39.6,60.4,59.9,0,5.7,72.5,Responder,-36.4
+P401,Baseline,0,2024-01-02,49,Male,Current Smoker,20.0,Stage I,Placebo,1,8.2,68.7,57.4,0,2.8,87.8,Not Applicable,0.0
+P401,Visit 1 (Week 4),1,2024-01-27,49,Male,Current Smoker,20.0,Stage I,Placebo,1,13.3,72.0,65.3,0,3.4,79.9,Non-Responder,62.2
+P401,Visit 2 (Week 8),2,2024-02-24,49,Male,Current Smoker,20.0,Stage I,Placebo,1,19.4,69.6,63.4,1,1.0,81.4,Non-Responder,136.6
+P402,Baseline,0,2024-01-01,59,Female,Current Smoker,58.1,Stage III,Treatment,1,51.5,54.5,49.9,0,5.5,79.0,Not Applicable,0.0
+P402,Visit 1 (Week 4),1,2024-01-31,59,Female,Current Smoker,58.1,Stage III,Treatment,1,41.1,52.9,49.3,1,5.5,84.7,Non-Responder,-20.2
+P402,Visit 2 (Week 8),2,2024-02-26,59,Female,Current Smoker,58.1,Stage III,Treatment,1,40.8,60.2,61.2,1,6.0,61.5,Non-Responder,-20.8
+P403,Baseline,0,2024-01-02,65,Female,Former Smoker,35.8,Stage II,Treatment,0,39.1,70.0,60.9,3,5.8,87.6,Not Applicable,0.0
+P403,Visit 1 (Week 4),1,2024-02-01,65,Female,Former Smoker,35.8,Stage II,Treatment,0,27.5,73.7,61.6,1,2.1,79.1,Non-Responder,-29.7
+P403,Visit 2 (Week 8),2,2024-02-29,65,Female,Former Smoker,35.8,Stage II,Treatment,0,32.7,70.5,63.9,1,3.3,77.3,Non-Responder,-16.4
+P404,Baseline,0,2023-12-31,65,Female,Former Smoker,20.5,Stage II,Placebo,1,33.5,69.7,63.7,1,6.3,75.9,Not Applicable,0.0
+P404,Visit 1 (Week 4),1,2024-01-31,65,Female,Former Smoker,20.5,Stage II,Placebo,1,28.7,65.6,61.1,1,3.6,89.5,Non-Responder,-14.3
+P404,Visit 2 (Week 8),2,2024-02-25,65,Female,Former Smoker,20.5,Stage II,Placebo,1,26.4,65.6,60.4,1,7.3,87.3,Non-Responder,-21.2
+P405,Baseline,0,2024-01-03,60,Female,Current Smoker,49.2,Stage II,Placebo,1,52.1,61.2,50.5,0,4.8,83.5,Not Applicable,0.0
+P405,Visit 1 (Week 4),1,2024-01-30,60,Female,Current Smoker,49.2,Stage II,Placebo,1,27.9,60.1,64.9,0,5.0,79.8,Responder,-46.4
+P405,Visit 2 (Week 8),2,2024-02-29,60,Female,Current Smoker,49.2,Stage II,Placebo,1,23.7,61.0,61.5,2,5.8,83.0,Responder,-54.5
+P406,Baseline,0,2023-12-30,71,Male,Former Smoker,25.7,Stage I,Placebo,1,12.2,70.3,65.4,0,3.0,84.0,Not Applicable,0.0
+P406,Visit 1 (Week 4),1,2024-01-27,71,Male,Former Smoker,25.7,Stage I,Placebo,1,11.3,70.6,65.8,0,2.8,81.3,Non-Responder,-7.4
+P406,Visit 2 (Week 8),2,2024-02-28,71,Male,Former Smoker,25.7,Stage I,Placebo,1,14.9,76.9,72.6,0,3.5,76.1,Non-Responder,22.1
+P407,Baseline,0,2023-12-30,54,Male,Current Smoker,42.8,Stage III,Placebo,0,51.6,61.2,66.1,0,7.5,86.7,Not Applicable,0.0
+P407,Visit 1 (Week 4),1,2024-01-29,54,Male,Current Smoker,42.8,Stage III,Placebo,0,35.0,59.2,55.6,0,7.9,95.9,Responder,-32.2
+P407,Visit 2 (Week 8),2,2024-02-26,54,Male,Current Smoker,42.8,Stage III,Placebo,0,48.9,63.4,55.1,0,4.6,96.3,Non-Responder,-5.2
+P408,Baseline,0,2024-01-01,63,Female,Former Smoker,29.8,Stage I,Treatment,1,13.4,71.0,69.0,0,3.2,76.2,Not Applicable,0.0
+P408,Visit 1 (Week 4),1,2024-01-30,63,Female,Former Smoker,29.8,Stage I,Treatment,1,15.0,75.6,65.3,0,2.0,74.3,Non-Responder,11.9
+P408,Visit 2 (Week 8),2,2024-02-29,63,Female,Former Smoker,29.8,Stage I,Treatment,1,14.0,78.6,57.9,1,2.7,64.8,Non-Responder,4.5
+P409,Baseline,0,2024-01-02,66,Male,Current Smoker,17.3,Stage III,Treatment,0,43.2,61.3,57.8,0,6.9,85.8,Not Applicable,0.0
+P409,Visit 1 (Week 4),1,2024-02-01,66,Male,Current Smoker,17.3,Stage III,Treatment,0,48.2,62.8,59.7,2,6.2,88.1,Non-Responder,11.6
+P409,Visit 2 (Week 8),2,2024-02-23,66,Male,Current Smoker,17.3,Stage III,Treatment,0,27.3,66.5,65.0,0,4.0,82.4,Responder,-36.8
+P410,Baseline,0,2023-12-30,70,Male,Never Smoker,0.0,Stage II,Placebo,0,20.9,78.3,58.6,0,6.5,81.8,Not Applicable,0.0
+P410,Visit 1 (Week 4),1,2024-02-01,70,Male,Never Smoker,0.0,Stage II,Placebo,0,36.1,77.4,75.4,0,3.5,93.7,Non-Responder,72.7
+P410,Visit 2 (Week 8),2,2024-02-29,70,Male,Never Smoker,0.0,Stage II,Placebo,0,40.9,80.0,63.3,1,5.6,85.1,Non-Responder,95.7
+P411,Baseline,0,2023-12-31,72,Male,Current Smoker,20.3,Stage I,Placebo,0,9.9,71.6,62.8,0,3.8,99.0,Not Applicable,0.0
+P411,Visit 1 (Week 4),1,2024-01-29,72,Male,Current Smoker,20.3,Stage I,Placebo,0,13.6,73.0,59.9,0,2.4,89.1,Non-Responder,37.4
+P411,Visit 2 (Week 8),2,2024-02-27,72,Male,Current Smoker,20.3,Stage I,Placebo,0,16.4,74.4,68.0,0,1.4,87.0,Non-Responder,65.7
+P412,Baseline,0,2024-01-01,53,Male,Former Smoker,35.3,Stage III,Placebo,0,48.7,62.3,55.5,0,6.6,97.8,Not Applicable,0.0
+P412,Visit 1 (Week 4),1,2024-01-28,53,Male,Former Smoker,35.3,Stage III,Placebo,0,52.8,65.3,57.8,0,4.2,91.8,Non-Responder,8.4
+P412,Visit 2 (Week 8),2,2024-02-27,53,Male,Former Smoker,35.3,Stage III,Placebo,0,35.6,69.4,61.2,0,6.5,85.8,Non-Responder,-26.9
+P413,Baseline,0,2024-01-02,49,Male,Former Smoker,21.7,Stage I,Treatment,2,15.1,67.1,54.5,1,2.1,63.3,Not Applicable,0.0
+P413,Visit 1 (Week 4),1,2024-01-28,49,Male,Former Smoker,21.7,Stage I,Treatment,2,13.5,66.4,74.2,1,4.0,64.3,Non-Responder,-10.6
+P413,Visit 2 (Week 8),2,2024-02-28,49,Male,Former Smoker,21.7,Stage I,Treatment,2,14.8,72.6,71.5,0,3.1,71.9,Non-Responder,-2.0
+P414,Baseline,0,2023-12-30,77,Male,Former Smoker,21.0,Stage II,Placebo,0,21.1,75.3,69.5,0,4.1,81.5,Not Applicable,0.0
+P414,Visit 1 (Week 4),1,2024-01-26,77,Male,Former Smoker,21.0,Stage II,Placebo,0,20.7,80.4,73.6,0,3.2,89.0,Non-Responder,-1.9
+P414,Visit 2 (Week 8),2,2024-02-26,77,Male,Former Smoker,21.0,Stage II,Placebo,0,33.6,69.4,65.3,1,3.6,90.5,Non-Responder,59.2
+P415,Baseline,0,2024-01-02,68,Male,Current Smoker,15.7,Stage III,Treatment,3,58.6,45.9,47.5,0,7.2,63.6,Not Applicable,0.0
+P415,Visit 1 (Week 4),1,2024-01-27,68,Male,Current Smoker,15.7,Stage III,Treatment,3,46.9,44.5,43.1,1,5.3,59.4,Non-Responder,-20.0
+P415,Visit 2 (Week 8),2,2024-02-25,68,Male,Current Smoker,15.7,Stage III,Treatment,3,26.2,51.0,53.6,1,5.7,47.7,Responder,-55.3
+P416,Baseline,0,2023-12-29,57,Male,Current Smoker,36.4,Stage I,Treatment,3,15.6,50.2,48.3,1,3.3,74.4,Not Applicable,0.0
+P416,Visit 1 (Week 4),1,2024-01-29,57,Male,Current Smoker,36.4,Stage I,Treatment,3,19.1,49.5,53.8,3,1.9,54.5,Non-Responder,22.4
+P416,Visit 2 (Week 8),2,2024-02-24,57,Male,Current Smoker,36.4,Stage I,Treatment,3,15.2,53.2,58.9,0,0.8,49.4,Non-Responder,-2.6
+P417,Baseline,0,2024-01-04,80,Female,Former Smoker,45.6,Stage IV,Treatment,1,63.0,59.4,47.7,4,6.7,84.5,Not Applicable,0.0
+P417,Visit 1 (Week 4),1,2024-01-27,80,Female,Former Smoker,45.6,Stage IV,Treatment,1,64.8,61.4,53.4,0,8.3,75.2,Non-Responder,2.9
+P417,Visit 2 (Week 8),2,2024-02-25,80,Female,Former Smoker,45.6,Stage IV,Treatment,1,44.7,61.2,51.4,0,6.3,69.0,Non-Responder,-29.0
+P418,Baseline,0,2024-01-04,66,Male,Never Smoker,0.0,Stage I,Placebo,0,15.9,85.9,67.4,1,2.9,96.7,Not Applicable,0.0
+P418,Visit 1 (Week 4),1,2024-01-28,66,Male,Never Smoker,0.0,Stage I,Placebo,0,7.3,86.3,61.0,0,3.7,90.5,Responder,-54.1
+P418,Visit 2 (Week 8),2,2024-02-29,66,Male,Never Smoker,0.0,Stage I,Placebo,0,16.8,84.7,82.2,0,2.7,75.8,Non-Responder,5.7
+P419,Baseline,0,2024-01-04,76,Male,Never Smoker,0.0,Stage II,Treatment,1,27.8,72.9,67.6,3,6.3,67.7,Not Applicable,0.0
+P419,Visit 1 (Week 4),1,2024-01-31,76,Male,Never Smoker,0.0,Stage II,Treatment,1,37.5,75.6,66.1,0,4.3,73.0,Non-Responder,34.9
+P419,Visit 2 (Week 8),2,2024-02-24,76,Male,Never Smoker,0.0,Stage II,Treatment,1,26.8,76.3,65.7,2,3.5,60.4,Non-Responder,-3.6
+P420,Baseline,0,2024-01-03,65,Female,Current Smoker,14.0,Stage III,Placebo,2,46.4,48.4,62.1,0,6.3,65.8,Not Applicable,0.0
+P420,Visit 1 (Week 4),1,2024-01-26,65,Female,Current Smoker,14.0,Stage III,Placebo,2,54.7,52.8,49.7,0,6.1,64.0,Non-Responder,17.9
+P420,Visit 2 (Week 8),2,2024-02-24,65,Female,Current Smoker,14.0,Stage III,Placebo,2,57.9,43.8,53.3,1,6.3,71.0,Non-Responder,24.8
+P421,Baseline,0,2024-01-01,85,Male,Current Smoker,30.4,Stage II,Placebo,1,44.4,55.4,54.6,0,6.9,86.3,Not Applicable,0.0
+P421,Visit 1 (Week 4),1,2024-01-27,85,Male,Current Smoker,30.4,Stage II,Placebo,1,26.0,63.4,58.7,0,4.7,75.4,Responder,-41.4
+P421,Visit 2 (Week 8),2,2024-02-25,85,Male,Current Smoker,30.4,Stage II,Placebo,1,25.3,64.6,54.6,0,5.3,79.2,Responder,-43.0
+P422,Baseline,0,2024-01-01,82,Female,Former Smoker,39.1,Stage I,Treatment,0,5.7,79.8,71.6,0,3.9,90.2,Not Applicable,0.0
+P422,Visit 1 (Week 4),1,2024-02-01,82,Female,Former Smoker,39.1,Stage I,Treatment,0,3.4,75.6,70.2,0,4.4,91.0,Responder,-40.4
+P422,Visit 2 (Week 8),2,2024-02-25,82,Female,Former Smoker,39.1,Stage I,Treatment,0,12.2,81.1,77.0,1,1.3,97.0,Non-Responder,114.0
+P423,Baseline,0,2024-01-04,62,Female,Former Smoker,24.2,Stage II,Treatment,1,22.6,63.8,64.3,0,6.1,77.9,Not Applicable,0.0
+P423,Visit 1 (Week 4),1,2024-01-28,62,Female,Former Smoker,24.2,Stage II,Treatment,1,44.6,68.1,64.3,0,5.0,76.5,Non-Responder,97.3
+P423,Visit 2 (Week 8),2,2024-02-23,62,Female,Former Smoker,24.2,Stage II,Treatment,1,22.1,77.7,68.1,0,5.9,70.0,Non-Responder,-2.2
+P424,Baseline,0,2023-12-29,74,Male,Former Smoker,29.5,Stage II,Placebo,2,24.7,65.8,61.4,0,6.0,67.5,Not Applicable,0.0
+P424,Visit 1 (Week 4),1,2024-02-01,74,Male,Former Smoker,29.5,Stage II,Placebo,2,25.2,65.4,59.8,0,4.5,70.3,Non-Responder,2.0
+P424,Visit 2 (Week 8),2,2024-02-26,74,Male,Former Smoker,29.5,Stage II,Placebo,2,38.9,62.5,65.0,1,3.2,55.9,Non-Responder,57.5
+P425,Baseline,0,2023-12-29,71,Male,Former Smoker,14.4,Stage IV,Placebo,2,57.0,51.2,43.9,0,8.6,79.0,Not Applicable,0.0
+P425,Visit 1 (Week 4),1,2024-01-26,71,Male,Former Smoker,14.4,Stage IV,Placebo,2,54.3,54.9,52.8,0,7.2,62.1,Non-Responder,-4.7
+P425,Visit 2 (Week 8),2,2024-02-26,71,Male,Former Smoker,14.4,Stage IV,Placebo,2,73.7,53.2,49.3,0,7.6,68.8,Non-Responder,29.3
+P426,Baseline,0,2024-01-03,78,Female,Former Smoker,29.3,Stage II,Placebo,0,19.3,70.6,60.7,0,4.1,84.4,Not Applicable,0.0
+P426,Visit 1 (Week 4),1,2024-01-29,78,Female,Former Smoker,29.3,Stage II,Placebo,0,30.7,77.1,72.4,0,5.0,80.8,Non-Responder,59.1
+P426,Visit 2 (Week 8),2,2024-02-28,78,Female,Former Smoker,29.3,Stage II,Placebo,0,29.4,76.1,73.3,0,4.5,93.6,Non-Responder,52.3
+P427,Baseline,0,2024-01-03,55,Female,Current Smoker,27.2,Stage III,Placebo,1,49.8,59.0,50.6,1,6.9,76.5,Not Applicable,0.0
+P427,Visit 1 (Week 4),1,2024-01-30,55,Female,Current Smoker,27.2,Stage III,Placebo,1,59.9,59.3,49.9,0,6.3,88.3,Non-Responder,20.3
+P427,Visit 2 (Week 8),2,2024-02-26,55,Female,Current Smoker,27.2,Stage III,Placebo,1,41.2,55.5,61.9,0,6.3,76.6,Non-Responder,-17.3
+P428,Baseline,0,2023-12-29,71,Male,Never Smoker,0.0,Stage IV,Placebo,0,35.3,73.0,53.5,1,8.3,99.6,Not Applicable,0.0
+P428,Visit 1 (Week 4),1,2024-01-30,71,Male,Never Smoker,0.0,Stage IV,Placebo,0,78.6,72.3,57.3,1,5.5,97.3,Non-Responder,122.7
+P428,Visit 2 (Week 8),2,2024-02-25,71,Male,Never Smoker,0.0,Stage IV,Placebo,0,76.9,68.4,59.7,0,8.7,93.4,Non-Responder,117.8
+P429,Baseline,0,2023-12-30,75,Female,Current Smoker,44.8,Stage II,Placebo,0,17.5,70.8,65.1,0,3.7,81.5,Not Applicable,0.0
+P429,Visit 1 (Week 4),1,2024-01-26,75,Female,Current Smoker,44.8,Stage II,Placebo,0,41.1,63.0,75.7,0,4.7,92.5,Non-Responder,134.9
+P429,Visit 2 (Week 8),2,2024-02-27,75,Female,Current Smoker,44.8,Stage II,Placebo,0,33.8,66.0,63.0,0,5.3,84.5,Non-Responder,93.1
+P430,Baseline,0,2024-01-04,47,Male,Former Smoker,36.9,Stage IV,Placebo,2,62.2,56.3,52.0,0,5.6,73.7,Not Applicable,0.0
+P430,Visit 1 (Week 4),1,2024-02-01,47,Male,Former Smoker,36.9,Stage IV,Placebo,2,48.5,52.2,38.3,0,6.9,76.0,Non-Responder,-22.0
+P430,Visit 2 (Week 8),2,2024-02-24,47,Male,Former Smoker,36.9,Stage IV,Placebo,2,59.9,51.0,50.5,0,9.0,70.0,Non-Responder,-3.7
+P431,Baseline,0,2023-12-31,53,Female,Former Smoker,50.9,Stage II,Treatment,0,12.1,77.4,64.6,1,5.1,100.0,Not Applicable,0.0
+P431,Visit 1 (Week 4),1,2024-01-29,53,Female,Former Smoker,50.9,Stage II,Treatment,0,41.4,75.0,70.5,1,5.1,86.5,Non-Responder,242.1
+P431,Visit 2 (Week 8),2,2024-02-28,53,Female,Former Smoker,50.9,Stage II,Treatment,0,28.3,82.9,76.7,2,4.6,84.7,Non-Responder,133.9
+P432,Baseline,0,2024-01-03,44,Male,Current Smoker,38.7,Stage IV,Treatment,0,75.9,54.6,47.1,1,8.7,95.6,Not Applicable,0.0
+P432,Visit 1 (Week 4),1,2024-01-28,44,Male,Current Smoker,38.7,Stage IV,Treatment,0,51.2,53.7,60.6,0,6.2,88.6,Responder,-32.5
+P432,Visit 2 (Week 8),2,2024-02-26,44,Male,Current Smoker,38.7,Stage IV,Treatment,0,68.3,63.5,54.9,1,6.3,83.3,Non-Responder,-10.0
+P433,Baseline,0,2023-12-30,62,Female,Current Smoker,34.9,Stage I,Treatment,0,1.4,63.0,69.4,0,4.8,84.9,Not Applicable,0.0
+P433,Visit 1 (Week 4),1,2024-01-30,62,Female,Current Smoker,34.9,Stage I,Treatment,0,10.8,74.0,74.6,0,1.4,79.5,Non-Responder,671.4
+P433,Visit 2 (Week 8),2,2024-02-23,62,Female,Current Smoker,34.9,Stage I,Treatment,0,8.3,77.3,74.3,0,3.7,79.2,Non-Responder,492.9
+P434,Baseline,0,2024-01-03,72,Female,Current Smoker,32.9,Stage III,Placebo,2,42.2,47.1,51.7,0,5.9,68.0,Not Applicable,0.0
+P434,Visit 1 (Week 4),1,2024-01-30,72,Female,Current Smoker,32.9,Stage III,Placebo,2,48.6,47.2,45.5,0,4.5,73.4,Non-Responder,15.2
+P434,Visit 2 (Week 8),2,2024-02-27,72,Female,Current Smoker,32.9,Stage III,Placebo,2,39.3,51.1,43.2,0,7.5,73.4,Non-Responder,-6.9
+P435,Baseline,0,2024-01-01,80,Female,Never Smoker,0.0,Stage II,Treatment,2,17.9,72.2,56.5,2,5.2,70.0,Not Applicable,0.0
+P435,Visit 1 (Week 4),1,2024-01-27,80,Female,Never Smoker,0.0,Stage II,Treatment,2,28.3,74.5,60.7,3,3.3,68.7,Non-Responder,58.1
+P435,Visit 2 (Week 8),2,2024-02-27,80,Female,Never Smoker,0.0,Stage II,Treatment,2,11.7,69.3,61.1,4,4.4,52.9,Responder,-34.6
+P436,Baseline,0,2023-12-30,65,Male,Never Smoker,0.0,Stage II,Treatment,1,22.4,77.6,52.1,2,3.3,75.0,Not Applicable,0.0
+P436,Visit 1 (Week 4),1,2024-01-28,65,Male,Never Smoker,0.0,Stage II,Treatment,1,16.8,78.6,65.9,1,3.8,70.1,Non-Responder,-25.0
+P436,Visit 2 (Week 8),2,2024-02-24,65,Male,Never Smoker,0.0,Stage II,Treatment,1,27.1,81.4,72.7,0,2.3,76.7,Non-Responder,21.0
+P437,Baseline,0,2023-12-30,81,Male,Current Smoker,24.7,Stage III,Treatment,2,29.9,46.2,51.3,0,6.9,74.1,Not Applicable,0.0
+P437,Visit 1 (Week 4),1,2024-01-27,81,Male,Current Smoker,24.7,Stage III,Treatment,2,44.0,49.3,57.3,1,6.0,60.6,Non-Responder,47.2
+P437,Visit 2 (Week 8),2,2024-02-29,81,Male,Current Smoker,24.7,Stage III,Treatment,2,35.4,54.0,56.0,2,6.2,46.8,Non-Responder,18.4
+P438,Baseline,0,2024-01-01,51,Male,Former Smoker,28.4,Stage III,Treatment,0,51.2,64.8,63.2,2,5.9,93.3,Not Applicable,0.0
+P438,Visit 1 (Week 4),1,2024-01-31,51,Male,Former Smoker,28.4,Stage III,Treatment,0,42.4,70.9,54.9,2,5.5,83.7,Non-Responder,-17.2
+P438,Visit 2 (Week 8),2,2024-02-29,51,Male,Former Smoker,28.4,Stage III,Treatment,0,34.7,72.4,59.7,0,4.7,87.8,Responder,-32.2
+P439,Baseline,0,2023-12-29,47,Male,Former Smoker,22.0,Stage I,Treatment,1,9.7,71.8,61.9,0,0.5,78.9,Not Applicable,0.0
+P439,Visit 1 (Week 4),1,2024-01-26,47,Male,Former Smoker,22.0,Stage I,Treatment,1,15.6,72.8,67.6,0,2.6,84.3,Non-Responder,60.8
+P439,Visit 2 (Week 8),2,2024-02-29,47,Male,Former Smoker,22.0,Stage I,Treatment,1,10.3,77.5,70.4,0,2.1,72.2,Non-Responder,6.2
+P440,Baseline,0,2024-01-03,64,Male,Never Smoker,0.0,Stage I,Treatment,1,18.7,78.8,65.1,1,5.2,76.4,Not Applicable,0.0
+P440,Visit 1 (Week 4),1,2024-01-31,64,Male,Never Smoker,0.0,Stage I,Treatment,1,13.7,83.0,75.6,2,1.9,77.9,Non-Responder,-26.7
+P440,Visit 2 (Week 8),2,2024-02-23,64,Male,Never Smoker,0.0,Stage I,Treatment,1,16.6,87.7,76.7,1,1.0,79.8,Non-Responder,-11.2
+P441,Baseline,0,2024-01-01,68,Female,Never Smoker,0.0,Stage III,Placebo,0,48.2,74.5,62.1,0,5.5,94.1,Not Applicable,0.0
+P441,Visit 1 (Week 4),1,2024-01-28,68,Female,Never Smoker,0.0,Stage III,Placebo,0,45.2,72.7,59.8,0,5.4,90.5,Non-Responder,-6.2
+P441,Visit 2 (Week 8),2,2024-02-29,68,Female,Never Smoker,0.0,Stage III,Placebo,0,27.3,74.4,64.2,0,6.0,92.3,Responder,-43.4
+P442,Baseline,0,2024-01-02,64,Male,Current Smoker,32.5,Stage III,Treatment,1,53.7,49.6,48.9,0,5.7,83.9,Not Applicable,0.0
+P442,Visit 1 (Week 4),1,2024-01-27,64,Male,Current Smoker,32.5,Stage III,Treatment,1,41.5,59.6,52.5,0,5.2,71.0,Non-Responder,-22.7
+P442,Visit 2 (Week 8),2,2024-02-23,64,Male,Current Smoker,32.5,Stage III,Treatment,1,40.1,64.8,55.4,1,5.0,69.4,Non-Responder,-25.3
+P443,Baseline,0,2024-01-03,44,Male,Former Smoker,38.2,Stage IV,Treatment,3,53.6,41.0,42.7,0,6.7,60.8,Not Applicable,0.0
+P443,Visit 1 (Week 4),1,2024-02-01,44,Male,Former Smoker,38.2,Stage IV,Treatment,3,46.6,46.2,44.4,3,7.2,61.5,Non-Responder,-13.1
+P443,Visit 2 (Week 8),2,2024-02-25,44,Male,Former Smoker,38.2,Stage IV,Treatment,3,52.4,44.5,46.6,0,6.1,57.2,Non-Responder,-2.2
+P444,Baseline,0,2023-12-31,64,Female,Former Smoker,14.9,Stage III,Treatment,0,50.3,66.9,68.2,1,6.3,91.6,Not Applicable,0.0
+P444,Visit 1 (Week 4),1,2024-01-26,64,Female,Former Smoker,14.9,Stage III,Treatment,0,45.1,63.8,57.2,0,5.1,86.1,Non-Responder,-10.3
+P444,Visit 2 (Week 8),2,2024-02-27,64,Female,Former Smoker,14.9,Stage III,Treatment,0,41.3,69.8,56.6,2,5.5,91.1,Non-Responder,-17.9
+P445,Baseline,0,2024-01-03,51,Female,Former Smoker,36.4,Stage IV,Treatment,0,63.4,61.3,58.4,1,8.0,95.1,Not Applicable,0.0
+P445,Visit 1 (Week 4),1,2024-01-27,51,Female,Former Smoker,36.4,Stage IV,Treatment,0,38.7,56.1,54.9,0,8.2,84.5,Responder,-39.0
+P445,Visit 2 (Week 8),2,2024-02-27,51,Female,Former Smoker,36.4,Stage IV,Treatment,0,57.4,62.5,56.2,3,5.8,78.0,Non-Responder,-9.5
+P446,Baseline,0,2023-12-30,71,Female,Former Smoker,38.2,Stage III,Placebo,0,52.4,65.3,58.4,0,6.6,89.4,Not Applicable,0.0
+P446,Visit 1 (Week 4),1,2024-01-31,71,Female,Former Smoker,38.2,Stage III,Placebo,0,42.6,73.4,58.5,0,6.4,93.9,Non-Responder,-18.7
+P446,Visit 2 (Week 8),2,2024-02-26,71,Female,Former Smoker,38.2,Stage III,Placebo,0,31.7,67.4,58.5,1,7.4,91.8,Responder,-39.5
+P447,Baseline,0,2024-01-03,68,Female,Never Smoker,0.0,Stage II,Placebo,0,31.0,80.4,68.9,1,4.1,96.1,Not Applicable,0.0
+P447,Visit 1 (Week 4),1,2024-01-31,68,Female,Never Smoker,0.0,Stage II,Placebo,0,15.3,77.0,57.3,0,6.5,93.4,Responder,-50.6
+P447,Visit 2 (Week 8),2,2024-02-24,68,Female,Never Smoker,0.0,Stage II,Placebo,0,36.2,79.8,69.1,0,4.0,93.8,Non-Responder,16.8
+P448,Baseline,0,2024-01-02,55,Male,Former Smoker,23.8,Stage I,Treatment,3,11.7,65.1,53.4,0,2.8,55.7,Not Applicable,0.0
+P448,Visit 1 (Week 4),1,2024-01-30,55,Male,Former Smoker,23.8,Stage I,Treatment,3,19.4,60.2,54.4,2,1.9,54.0,Non-Responder,65.8
+P448,Visit 2 (Week 8),2,2024-02-24,55,Male,Former Smoker,23.8,Stage I,Treatment,3,6.2,61.6,61.4,4,2.2,51.8,Responder,-47.0
+P449,Baseline,0,2023-12-29,59,Male,Never Smoker,0.0,Stage III,Treatment,1,40.2,71.4,53.6,0,7.0,83.1,Not Applicable,0.0
+P449,Visit 1 (Week 4),1,2024-01-31,59,Male,Never Smoker,0.0,Stage III,Treatment,1,52.2,79.3,54.1,2,7.0,82.8,Non-Responder,29.9
+P449,Visit 2 (Week 8),2,2024-02-24,59,Male,Never Smoker,0.0,Stage III,Treatment,1,41.8,75.9,63.6,0,5.5,72.5,Non-Responder,4.0
+P450,Baseline,0,2024-01-01,54,Female,Current Smoker,0.0,Stage III,Treatment,1,32.2,55.8,50.9,0,4.7,86.0,Not Applicable,0.0
+P450,Visit 1 (Week 4),1,2024-02-01,54,Female,Current Smoker,0.0,Stage III,Treatment,1,51.6,61.2,52.7,1,6.8,76.4,Non-Responder,60.2
+P450,Visit 2 (Week 8),2,2024-02-24,54,Female,Current Smoker,0.0,Stage III,Treatment,1,36.2,54.1,56.7,0,5.3,74.2,Non-Responder,12.4
+P451,Baseline,0,2024-01-02,64,Female,Former Smoker,18.9,Stage I,Placebo,2,8.6,65.1,64.3,0,2.9,72.4,Not Applicable,0.0
+P451,Visit 1 (Week 4),1,2024-01-28,64,Female,Former Smoker,18.9,Stage I,Placebo,2,14.8,66.8,68.0,1,4.7,72.9,Non-Responder,72.1
+P451,Visit 2 (Week 8),2,2024-02-25,64,Female,Former Smoker,18.9,Stage I,Placebo,2,22.1,69.2,63.4,0,2.2,62.5,Non-Responder,157.0
+P452,Baseline,0,2024-01-04,74,Male,Former Smoker,38.0,Stage II,Placebo,0,46.0,70.8,69.3,1,4.4,92.2,Not Applicable,0.0
+P452,Visit 1 (Week 4),1,2024-01-31,74,Male,Former Smoker,38.0,Stage II,Placebo,0,41.3,71.8,68.7,0,6.8,86.5,Non-Responder,-10.2
+P452,Visit 2 (Week 8),2,2024-02-26,74,Male,Former Smoker,38.0,Stage II,Placebo,0,31.3,75.6,73.4,0,4.5,87.4,Responder,-32.0
+P453,Baseline,0,2024-01-03,55,Female,Current Smoker,29.7,Stage IV,Treatment,1,68.7,50.9,45.9,0,6.8,75.5,Not Applicable,0.0
+P453,Visit 1 (Week 4),1,2024-01-31,55,Female,Current Smoker,29.7,Stage IV,Treatment,1,64.5,52.5,60.5,1,9.3,76.8,Non-Responder,-6.1
+P453,Visit 2 (Week 8),2,2024-02-23,55,Female,Current Smoker,29.7,Stage IV,Treatment,1,50.0,53.6,56.7,1,7.7,66.1,Non-Responder,-27.2
+P454,Baseline,0,2023-12-29,70,Male,Current Smoker,15.0,Stage III,Treatment,1,56.6,55.7,47.8,2,6.3,80.9,Not Applicable,0.0
+P454,Visit 1 (Week 4),1,2024-02-01,70,Male,Current Smoker,15.0,Stage III,Treatment,1,34.6,57.3,51.4,2,5.7,73.7,Responder,-38.9
+P454,Visit 2 (Week 8),2,2024-02-28,70,Male,Current Smoker,15.0,Stage III,Treatment,1,38.8,53.8,50.8,0,5.8,67.3,Responder,-31.4
+P455,Baseline,0,2024-01-01,59,Male,Former Smoker,20.0,Stage II,Treatment,1,24.8,69.0,54.9,0,3.2,78.2,Not Applicable,0.0
+P455,Visit 1 (Week 4),1,2024-01-30,59,Male,Former Smoker,20.0,Stage II,Treatment,1,17.7,68.3,59.2,2,5.5,70.9,Non-Responder,-28.6
+P455,Visit 2 (Week 8),2,2024-02-28,59,Male,Former Smoker,20.0,Stage II,Treatment,1,8.8,74.7,59.4,0,2.5,75.6,Responder,-64.5
+P456,Baseline,0,2023-12-29,57,Male,Former Smoker,33.4,Stage II,Placebo,3,26.3,58.2,51.9,0,5.2,65.6,Not Applicable,0.0
+P456,Visit 1 (Week 4),1,2024-01-31,57,Male,Former Smoker,33.4,Stage II,Placebo,3,42.2,60.8,42.8,0,5.5,58.1,Non-Responder,60.5
+P456,Visit 2 (Week 8),2,2024-02-26,57,Male,Former Smoker,33.4,Stage II,Placebo,3,25.4,57.7,47.0,1,4.5,58.1,Non-Responder,-3.4
+P457,Baseline,0,2024-01-02,63,Male,Former Smoker,30.5,Stage II,Treatment,2,49.6,64.8,48.7,0,5.8,72.3,Not Applicable,0.0
+P457,Visit 1 (Week 4),1,2024-02-01,63,Male,Former Smoker,30.5,Stage II,Treatment,2,25.4,63.3,57.5,0,5.9,61.9,Responder,-48.8
+P457,Visit 2 (Week 8),2,2024-02-26,63,Male,Former Smoker,30.5,Stage II,Treatment,2,16.9,66.4,54.7,0,3.7,70.4,Responder,-65.9
+P458,Baseline,0,2024-01-01,54,Male,Current Smoker,26.4,Stage II,Placebo,1,33.2,60.6,66.4,0,4.3,84.4,Not Applicable,0.0
+P458,Visit 1 (Week 4),1,2024-01-28,54,Male,Current Smoker,26.4,Stage II,Placebo,1,30.1,58.7,68.0,0,3.5,78.5,Non-Responder,-9.3
+P458,Visit 2 (Week 8),2,2024-02-27,54,Male,Current Smoker,26.4,Stage II,Placebo,1,35.3,61.8,73.9,0,4.6,82.5,Non-Responder,6.3
+P459,Baseline,0,2023-12-29,59,Male,Current Smoker,24.5,Stage II,Treatment,2,30.7,53.1,58.0,1,4.3,68.7,Not Applicable,0.0
+P459,Visit 1 (Week 4),1,2024-01-27,59,Male,Current Smoker,24.5,Stage II,Treatment,2,33.5,58.7,57.3,0,4.7,71.9,Non-Responder,9.1
+P459,Visit 2 (Week 8),2,2024-02-29,59,Male,Current Smoker,24.5,Stage II,Treatment,2,20.0,61.0,61.9,2,4.0,48.8,Responder,-34.9
+P460,Baseline,0,2023-12-31,53,Female,Current Smoker,24.1,Stage I,Placebo,0,15.5,70.1,69.6,0,3.3,90.2,Not Applicable,0.0
+P460,Visit 1 (Week 4),1,2024-01-30,53,Female,Current Smoker,24.1,Stage I,Placebo,0,16.1,72.6,89.1,0,3.6,99.0,Non-Responder,3.9
+P460,Visit 2 (Week 8),2,2024-02-29,53,Female,Current Smoker,24.1,Stage I,Placebo,0,9.3,69.4,75.4,0,0.0,92.0,Responder,-40.0
+P461,Baseline,0,2023-12-31,84,Male,Former Smoker,15.8,Stage III,Placebo,0,39.6,63.1,61.2,0,6.7,90.3,Not Applicable,0.0
+P461,Visit 1 (Week 4),1,2024-02-01,84,Male,Former Smoker,15.8,Stage III,Placebo,0,55.1,68.3,60.8,0,6.9,86.4,Non-Responder,39.1
+P461,Visit 2 (Week 8),2,2024-02-29,84,Male,Former Smoker,15.8,Stage III,Placebo,0,65.4,67.3,46.1,0,5.0,86.9,Non-Responder,65.2
+P462,Baseline,0,2024-01-02,65,Male,Current Smoker,54.2,Stage II,Treatment,0,33.5,69.3,72.6,1,5.9,86.8,Not Applicable,0.0
+P462,Visit 1 (Week 4),1,2024-01-29,65,Male,Current Smoker,54.2,Stage II,Treatment,0,28.5,66.8,68.0,1,5.2,90.0,Non-Responder,-14.9
+P462,Visit 2 (Week 8),2,2024-02-28,65,Male,Current Smoker,54.2,Stage II,Treatment,0,12.1,68.3,66.0,4,4.4,73.7,Responder,-63.9
+P463,Baseline,0,2024-01-04,58,Female,Former Smoker,21.8,Stage IV,Treatment,1,70.8,58.3,42.6,0,9.7,83.5,Not Applicable,0.0
+P463,Visit 1 (Week 4),1,2024-01-26,58,Female,Former Smoker,21.8,Stage IV,Treatment,1,39.7,58.7,51.3,1,8.3,76.8,Responder,-43.9
+P463,Visit 2 (Week 8),2,2024-02-27,58,Female,Former Smoker,21.8,Stage IV,Treatment,1,69.8,56.7,53.5,0,8.7,71.9,Non-Responder,-1.4
+P464,Baseline,0,2023-12-31,67,Female,Never Smoker,0.0,Stage IV,Placebo,1,67.7,63.4,59.2,0,9.2,78.8,Not Applicable,0.0
+P464,Visit 1 (Week 4),1,2024-02-01,67,Female,Never Smoker,0.0,Stage IV,Placebo,1,64.5,69.7,52.9,1,8.7,77.9,Non-Responder,-4.7
+P464,Visit 2 (Week 8),2,2024-02-26,67,Female,Never Smoker,0.0,Stage IV,Placebo,1,58.1,63.6,45.1,0,8.0,84.9,Non-Responder,-14.2
+P465,Baseline,0,2024-01-03,63,Female,Former Smoker,37.2,Stage II,Treatment,1,36.4,66.2,54.3,1,5.3,83.4,Not Applicable,0.0
+P465,Visit 1 (Week 4),1,2024-01-30,63,Female,Former Smoker,37.2,Stage II,Treatment,1,33.7,71.4,68.7,0,5.2,68.9,Non-Responder,-7.4
+P465,Visit 2 (Week 8),2,2024-02-28,63,Female,Former Smoker,37.2,Stage II,Treatment,1,20.7,76.7,69.3,1,4.4,69.1,Responder,-43.1
+P466,Baseline,0,2024-01-02,62,Female,Current Smoker,52.8,Stage III,Placebo,3,53.6,48.2,44.2,0,4.6,58.8,Not Applicable,0.0
+P466,Visit 1 (Week 4),1,2024-01-26,62,Female,Current Smoker,52.8,Stage III,Placebo,3,38.6,44.8,46.3,0,4.7,58.7,Non-Responder,-28.0
+P466,Visit 2 (Week 8),2,2024-02-29,62,Female,Current Smoker,52.8,Stage III,Placebo,3,54.0,39.7,41.9,0,3.9,62.5,Non-Responder,0.7
+P467,Baseline,0,2024-01-04,71,Female,Former Smoker,35.0,Stage II,Placebo,1,48.6,69.6,47.9,0,4.7,77.0,Not Applicable,0.0
+P467,Visit 1 (Week 4),1,2024-01-27,71,Female,Former Smoker,35.0,Stage II,Placebo,1,30.4,66.0,58.9,0,3.4,70.0,Responder,-37.4
+P467,Visit 2 (Week 8),2,2024-02-26,71,Female,Former Smoker,35.0,Stage II,Placebo,1,14.2,68.2,59.9,0,3.0,77.9,Responder,-70.8
+P468,Baseline,0,2023-12-30,72,Male,Current Smoker,23.5,Stage IV,Placebo,1,68.1,49.2,42.7,0,6.6,71.1,Not Applicable,0.0
+P468,Visit 1 (Week 4),1,2024-01-31,72,Male,Current Smoker,23.5,Stage IV,Placebo,1,82.5,49.3,50.7,0,7.1,75.7,Non-Responder,21.1
+P468,Visit 2 (Week 8),2,2024-02-23,72,Male,Current Smoker,23.5,Stage IV,Placebo,1,46.3,49.4,53.9,0,10.1,72.2,Responder,-32.0
+P469,Baseline,0,2023-12-31,59,Male,Former Smoker,29.0,Stage II,Placebo,0,44.3,71.7,71.2,0,5.1,94.3,Not Applicable,0.0
+P469,Visit 1 (Week 4),1,2024-01-28,59,Male,Former Smoker,29.0,Stage II,Placebo,0,21.0,72.0,63.8,0,4.8,93.2,Responder,-52.6
+P469,Visit 2 (Week 8),2,2024-02-26,59,Male,Former Smoker,29.0,Stage II,Placebo,0,31.2,70.5,62.6,0,4.5,84.5,Non-Responder,-29.6
+P470,Baseline,0,2023-12-29,59,Male,Former Smoker,24.8,Stage III,Treatment,0,37.4,68.1,55.1,0,7.7,85.5,Not Applicable,0.0
+P470,Visit 1 (Week 4),1,2024-01-29,59,Male,Former Smoker,24.8,Stage III,Treatment,0,27.5,68.4,59.3,2,4.1,79.2,Non-Responder,-26.5
+P470,Visit 2 (Week 8),2,2024-02-28,59,Male,Former Smoker,24.8,Stage III,Treatment,0,29.4,65.7,71.2,0,7.9,78.7,Non-Responder,-21.4
+P471,Baseline,0,2024-01-03,62,Male,Never Smoker,0.0,Stage III,Placebo,1,40.5,72.4,52.2,1,7.1,81.7,Not Applicable,0.0
+P471,Visit 1 (Week 4),1,2024-01-31,62,Male,Never Smoker,0.0,Stage III,Placebo,1,62.6,69.9,55.5,0,4.4,80.2,Non-Responder,54.6
+P471,Visit 2 (Week 8),2,2024-02-29,62,Male,Never Smoker,0.0,Stage III,Placebo,1,54.5,69.1,49.0,1,5.7,76.9,Non-Responder,34.6
+P472,Baseline,0,2024-01-01,41,Male,Former Smoker,16.0,Stage II,Placebo,1,30.4,64.2,61.4,0,3.2,68.8,Not Applicable,0.0
+P472,Visit 1 (Week 4),1,2024-01-26,41,Male,Former Smoker,16.0,Stage II,Placebo,1,28.1,68.0,59.5,0,3.6,75.6,Non-Responder,-7.6
+P472,Visit 2 (Week 8),2,2024-02-27,41,Male,Former Smoker,16.0,Stage II,Placebo,1,17.2,64.9,55.8,0,3.5,85.0,Responder,-43.4
+P473,Baseline,0,2024-01-04,49,Female,Current Smoker,34.9,Stage I,Treatment,2,14.4,62.4,57.2,1,5.1,72.7,Not Applicable,0.0
+P473,Visit 1 (Week 4),1,2024-01-29,49,Female,Current Smoker,34.9,Stage I,Treatment,2,4.9,57.6,60.7,1,3.6,66.8,Responder,-66.0
+P473,Visit 2 (Week 8),2,2024-02-25,49,Female,Current Smoker,34.9,Stage I,Treatment,2,18.7,68.7,74.3,0,3.3,55.6,Non-Responder,29.9
+P474,Baseline,0,2023-12-31,78,Male,Former Smoker,13.2,Stage III,Placebo,0,49.3,66.8,60.0,0,6.3,99.9,Not Applicable,0.0
+P474,Visit 1 (Week 4),1,2024-02-01,78,Male,Former Smoker,13.2,Stage III,Placebo,0,54.9,69.4,64.1,0,5.1,95.1,Non-Responder,11.4
+P474,Visit 2 (Week 8),2,2024-02-23,78,Male,Former Smoker,13.2,Stage III,Placebo,0,48.8,72.4,57.5,1,7.1,82.1,Non-Responder,-1.0
+P475,Baseline,0,2024-01-01,81,Male,Current Smoker,47.8,Stage III,Treatment,0,29.0,64.7,55.6,0,5.8,85.3,Not Applicable,0.0
+P475,Visit 1 (Week 4),1,2024-01-31,81,Male,Current Smoker,47.8,Stage III,Treatment,0,46.1,68.2,67.5,1,6.2,86.6,Non-Responder,59.0
+P475,Visit 2 (Week 8),2,2024-02-25,81,Male,Current Smoker,47.8,Stage III,Treatment,0,43.3,61.0,58.9,0,3.8,87.4,Non-Responder,49.3
+P476,Baseline,0,2024-01-02,62,Male,Current Smoker,23.0,Stage II,Placebo,1,19.2,61.1,69.3,1,3.7,79.6,Not Applicable,0.0
+P476,Visit 1 (Week 4),1,2024-01-26,62,Male,Current Smoker,23.0,Stage II,Placebo,1,34.2,60.2,60.5,1,5.4,73.3,Non-Responder,78.1
+P476,Visit 2 (Week 8),2,2024-02-25,62,Male,Current Smoker,23.0,Stage II,Placebo,1,36.8,60.8,60.3,1,5.5,81.1,Non-Responder,91.7
+P477,Baseline,0,2023-12-29,70,Female,Current Smoker,33.0,Stage III,Treatment,0,51.8,59.9,62.0,2,7.6,84.2,Not Applicable,0.0
+P477,Visit 1 (Week 4),1,2024-01-29,70,Female,Current Smoker,33.0,Stage III,Treatment,0,31.0,61.6,60.5,1,8.4,81.3,Responder,-40.2
+P477,Visit 2 (Week 8),2,2024-02-27,70,Female,Current Smoker,33.0,Stage III,Treatment,0,31.8,65.4,75.7,1,4.0,85.7,Responder,-38.6
+P478,Baseline,0,2023-12-30,68,Male,Former Smoker,27.8,Stage II,Placebo,0,24.0,70.1,64.0,1,4.9,97.9,Not Applicable,0.0
+P478,Visit 1 (Week 4),1,2024-01-31,68,Male,Former Smoker,27.8,Stage II,Placebo,0,33.9,69.5,59.9,0,6.3,88.8,Non-Responder,41.2
+P478,Visit 2 (Week 8),2,2024-02-26,68,Male,Former Smoker,27.8,Stage II,Placebo,0,42.1,69.0,66.5,1,4.8,93.4,Non-Responder,75.4
+P479,Baseline,0,2023-12-30,90,Female,Former Smoker,22.4,Stage III,Placebo,2,44.9,58.4,47.4,0,6.4,70.5,Not Applicable,0.0
+P479,Visit 1 (Week 4),1,2024-01-31,90,Female,Former Smoker,22.4,Stage III,Placebo,2,47.9,54.8,50.5,1,4.9,72.0,Non-Responder,6.7
+P479,Visit 2 (Week 8),2,2024-02-26,90,Female,Former Smoker,22.4,Stage III,Placebo,2,30.8,61.8,54.9,0,4.6,77.5,Responder,-31.4
+P480,Baseline,0,2023-12-29,76,Male,Former Smoker,30.9,Stage I,Placebo,0,17.0,76.8,76.2,1,5.2,86.8,Not Applicable,0.0
+P480,Visit 1 (Week 4),1,2024-02-01,76,Male,Former Smoker,30.9,Stage I,Placebo,0,16.2,76.2,72.8,0,4.0,86.0,Non-Responder,-4.7
+P480,Visit 2 (Week 8),2,2024-02-29,76,Male,Former Smoker,30.9,Stage I,Placebo,0,19.0,77.3,79.1,0,3.4,88.9,Non-Responder,11.8
+P481,Baseline,0,2023-12-31,63,Male,Current Smoker,22.9,Stage IV,Placebo,1,32.5,54.1,56.0,0,10.2,82.8,Not Applicable,0.0
+P481,Visit 1 (Week 4),1,2024-01-31,63,Male,Current Smoker,22.9,Stage IV,Placebo,1,74.4,54.0,50.4,0,7.3,85.8,Non-Responder,128.9
+P481,Visit 2 (Week 8),2,2024-02-28,63,Male,Current Smoker,22.9,Stage IV,Placebo,1,42.6,48.9,45.7,0,8.1,79.6,Non-Responder,31.1
+P482,Baseline,0,2024-01-04,55,Male,Current Smoker,43.1,Stage II,Placebo,0,30.6,65.1,73.5,0,3.2,91.0,Not Applicable,0.0
+P482,Visit 1 (Week 4),1,2024-01-27,55,Male,Current Smoker,43.1,Stage II,Placebo,0,22.2,63.9,58.7,1,4.5,91.9,Non-Responder,-27.5
+P482,Visit 2 (Week 8),2,2024-02-26,55,Male,Current Smoker,43.1,Stage II,Placebo,0,26.8,65.2,69.8,0,2.2,92.1,Non-Responder,-12.4
+P483,Baseline,0,2024-01-04,48,Female,Former Smoker,11.5,Stage II,Treatment,0,23.4,69.8,60.7,0,4.0,85.7,Not Applicable,0.0
+P483,Visit 1 (Week 4),1,2024-02-01,48,Female,Former Smoker,11.5,Stage II,Treatment,0,21.8,74.5,62.6,0,5.4,80.7,Non-Responder,-6.8
+P483,Visit 2 (Week 8),2,2024-02-26,48,Female,Former Smoker,11.5,Stage II,Treatment,0,26.3,72.0,75.1,3,1.1,75.9,Non-Responder,12.4
+P484,Baseline,0,2024-01-03,67,Male,Current Smoker,31.9,Stage I,Treatment,1,16.3,63.8,59.0,3,2.8,74.4,Not Applicable,0.0
+P484,Visit 1 (Week 4),1,2024-01-30,67,Male,Current Smoker,31.9,Stage I,Treatment,1,14.6,67.0,67.1,0,2.4,73.5,Non-Responder,-10.4
+P484,Visit 2 (Week 8),2,2024-02-28,67,Male,Current Smoker,31.9,Stage I,Treatment,1,16.0,69.9,69.6,0,3.7,63.9,Non-Responder,-1.8
+P485,Baseline,0,2024-01-01,57,Female,Former Smoker,44.4,Stage I,Treatment,2,12.4,72.9,65.0,0,3.5,69.1,Not Applicable,0.0
+P485,Visit 1 (Week 4),1,2024-01-28,57,Female,Former Smoker,44.4,Stage I,Treatment,2,13.4,71.5,66.7,0,2.7,73.8,Non-Responder,8.1
+P485,Visit 2 (Week 8),2,2024-02-23,57,Female,Former Smoker,44.4,Stage I,Treatment,2,14.9,69.5,58.8,1,2.0,48.5,Non-Responder,20.2
+P486,Baseline,0,2023-12-29,50,Male,Current Smoker,15.0,Stage III,Treatment,1,33.1,52.5,62.2,2,5.6,79.6,Not Applicable,0.0
+P486,Visit 1 (Week 4),1,2024-01-27,50,Male,Current Smoker,15.0,Stage III,Treatment,1,46.3,58.0,54.8,0,6.7,77.6,Non-Responder,39.9
+P486,Visit 2 (Week 8),2,2024-02-28,50,Male,Current Smoker,15.0,Stage III,Treatment,1,34.7,59.7,65.9,1,6.0,72.4,Non-Responder,4.8
+P487,Baseline,0,2023-12-29,58,Male,Never Smoker,0.0,Stage II,Placebo,2,30.7,68.9,54.8,0,5.7,78.9,Not Applicable,0.0
+P487,Visit 1 (Week 4),1,2024-01-29,58,Male,Never Smoker,0.0,Stage II,Placebo,2,32.4,69.2,57.6,0,3.7,67.8,Non-Responder,5.5
+P487,Visit 2 (Week 8),2,2024-02-29,58,Male,Never Smoker,0.0,Stage II,Placebo,2,49.8,78.4,61.8,2,5.1,64.4,Non-Responder,62.2
+P488,Baseline,0,2023-12-30,54,Female,Current Smoker,19.8,Stage IV,Placebo,0,47.5,54.5,55.5,0,7.3,93.5,Not Applicable,0.0
+P488,Visit 1 (Week 4),1,2024-01-28,54,Female,Current Smoker,19.8,Stage IV,Placebo,0,45.6,57.2,48.5,0,5.3,83.4,Non-Responder,-4.0
+P488,Visit 2 (Week 8),2,2024-02-29,54,Female,Current Smoker,19.8,Stage IV,Placebo,0,46.7,54.3,54.3,0,9.2,89.1,Non-Responder,-1.7
+P489,Baseline,0,2023-12-30,81,Female,Never Smoker,0.0,Stage I,Placebo,2,14.9,74.6,65.1,0,2.7,68.6,Not Applicable,0.0
+P489,Visit 1 (Week 4),1,2024-01-30,81,Female,Never Smoker,0.0,Stage I,Placebo,2,23.0,71.5,53.7,0,2.1,69.8,Non-Responder,54.4
+P489,Visit 2 (Week 8),2,2024-02-23,81,Female,Never Smoker,0.0,Stage I,Placebo,2,15.5,77.3,63.9,0,3.9,74.4,Non-Responder,4.0
+P490,Baseline,0,2023-12-31,73,Female,Current Smoker,37.7,Stage II,Placebo,0,38.0,67.0,74.2,0,4.2,90.9,Not Applicable,0.0
+P490,Visit 1 (Week 4),1,2024-01-29,73,Female,Current Smoker,37.7,Stage II,Placebo,0,44.7,67.9,57.7,0,4.6,95.0,Non-Responder,17.6
+P490,Visit 2 (Week 8),2,2024-02-29,73,Female,Current Smoker,37.7,Stage II,Placebo,0,24.7,64.5,63.0,0,5.7,94.2,Responder,-35.0
+P491,Baseline,0,2023-12-30,64,Female,Current Smoker,32.7,Stage II,Treatment,1,35.2,58.8,62.0,0,5.4,72.7,Not Applicable,0.0
+P491,Visit 1 (Week 4),1,2024-01-26,64,Female,Current Smoker,32.7,Stage II,Treatment,1,16.0,61.7,58.1,0,3.3,77.2,Responder,-54.5
+P491,Visit 2 (Week 8),2,2024-02-28,64,Female,Current Smoker,32.7,Stage II,Treatment,1,32.8,66.9,67.0,0,3.0,65.3,Non-Responder,-6.8
+P492,Baseline,0,2024-01-01,79,Female,Current Smoker,35.3,Stage I,Treatment,1,1.0,67.1,70.4,0,3.2,78.1,Not Applicable,0.0
+P492,Visit 1 (Week 4),1,2024-01-26,79,Female,Current Smoker,35.3,Stage I,Treatment,1,11.1,60.5,75.0,1,2.2,77.4,Non-Responder,1010.0
+P492,Visit 2 (Week 8),2,2024-02-28,79,Female,Current Smoker,35.3,Stage I,Treatment,1,8.6,71.9,80.8,2,2.3,70.4,Non-Responder,760.0
+P493,Baseline,0,2024-01-01,65,Female,Never Smoker,0.0,Stage I,Placebo,3,16.5,73.4,47.2,0,2.8,58.3,Not Applicable,0.0
+P493,Visit 1 (Week 4),1,2024-01-31,65,Female,Never Smoker,0.0,Stage I,Placebo,3,20.4,71.3,57.1,2,4.6,56.9,Non-Responder,23.6
+P493,Visit 2 (Week 8),2,2024-02-24,65,Female,Never Smoker,0.0,Stage I,Placebo,3,16.9,72.0,60.4,0,3.0,69.1,Non-Responder,2.4
+P494,Baseline,0,2024-01-03,56,Female,Former Smoker,29.9,Stage II,Placebo,1,27.0,69.2,60.2,0,3.6,80.0,Not Applicable,0.0
+P494,Visit 1 (Week 4),1,2024-02-01,56,Female,Former Smoker,29.9,Stage II,Placebo,1,36.6,62.7,57.1,0,4.6,68.9,Non-Responder,35.6
+P494,Visit 2 (Week 8),2,2024-02-29,56,Female,Former Smoker,29.9,Stage II,Placebo,1,19.3,66.7,63.1,1,4.8,73.3,Non-Responder,-28.5
+P495,Baseline,0,2024-01-02,80,Female,Former Smoker,31.3,Stage II,Treatment,0,31.3,70.8,56.5,0,4.4,92.9,Not Applicable,0.0
+P495,Visit 1 (Week 4),1,2024-01-27,80,Female,Former Smoker,31.3,Stage II,Treatment,0,25.6,77.1,72.2,2,4.0,85.8,Non-Responder,-18.2
+P495,Visit 2 (Week 8),2,2024-02-28,80,Female,Former Smoker,31.3,Stage II,Treatment,0,15.7,74.9,63.2,3,3.1,81.3,Responder,-49.8
+P496,Baseline,0,2023-12-31,70,Female,Former Smoker,36.1,Stage II,Treatment,0,22.3,71.6,60.3,2,3.2,97.6,Not Applicable,0.0
+P496,Visit 1 (Week 4),1,2024-01-29,70,Female,Former Smoker,36.1,Stage II,Treatment,0,22.0,72.6,60.9,1,3.6,86.1,Non-Responder,-1.3
+P496,Visit 2 (Week 8),2,2024-02-28,70,Female,Former Smoker,36.1,Stage II,Treatment,0,29.7,75.2,77.8,1,2.8,79.0,Non-Responder,33.2
+P497,Baseline,0,2023-12-31,54,Female,Never Smoker,0.0,Stage III,Placebo,2,52.0,68.0,53.8,0,5.0,70.7,Not Applicable,0.0
+P497,Visit 1 (Week 4),1,2024-01-26,54,Female,Never Smoker,0.0,Stage III,Placebo,2,37.3,68.0,59.8,0,5.3,74.6,Non-Responder,-28.3
+P497,Visit 2 (Week 8),2,2024-02-26,54,Female,Never Smoker,0.0,Stage III,Placebo,2,64.4,64.3,51.6,0,6.1,72.1,Non-Responder,23.8
+P498,Baseline,0,2024-01-03,63,Female,Current Smoker,36.1,Stage III,Treatment,1,41.8,56.8,56.3,0,5.4,76.0,Not Applicable,0.0
+P498,Visit 1 (Week 4),1,2024-01-28,63,Female,Current Smoker,36.1,Stage III,Treatment,1,35.0,58.7,66.4,2,6.0,81.0,Non-Responder,-16.3
+P498,Visit 2 (Week 8),2,2024-02-24,63,Female,Current Smoker,36.1,Stage III,Treatment,1,32.6,67.1,61.6,0,4.7,66.6,Non-Responder,-22.0
+P499,Baseline,0,2023-12-30,56,Male,Former Smoker,22.6,Stage I,Treatment,2,7.9,74.7,64.2,1,2.2,66.7,Not Applicable,0.0
+P499,Visit 1 (Week 4),1,2024-01-29,56,Male,Former Smoker,22.6,Stage I,Treatment,2,12.2,71.6,63.9,1,1.2,55.1,Non-Responder,54.4
+P499,Visit 2 (Week 8),2,2024-02-23,56,Male,Former Smoker,22.6,Stage I,Treatment,2,19.1,68.7,70.9,2,3.0,66.0,Non-Responder,141.8
+P500,Baseline,0,2024-01-02,51,Female,Former Smoker,31.7,Stage II,Placebo,0,24.6,72.3,62.8,0,5.1,92.2,Not Applicable,0.0
+P500,Visit 1 (Week 4),1,2024-01-30,51,Female,Former Smoker,31.7,Stage II,Placebo,0,14.3,72.6,57.3,0,2.7,92.0,Responder,-41.9
+P500,Visit 2 (Week 8),2,2024-02-27,51,Female,Former Smoker,31.7,Stage II,Placebo,0,37.0,70.2,71.0,0,4.4,82.3,Non-Responder,50.4

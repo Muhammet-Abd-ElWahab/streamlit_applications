@@ -1,0 +1,51 @@
+## Creating a Desktop App for Streamlit
+
+### 1. Project Structure
+```
+your_project/
+│
+├── pages/
+│   ├── page1.py
+│   ├── page2.py
+│   └── page3.py
+│
+├── functions.py
+├── home.py
+├── requirements.txt
+└── setup.py
+```
+
+### 2. Create requirements.txt
+```
+streamlit
+pandas
+# Add other dependencies used in your project
+```
+
+### 3. Installation
+```bash
+pip install pyinstaller
+pip install -r requirements.txt
+```
+
+### 4. Create spec file
+```bash
+pyi-makespec --onefile --windowed \
+    --add-data "pages:pages" \
+    --add-data "functions.py:." \
+    home.py
+```
+
+### 5. Build Executable
+```bash
+pyinstaller home.spec
+```
+
+### Troubleshooting Tips
+- Ensure all imports are included
+- Add hidden imports if needed
+- Test executable thoroughly
+- Consider using `--add-binary` for additional assets
+Last edited 52 minutes ago
+
+
