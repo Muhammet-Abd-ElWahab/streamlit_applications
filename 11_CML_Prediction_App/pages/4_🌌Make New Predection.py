@@ -121,7 +121,7 @@ def get_data_from_user(model_select):
 
 if __name__ == "__main__":
     logo_path = "./TheLogo2.png"  # Replace with the path to your logo image
-    st.sidebar.image(logo_path, use_container_width =True)
+    st.sidebar.image(logo_path, use_column_width =True)
     model_select = st.sidebar.selectbox(" ", ["LightGBM", "XGBoost", "Randomforest", "LogisticRegression"], label_visibility="collapsed") 
     # st.write(X.columns)
     # st.write(X)

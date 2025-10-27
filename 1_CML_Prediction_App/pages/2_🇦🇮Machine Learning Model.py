@@ -227,7 +227,7 @@ def disply_scores(df_scores, name):
       
 if __name__ == "__main__":
     logo_path = "./TheLogo2.png"  # Replace with the path to your logo image
-    st.sidebar.image(logo_path, use_container_width =True)
+    st.sidebar.image(logo_path, use_column_width =True)
     st.sidebar.markdown("<h2 style='color: #008080; text-align:center'>Select a Model</h2>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns(3)
     with col1:
