@@ -42,7 +42,7 @@ sys.path.append(os.path.abspath('./functions.py'))
 if __name__ == "__main__":
 
     # Logo Image
-    st.image('./TheLogo2.png', use_container_width =True) 
+    st.image('./TheLogo2.png', use_column_width =True) 
     st.markdown("<h1 style='color: #008080; text-align:center; font-size:80px'>CML Survival Prediction</h1>", unsafe_allow_html=True)
        
     # Description paragraph

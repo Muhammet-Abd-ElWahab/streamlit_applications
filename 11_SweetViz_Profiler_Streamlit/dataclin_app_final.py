@@ -200,7 +200,7 @@ def main():
     with st.sidebar:
         logo_path = os.path.join(os.path.dirname(__file__), "Logo.png")
         if os.path.exists(logo_path):
-            st.image(logo_path, use_container_width=True)
+            st.image(logo_path, use_column_width=True)
         st.markdown("---")
         st.markdown("### About")
         st.markdown("Professional data profiling and analysis tool")

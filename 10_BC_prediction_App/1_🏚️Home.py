@@ -39,7 +39,7 @@ sys.path.append(os.path.abspath('./functions.py'))
 
 if __name__ == "__main__":
 
-    st.image('./TheLogo2.png', use_container_width =True)        
+    st.image('./TheLogo2.png', use_column_width =True)        
     st.markdown("<h1 style='color: #008080; text-align:center; font-size:80px'>Breast Cancer Survival Prediction</h1>", unsafe_allow_html=True)
     st.markdown("<h3 style='color: #008080; text-align:center'>This project aims to leverage machine learning techniques to predict breast cancer patient survival based on clinical, demographic, and treatment-related data. By analyzing a rich dataset containing key diagnostic factors, tumor characteristics, treatment regimens, and genetic markers, the model seeks to provide valuable insights into survival probabilities. The primary goal is to assist medical professionals in identifying high-risk patients and optimizing treatment strategies by predicting patient outcomes. The dataset includes critical features such as hormone receptor status, tumor stage, genetic mutations, and prior treatments, making it a powerful resource for developing predictive models. Machine learning models trained on this dataset can help enhance early prognosis, improve personalized treatment plans, and contribute to better decision-making in oncology. By integrating predictive analytics into breast cancer management, this project supports advancements in precision medicine, ultimately leading to improved patient survival rates and quality of care.</h3>", unsafe_allow_html=True)
     st.markdown("<h1 style='color: #008080; text-align:center'>Dataset Description</h1>", unsafe_allow_html=True)
